@@ -1,0 +1,3 @@
+Lovastatin	0	cholesterol-lowering agent
+Itraconazole	0	antifungal
+Primidone	0	cholesterol-lowering agent

@@ -1,0 +1,11 @@
+Cyclosporine A	0	immunosuppressive
+Vinorelbine 	0	anticancer
+Azithromycin	0	antibiotic
+Clarithromycin	0	antibiotic
+Nystatin	0	antifungal
+Ezetimibe	0	immunosuppressive
+Rifaximin	0	antibiotic
+Ritonavir	0	antibiotic
+Temazepam	0	antibiotic
+Sulindac	1	antibiotic
+Oxazepam	1	antibiotic

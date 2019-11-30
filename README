@@ -1,0 +1,147 @@
+------------------------
+REPO OVERVIEW 
+------------------------
+
+This repo contains the code for Javdan and Lopez et. al "Mapping drug 
+metabolism by the human gut microbiome using personalized microbial
+communities".
+
+It is organized is two parts. The folder 'PD_code' contains all of the code relating
+to the initial PD screen. The folder 'D1-20_code' contains the code for
+the D1-20 screen. The data needed for all the scripts is included in the
+repo, so you can regenerate the figures and analyses. The majority of the
+code is written in Matlab, but there are a few Python scripts.
+
+------------------------
+PD CODE DESCRIPTION
+------------------------
+
+Each subfolder corresponds to a single type of analysis.
+
+--drug_class_analysis-- 
+The primary script is 'process_drug_classes.py' and tests for differences 
+in the fraction of MDM+ drugs between natural, derivative, and 
+semisynthetic drugs. 
+
+--functional_group_analysis--
+The primary script is 'analyze_functional_groups.py' and looks for 
+enrichment or depletion of functional groups in MDM+ drugs. This script
+calls the Openbabel command obgrep. 
+
+--HSDH_abundance_analysis--
+The primary script is 'aggregate_gene_abundances.m' and aggregates bowtie2
+quantifications of the HSDH genes in different human cohorts. For the 
+cohorts where multiple samples correspond to one subject, it combines
+the results per subject. This script generates Figs 5F and 5G in the 
+main text.
+
+--in_vivo_stats--
+The primary script is 'in_vivo_cap_metabolite_analysis.m' and performs
+statistical testing on the results of the capecitabine PK study. This 
+script generates Fig 7C in the paper.
+
+--PD_16S_analysis--
+This folder contains multiple figure generating scripts that all work
+with the 16S rDNA data from the PD fecal sample and ex vivo cultures. 
+'PD_family_level_figure.py' generates Fig 1B in the main text. 
+'PD_ASV_level_figure.py' generates Fig 1C in the main text. 
+'PD_family_level_all_days_figures.py' generates Fig 1 in Data S1.
+'PD_rarefaction_figure.py' generates Fig 2 in Data S1.
+
+--TPUP_KO_analysis--
+The primary script is 'process_TPUP_KO.m' and performs statistical 
+analysis and plotting on the TP/UP KO experiments. This generates 
+Fig 5B in the main text. 
+
+------------------------
+D1-20 CODE DESCRIPTION
+------------------------
+
+The directory D1-20_code contains all the main plotting and analysis 
+scripts for the D1-20 analysis of the paper. The untargeted metabolomics
+code is found in the folder 'untargeted_metabolomics'.
+
+--drug_and_metabolite_heatmap_figure--
+This script generates Figs 4B and 4C in the main text. It performs most 
+of the targeted metabolomics data processing statistical testing and
+saves the results in 'drug_metabolism_analysis.mat' for use by down-stream
+scripts. 
+
+--ASV_heatmap_figure.m--
+Generates the large ASV heatmap found in Fig 3C. 
+
+--ASV_recovery_figure.m--
+Generates the donor ASV recovery plot in Fig 3H.
+
+--average_ENDS_figure.m--
+Generates the plot of average media ENDS in Fig 3G. It takes a while to 
+run. 
+
+--correlate_depletion_and_production_figure.m--
+This script looks at correlations between metabolite and parent drug
+levels. Generates Fig 4F and 4G. Also generates supplementary figures
+where only a single metabolite is considered in the analysis.
+
+--correlate_metabolism_and_16S.m--
+This scripts looks for correlations between 16S taxonomic elements and
+drug and metabolite levels.
+
+--culture_biomass_figure.m--
+Generates the box plot of media biomasses in Fig 3D.
+
+--culture_replicate_correlation_figure.m-- 
+Generates the ex vivo culture replicability plot in Fig 25 of Data S1.
+
+--cumulative_significant_donor_figure.m--
+Generates the cumulative histogram found in Fig 4D.
+
+--design_BG_media.m--
+This script performs the analysis used to select a 70/30 BB/mGAM mixture
+for BG. It also generates Fig 26 in Data S1.
+
+--donor_16S_bar_plots_supp_figure.m--
+This script generates family level 16S bar plots of all donor fecal 
+samples and their corresponding ex vivo cultures. Generates Figs 5-24 in
+Data S1. Also generates the plot of all BG replicates in Fig 4 in Data S1.
+
+--donor_culture_shared_ASV_figure.m--
+Generates the box plot of shared ASVs between donors and cultures in 
+Fig 3F.
+
+--donor_donor_shared_ASV_figure.m--
+Generates the box plot of shared ASVs between donors and donors in 
+Fig 3G.
+
+--feces_family_level_supp_figure.m--
+Generates family level bar plots of fecal samples from all donors in
+Fig 3 of Data S1. 
+
+--find_unique_ASVs.m--
+Finds ASVs unique to the cultures and feces of different donors.
+
+--hydro_metagenomic_library_figure.m--
+Generates the round vs. hydrocortisone metabolite signal plot found in 
+Fig 6C.
+
+--identify_optimal_medium.m--
+Identifies media that are on average optimal for different metrics 
+across the twenty donors.
+
+--theoretical_taxa_vs_metabolism_supp_figure.m--
+Generate the theoretical producer abundance vs. measuremed metabolite 
+figures shown in Fig 27 of Data S1.
+
+--variable_metabolite_production_figure.m--
+Generates the per-donor plots of metabolite production shown in Fig 4E.
+
+--untargeted_metabolomics--
+This directory contains all the code for the untargeted metabolomics. The
+script 'aggregate_untargeted_metabolomics.m' takes the results of 
+the Profinder feature extraction and find statistically significant 
+metabolite-like features (features significant against all controls). We
+then reran a minimal set of samples containing these features and subjected
+the data to molecular ion networking on GNPS. 
+'aggregate_metabolite_networking.m' takes the GNPS results and outputs 
+the final untargeted metabolomics table. 
+
+

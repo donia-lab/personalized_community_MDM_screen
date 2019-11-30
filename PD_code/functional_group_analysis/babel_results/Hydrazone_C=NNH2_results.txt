@@ -1,0 +1,3 @@
+Spironolactone	1	immunomodulatory
+Clonazepam	1	muscle relaxant
+Lorazepam	1	antibiotic

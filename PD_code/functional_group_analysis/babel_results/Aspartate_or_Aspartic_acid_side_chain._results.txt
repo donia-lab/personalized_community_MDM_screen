@@ -1,0 +1,29 @@
+Mycophenolic Acid	0	immunosuppressive
+Olopatadine	0	anti-histamine
+Sildenafil Citrate	0	erectile dysfunction
+Montelukast Na	0	Asthma
+Gabapentin	0	anti-epileptic
+Indomethacin	0	NSAID
+Cetirizine HCl	0	anti-histamine
+Fluvastatin Na	0	cholesterol-lowering agent
+Sumatriptan Succinate	0	anti-migraine
+Clomiphene Citrate	0	infertility
+Diclofenac Na Salt	0	NSAID
+Tolmetin sodium dihydrate	0	NSAID
+Tamoxifen Citrate	0	Selective Estrogen Receptor Modulator
+Benazepril HCl	0	cholesterol-lowering agent
+Benztropine Mesylate	0	anti-hypertensive / cardiac
+Dexchlorpheniramine Maleate	0	antidepressant
+Everolimus	0	NSAID
+Lopinavir	0	anti-histamine
+Maraviroc	0	antipsychotic
+Methocarbamol	0	antibiotic
+Oxtriphylline	0	NSAID
+Posaconazole	0	cholesterol-lowering agent
+Primidone	0	cholesterol-lowering agent
+Rufinamide	0	cholesterol-lowering agent
+Tadalafil	0	anticancer
+Rifampin (Rifampicin)	1	diuretic
+Vorinostat 	1	NSAID
+Capecitabine	1	bile acid
+Prasugrel	1	bile acid

@@ -1,0 +1,30 @@
+Emtricitabine	0	antiviral
+Fluphenazine  HCl	0	antipsychotic
+Quetiapine Fumarate	0	antipsychotic
+Dipyridamole	0	anti-platelet
+Acyclovir (Acycloguanosine) Zovirax	0	antiviral
+Losartan Potassium	0	anti-hypertensive / cardiac
+Scopolamine HBr	0	antiemetic
+Bosentan	0	Pulmonary arterial hypertension
+Abacavir Sulfate	0	antiviral
+Bupropion 	0	steroidal anti-inflammatory
+Deferasirox	0	anticancer
+Ezetimibe	0	immunosuppressive
+Flavoxate HCl	0	immunomodulatory
+Hydroxyzine Dihydrochloride	0	antimalarial
+Indinavir 	0	anti-histamine
+Labetalol HCl	0	NSAID
+Lansoprazole	0	antiviral
+Metolazone	0	increases contractions of uterus
+Oxybutynin Chloride	0	Asthma
+Phenylephrine 	0	antipsychotic
+Telithromycin	0	antiviral
+Triamterene	0	steroidal anti-inflammatory
+Ethacrynic Acid	1	steroidal anti-inflammatory
+Allopurinol	1	antiviral
+Bisacodyl	1	steroidal anti-inflammatory
+Hydrocortisone Acetate	1	steroidal anti-inflammatory
+Melphalan	1	steroidal anti-inflammatory
+Methylprednisolone	1	antibiotic
+Pantoprazole	1	steroidal anti-inflammatory
+Progesterone	1	steroidal anti-inflammatory

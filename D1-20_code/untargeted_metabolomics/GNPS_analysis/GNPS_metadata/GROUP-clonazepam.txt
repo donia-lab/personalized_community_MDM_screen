@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-H1.mzXML
+GROUP-2=Clonaz_D8_H1.mzXML,Clonaz_D10_H1.mzXML,Clonaz_D16_H1.mzXML,Clonaz_D17_H1.mzXML

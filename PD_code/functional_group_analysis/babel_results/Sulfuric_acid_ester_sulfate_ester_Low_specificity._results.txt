@@ -1,0 +1,6 @@
+Tranylcypromine Hemisulfate	0	antidepressant
+Clopidogrel Hydrogen Sulfate 	0	anti-platelet
+Abacavir Sulfate	0	antiviral
+Eszopiclone	0	steroidal hormone
+Hydroxyzine Dihydrochloride	0	antimalarial
+Tetrabenazine	0	Asthma

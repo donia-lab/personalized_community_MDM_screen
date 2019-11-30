@@ -1,0 +1,59 @@
+Mycophenolic Acid	0	immunosuppressive
+Pilocarpine HCl	0	Cholinergic Receptor Agonist/anti-glaucoma
+Nisoldipine	0	anti-hypertensive / cardiac
+Lovastatin	0	cholesterol-lowering agent
+Amlodipine	0	anti-hypertensive / cardiac
+Felodipine	0	anti-hypertensive / cardiac
+Simvastatin	0	cholesterol-lowering agent
+Etoposide	0	anticancer
+Clindamycin Palmitate HCl	0	antibiotic
+Enalaprilat Maleate	0	anti-hypertensive / cardiac
+Fosinopril Na	0	anti-hypertensive / cardiac
+Oseltamivir Phosphate	0	antiviral
+Vinorelbine 	0	anticancer
+Aspirin (Acetylsalicylic Acid)	0	NSAID
+Azithromycin	0	antibiotic
+Clarithromycin	0	antibiotic
+Clopidogrel Hydrogen Sulfate 	0	anti-platelet
+Enalapril	0	anti-hypertensive / cardiac
+Nystatin	0	antifungal
+Quinapril HCl	0	anti-hypertensive / cardiac
+Ramipril	0	anti-hypertensive / cardiac
+Scopolamine HBr	0	antiemetic
+Topotecan HCl	0	anticancer
+Alosetron HCl	0	antiviral
+Benztropine Mesylate	0	anti-hypertensive / cardiac
+Cefpodoxime Proxetil	0	antibiotic
+Chlorothiazide	0	antibiotic
+Dienogest	0	antispasmodic
+Dimenhydrinate	0	cardiac glycoside
+Dutasteride	0	steroidal hormone
+Ezetimibe	0	immunosuppressive
+Fluvoxamine Maleate	0	antispasmodic
+Ketorolac Tromethamine	0	anti-hypertensive / cardiac
+Meprobamate (Schedule Iv)	0	parasympathetic inhibitor
+Nadolol	0	anti-hypertensive / cardiac
+Oxytetracycline HCl	0	antispasmodic
+Perphenazine	0	anti-hypertensive / cardiac
+Primidone	0	cholesterol-lowering agent
+Rifapentine	0	anti-hypertensive / cardiac
+Rifaximin	0	antibiotic
+Ritonavir	0	antibiotic
+Temazepam	0	antibiotic
+Trazodone HCl	0	anti-hypertensive / cardiac
+Voriconazole	0	antispasmodic
+Risperidone	1	anti-hypertensive / cardiac
+Capsaicin	1	anti-hypertensive / cardiac
+Sulindac	1	antibiotic
+Mycophenolate Mofetil	1	antiemetic
+Zidovudine (3'-Azido-3'-Deoxythymidine)	1	immunosuppressive
+Estradiol	1	laxative
+Flutamide	1	antiviral
+Medroxyprogesterone Acetate	1	steroidal anti-inflammatory
+Prednisone	1	steroidal diuretic
+Fluoxetine HCl	1	anti-ulcer
+Misoprostol	1	steroidal hormone
+Clofazimine	1	steroidal anti-inflammatory
+Dantrolene Na	1	steroidal anti-inflammatory
+Nitisinone	1	anti-platelet
+Oxazepam	1	antibiotic

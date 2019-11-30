@@ -1,0 +1,79 @@
+Clonidine HCl	0	anti-hypertensive / cardiac
+Quetiapine Fumarate	0	antipsychotic
+Amoxapine	0	antidepressant
+Nisoldipine	0	anti-hypertensive / cardiac
+Lovastatin	0	cholesterol-lowering agent
+Atovaquone	0	anti-malarial (anti-protozoal)
+Tizanidine HCl	0	muscle relaxant
+Anagrelide	0	anti-platelet
+Galantamine HBr	0	anti-Alzheimer's
+Amlodipine	0	anti-hypertensive / cardiac
+Felodipine	0	anti-hypertensive / cardiac
+Bromocriptine Mesylate	0	anti-parkinson's
+Piroxicam	0	NSAID
+Meloxicam	0	NSAID
+Simvastatin	0	cholesterol-lowering agent
+Ergotamine Tartrate	0	anti-migraine
+Diazoxide	0	Peripheral vasodilator
+Oseltamivir Phosphate	0	antiviral
+Vinorelbine 	0	anticancer
+Carbamazepine	0	anti-epileptic
+Doxycycline Monohydrate	0	antibiotic
+Finasteride	0	steroidal hormone
+Glimepiride	0	anti-diabetic
+Levonorgestrel	0	steroidal hormone
+Minocycline 	0	antibiotic
+Nystatin	0	antifungal
+Mifepristone	0	steroidal hormone
+Cyproheptadine HCl Sesquihydrate	0	anti-histamine
+Abacavir Sulfate	0	antiviral
+Bisoprolol Fumarate	0	anti-parkinson's
+Bupropion 	0	steroidal anti-inflammatory
+Cefpodoxime Proxetil	0	antibiotic
+Chlorothiazide	0	antibiotic
+Chlorpropamide	0	diuretic
+Dapsone	0	muscle relaxant
+Demeclocycline HCl	0	iron chelating agent
+Desipramine HCl	0	antibiotic
+Dicyclomine HCl	0	anti-anxiety
+Digoxin	0	steroidal hormone
+Dimenhydrinate	0	cardiac glycoside
+Dutasteride	0	steroidal hormone
+Estropipate	0	steroidal hormone
+Ezetimibe	0	immunosuppressive
+Hydralazine HCl	0	antifungal
+Isocarboxazid	0	anti-hypertensive / cardiac
+Ketorolac Tromethamine	0	anti-hypertensive / cardiac
+Maraviroc	0	antipsychotic
+Metolazone	0	increases contractions of uterus
+Palonosetron HCl	0	antibiotic
+Primidone	0	cholesterol-lowering agent
+Pyrazinamide	0	antidepressant
+Rifaximin	0	antibiotic
+Ritonavir	0	antibiotic
+Terbutaline Hemisulfate	0	antidepressant
+Triamterene	0	steroidal anti-inflammatory
+Trihexyphenidyl HCl	0	insomnia
+Risperidone	1	anti-hypertensive / cardiac
+Nimodipine	1	steroidal hormone
+Capsaicin	1	anti-hypertensive / cardiac
+Ethacrynic Acid	1	steroidal anti-inflammatory
+Sulindac	1	antibiotic
+Vorinostat 	1	NSAID
+Bisacodyl	1	steroidal anti-inflammatory
+Hydrocortisone Acetate	1	steroidal anti-inflammatory
+Medroxyprogesterone Acetate	1	steroidal anti-inflammatory
+Melphalan	1	steroidal anti-inflammatory
+Pantoprazole	1	steroidal anti-inflammatory
+Prednisolone	1	steroidal hormone
+Progesterone	1	steroidal anti-inflammatory
+Prednisone	1	steroidal diuretic
+Spironolactone	1	immunomodulatory
+Misoprostol	1	steroidal hormone
+Chenodiol (Chenodeoxycholic Acid)	1	anti-epileptic
+Clofazimine	1	steroidal anti-inflammatory
+Clonazepam	1	muscle relaxant
+Dantrolene Na	1	steroidal anti-inflammatory
+Fludarabine Phosphate	1	anti-anxiety
+Nilutamide	1	anti-anxiety
+Oxazepam	1	antibiotic

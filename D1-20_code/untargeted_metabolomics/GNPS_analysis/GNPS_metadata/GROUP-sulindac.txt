@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-E9.mzXML
+GROUP-2=Sulin_D11_E9.mzXML,Sulin_D13_E9.mzXML

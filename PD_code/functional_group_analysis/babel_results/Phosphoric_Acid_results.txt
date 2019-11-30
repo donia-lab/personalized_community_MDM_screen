@@ -1,0 +1,4 @@
+Oseltamivir Phosphate	0	antiviral
+Chloroquine Diphosphate	0	antimalarial
+Primaquine Phosphate	0	antimalarial
+Sorafenib Tosylate	0	anti-diabetic

@@ -1,0 +1,244 @@
+Clindamycin Hcl	0	antibiotic
+Felbamate	0	antiepileptic
+Lincomycin HCl	0	antibiotic
+Mycophenolic Acid	0	immunosuppressive
+Loperamide HCl	0	anti-diarrhea
+Tolbutamide	0	anti-diabetic
+Glipizide	0	anti-diabetic
+Propafenone HCl	0	anti-arrythmic / cardiac
+Procainamide HCl	0	anti-arrythmic / cardiac
+Flecainide Acetate	0	anti-arrythmic / cardiac
+Prazosin HCl	0	anti-hypertensive / cardiac
+Guanabenz Acetate 	0	anti-hypertensive / cardiac
+Haloperidol 	0	antipsychotic
+Nateglinide	0	anti-diabetic
+Quetiapine Fumarate	0	antipsychotic
+Metoclopramide HCl	0	antiemetic
+Linezolid	0	antibiotic
+Olopatadine	0	anti-histamine
+Olmesartan	0	anti-hypertensive / cardiac
+Nisoldipine	0	anti-hypertensive / cardiac
+Lovastatin	0	cholesterol-lowering agent
+Sildenafil Citrate	0	erectile dysfunction
+Candesartan	0	anti-hypertensive / cardiac
+Eprosartan Mesylate	0	anti-hypertensive / cardiac
+Guanfacine HCl	0	anti-hypertensive / cardiac
+Imatinib Mesylate	0	anticancer
+Montelukast Na	0	Asthma
+Amiloride HCl 2H2O	0	Diuretic
+Amlodipine	0	anti-hypertensive / cardiac
+Gabapentin	0	anti-epileptic
+Felodipine	0	anti-hypertensive / cardiac
+Alfuzosin	0	Muscle relaxant
+Bromocriptine Mesylate	0	anti-parkinson's
+Acitretin	0	psoriasis
+Ketoconazole	0	antifungal
+Cromolyn Na (Disodium Cromoglycate)	0	Asthma
+Indomethacin	0	NSAID
+Naproxen	0	NSAID
+Ibuprofen	0	NSAID
+Bumetanide	0	Diuretic
+Piroxicam	0	NSAID
+Moxifloxacin HCl	0	antibiotic
+Carbidopa	0	anti-parkinson's
+Ketoprofen	0	NSAID
+Meloxicam	0	NSAID
+Simvastatin	0	cholesterol-lowering agent
+Raloxifene HCl	0	anti-estrogen
+Delavirdine Mesylate	0	antiviral
+Cetirizine HCl	0	anti-histamine
+Rivastigmine Tartrate	0	Dementia
+Ergotamine Tartrate	0	anti-migraine
+Zafirlukast	0	Asthma
+Zileuton	0	Asthma
+Glyburide	0	anti-diabetic
+Tolazamide	0	anti-diabetic
+Bexarotene	0	anticancer
+Bicalutamide	0	anti-androgen
+Clindamycin Palmitate HCl	0	antibiotic
+Enalaprilat Maleate	0	anti-hypertensive / cardiac
+Fluvastatin Na	0	cholesterol-lowering agent
+Fosinopril Na	0	anti-hypertensive / cardiac
+Granisetron HCl	0	antiemetic
+Atazanavir	0	antiviral
+Cabergoline	0	hyperprolactinemia
+Oseltamivir Phosphate	0	antiviral
+Vinorelbine 	0	anticancer
+Aspirin (Acetylsalicylic Acid)	0	NSAID
+Albendazole	0	antihelminthic
+Sumatriptan Succinate	0	anti-migraine
+4-Aminosalicylic Acid	0	antibiotic
+Carbamazepine	0	anti-epileptic
+Chlorpheniramine Maleate	0	anti-histamine
+Ciprofloxacin	0	antibiotic
+Clomiphene Citrate	0	infertility
+Clopidogrel Hydrogen Sulfate 	0	anti-platelet
+Diclofenac Na Salt	0	NSAID
+Diflunisal	0	NSAID
+Doxazosin Mesylate	0	anti-hypertensive / cardiac
+Doxycycline Monohydrate	0	antibiotic
+Enalapril	0	anti-hypertensive / cardiac
+Fenoprofen Calcium	0	NSAID
+Finasteride	0	steroidal hormone
+Flurbiprofen	0	NSAID
+Furosemide	0	diuretic
+Gatifloxacin	0	antibiotic
+Gemfibrozil	0	cholesterol-lowering agent
+Glimepiride	0	anti-diabetic
+Indapamide	0	diuretic
+Levofloxacin HCl	0	antibiotic
+Leflunomide	0	immunosuppressive
+Loratadine	0	anti-histamine
+Mebendazole	0	antihelminthic
+Mefenamic Acid	0	NSAID
+Metoprolol Tartrate	0	anti-hypertensive / cardiac
+Minocycline 	0	antibiotic
+Nystatin	0	antifungal
+Ofloxacin	0	antibiotic
+Oxcarbazepine	0	anti-epileptic
+Pentoxifylline	0	hemorrheologic
+Praziquantel	0	antihelminthic
+Quinapril HCl	0	anti-hypertensive / cardiac
+Ranolazine 2HCl	0	anti-angina
+Ramipril	0	anti-hypertensive / cardiac
+Nelfinavir Mesylate	0	antiviral
+Scopolamine HBr	0	antiemetic
+Telmisartan	0	anti-hypertensive / cardiac
+Terazosin HCl	0	muscle relaxant
+Tolmetin sodium dihydrate	0	NSAID
+Ketotifen Fumarate	0	anti-histamine
+Tamoxifen Citrate	0	Selective Estrogen Receptor Modulator
+Acebutolol HCl	0	anti-hypertensive / cardiac
+Acetaminophen	0	analgesic
+Acetohexamide	0	anti-diabetic
+Acrivastine	0	anti-histamine
+Alosetron HCl	0	antiviral
+Artemether	0	Pulmonary arterial hypertension
+Atorvastatin Calcium	0	antipsychotic
+Benazepril HCl	0	cholesterol-lowering agent
+Benztropine Mesylate	0	anti-hypertensive / cardiac
+Brompheniramine Maleate	0	anti-hypertensive / cardiac
+Budesonide	0	anti-histamine
+Bupropion 	0	steroidal anti-inflammatory
+Butorphanol-(+)-Tartrate (Schedule Iv)	0	antidepressant
+Carbinoxamine Maleate	0	analgesic
+Cefditoren Pivoxil	0	anti-histamine
+Cefpodoxime Proxetil	0	antibiotic
+Chlorothiazide	0	antibiotic
+Chlorthalidone	0	anti-diabetic
+Cyclobenzaprine HCl	0	anti-gout
+Darunavir	0	antispasmodic
+Dasatinib	0	antiviral
+Deferasirox	0	anticancer
+Demeclocycline HCl	0	iron chelating agent
+Desipramine HCl	0	antibiotic
+Dexchlorpheniramine Maleate	0	antidepressant
+Diazepam	0	anti-histamine
+Dienogest	0	antispasmodic
+Doxepin HCl	0	anti-arrythmic / cardiac
+Estropipate	0	steroidal hormone
+Ethinyl Estradiol	0	hypnotic
+Everolimus	0	NSAID
+Fexofenadine HCl	0	anti-gout
+Fingolimod	0	anti-histamine
+Fluvoxamine Maleate	0	antispasmodic
+Formoterol	0	antidepressant
+Gemifloxacin 	0	Asthma
+Griseofulvin	0	antibiotic
+Irbesartan	0	antiviral
+Isradipine	0	antidepressant
+Ketorolac Tromethamine	0	anti-hypertensive / cardiac
+Labetalol HCl	0	NSAID
+Lacosamide	0	anti-hypertensive / cardiac
+Lamivudine	0	anti-epileptic
+Lopinavir	0	anti-histamine
+Loxapine Succinate	0	antiviral
+Maraviroc	0	antipsychotic
+Meclizine Dihydrochloride	0	antiviral
+Mefloquine HCl	0	NSAID
+Meprobamate (Schedule Iv)	0	parasympathetic inhibitor
+Mestranol	0	anti-anxiety
+Methenamine Hippurate	0	glaucoma
+Methocarbamol	0	antibiotic
+Methoxsalen (Xanthotoxin)	0	muscle relaxant
+Metolazone	0	increases contractions of uterus
+Mexiletine HCl	0	diagnostic
+Mirtazapine	0	fibromyalgia
+Moexipril HCl	0	CNS stimulant
+Nadolol	0	anti-hypertensive / cardiac
+Nortriptyline HCl	0	anti-histamine
+Oxtriphylline	0	NSAID
+Oxytetracycline HCl	0	antispasmodic
+Palonosetron HCl	0	antibiotic
+Perphenazine	0	anti-hypertensive / cardiac
+Posaconazole	0	cholesterol-lowering agent
+Primidone	0	cholesterol-lowering agent
+Pyrimethamine	0	antibiotic
+Ramelteon	0	antiviral
+Rasagiline Mesylate	0	insomnia
+Reserpine	0	anti-diabetic
+Rifapentine	0	anti-hypertensive / cardiac
+Rifaximin	0	antibiotic
+Ritonavir	0	antibiotic
+Ropinirole HCl	0	antiviral
+Rufinamide	0	cholesterol-lowering agent
+Saquinavir Mesylate	0	anti-epileptic
+Selegiline HCl	0	antiviral
+Sorafenib Tosylate	0	anti-diabetic
+Sunitinib Malate	0	anticancer
+Tadalafil	0	anticancer
+Tolterodine Tartrate	0	anti-epileptic
+Tolvaptan	0	antispasmodic
+Topiramate	0	hyponatremia
+Trandolapril	0	diuretic
+Trazodone HCl	0	anti-hypertensive / cardiac
+Triamterene	0	steroidal anti-inflammatory
+Trimipramine Maleate	0	antiemetic
+Trospium Chloride	0	antidepressant
+Voriconazole	0	antispasmodic
+Zaleplon	0	anticoagulant
+Ziprasidone hydrochloride	0	hypnotic
+Risperidone	1	anti-hypertensive / cardiac
+Azathioprine	1	anti-parkinson's
+Entacapone	1	immunosuppressive
+Exemestane	1	anti-parkinson's
+Capsaicin	1	anti-hypertensive / cardiac
+Dexamethasone	1	dietary product
+Ethacrynic Acid	1	steroidal anti-inflammatory
+Rifampin (Rifampicin)	1	diuretic
+Sulindac	1	antibiotic
+Vorinostat 	1	NSAID
+Dolasetron	1	HDAC inhibitor
+Mycophenolate Mofetil	1	antiemetic
+Zidovudine (3'-Azido-3'-Deoxythymidine)	1	immunosuppressive
+Bisacodyl	1	steroidal anti-inflammatory
+Estradiol	1	laxative
+Flutamide	1	antiviral
+Hydrocortisone	1	anti-androgen
+Hydrocortisone Acetate	1	steroidal anti-inflammatory
+Medroxyprogesterone Acetate	1	steroidal anti-inflammatory
+Melphalan	1	steroidal anti-inflammatory
+Methylprednisolone	1	antibiotic
+Metronidazole	1	NSAID
+Pantoprazole	1	steroidal anti-inflammatory
+Prednisolone	1	steroidal hormone
+Progesterone	1	steroidal anti-inflammatory
+Prednisone	1	steroidal diuretic
+Spironolactone	1	immunomodulatory
+Sulfasalazine	1	antibiotic
+Fluoxetine HCl	1	anti-ulcer
+Misoprostol	1	steroidal hormone
+Megestrol Acetate	1	anticancer
+Capecitabine	1	bile acid
+Chenodiol (Chenodeoxycholic Acid)	1	anti-epileptic
+Clofazimine	1	steroidal anti-inflammatory
+Clonazepam	1	muscle relaxant
+Dantrolene Na	1	steroidal anti-inflammatory
+Duloxetine HCl	1	antipsychotic
+Fludrocortisone Acetate 	1	anti-androgen
+Iloperidone	1	hereditary tyrosinemia type 1 (HT-1)
+Lorazepam	1	antibiotic
+Nitisinone	1	anti-platelet
+Nitrofurantoin	1	anti-gout
+Oxazepam	1	antibiotic
+Prasugrel	1	bile acid

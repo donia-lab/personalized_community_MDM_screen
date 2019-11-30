@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-B5.mzXML
+GROUP-2=Tolcap_D4_B5.mzXML,Tolcap_D14_B5.mzXML,Tolcap_D15_B5.mzXML,Tolcap_D16_B5.mzXML

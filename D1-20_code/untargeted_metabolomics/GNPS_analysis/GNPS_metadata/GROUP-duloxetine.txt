@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-F1.mzXML
+GROUP-2=Dulox_D7_F1.mzXML,Dulox_D8_F1.mzXML,Dulox_D16_F1.mzXML

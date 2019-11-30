@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-B1.mzXML
+GROUP-2=Nicard_D3_B1.mzXML,Nicard_D4_B1.mzXML,Nicard_D5_B1.mzXML,Nicard_D8_B1.mzXML,Nicard_D11_B1.mzXML,Nicard_D18_B1.mzXML,Nicard_D19_B1.mzXML

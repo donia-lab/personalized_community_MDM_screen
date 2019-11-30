@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-D9.mzXML
+GROUP-2=Dolas_D1_D9.mzXML,Dolas_D10_D9.mzXML

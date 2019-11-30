@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-E5.mzXML
+GROUP-2=Lovas_D5_E5.mzXML,Lovas_D6_E5.mzXML,Lovas_D8_E5.mzXML,Lovas_D13_E5.mzXML,Lovas_D14_E5.mzXML,Lovas_D15_E5.mzXML,Lovas_D17_E5.mzXML,Lovas_D19_E5.mzXML,Lovas_D20_E5.mzXML

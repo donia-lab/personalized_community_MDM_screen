@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-F9.mzXML
+GROUP-2=Risp_D4_F9.mzXML,Risp_D5_F9.mzXML,Risp_D16_F9.mzXML

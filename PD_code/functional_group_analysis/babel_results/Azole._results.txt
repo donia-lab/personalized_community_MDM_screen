@@ -1,0 +1,82 @@
+Pimozide	0	antipsychotic
+Caffeine 	0	CNS stimulant
+Pilocarpine HCl	0	Cholinergic Receptor Agonist/anti-glaucoma
+Cimetidine	0	anti-histamine
+Riluzole HCl	0	anti-ALS
+Aminophylline 	0	bronchodilator
+Famotidine	0	anti-histamine
+Vardenafil 	0	erectile dysfunction
+Olmesartan	0	anti-hypertensive / cardiac
+Sildenafil Citrate	0	erectile dysfunction
+Candesartan	0	anti-hypertensive / cardiac
+Eprosartan Mesylate	0	anti-hypertensive / cardiac
+Tizanidine HCl	0	muscle relaxant
+Ketoconazole	0	antifungal
+Meloxicam	0	NSAID
+Letrozole	0	anti-estrogen
+Anastrozole	0	anti-estrogen
+Granisetron HCl	0	antiemetic
+Pramipexole Dihydrochloride Monohydrate	0	anti-parkinson's
+Acyclovir (Acycloguanosine) Zovirax	0	antiviral
+Albendazole	0	antihelminthic
+Esomeprazole Potassium	0	anti-GERD
+Fluconazole	0	antifungal
+Itraconazole	0	antifungal
+Leflunomide	0	immunosuppressive
+Losartan Potassium	0	anti-hypertensive / cardiac
+Mebendazole	0	antihelminthic
+Methimazole	0	anti-thyroid
+Nefazodone HCl	0	antidepressant
+Omeprazole	0	anti-GERD
+Pentoxifylline	0	hemorrheologic
+Telmisartan	0	anti-hypertensive / cardiac
+Ondansetron	0	antiemetic
+Aprepitant	0	antiemetic
+Abacavir Sulfate	0	antiviral
+Alosetron HCl	0	antiviral
+Ambrisentan	0	anti-diarrhea
+Cefpodoxime Proxetil	0	antibiotic
+Chlorothiazide	0	antibiotic
+Cilostazol	0	muscle relaxant
+Cinacalcet HCl	0	anti-platelet
+Deferasirox	0	anticancer
+Demeclocycline HCl	0	iron chelating agent
+Disopyramide 	0	anti-histamine
+Fexofenadine HCl	0	anti-gout
+Isocarboxazid	0	anti-hypertensive / cardiac
+Isradipine	0	antidepressant
+Ketorolac Tromethamine	0	anti-hypertensive / cardiac
+Lenalidomide	0	proton pump inhibitor
+Meclizine Dihydrochloride	0	antiviral
+Methenamine Hippurate	0	glaucoma
+Milnacipran HCl	0	antifungal
+Nortriptyline HCl	0	anti-histamine
+Oxtriphylline	0	NSAID
+Oxybutynin Chloride	0	Asthma
+Pemirolast Potassium	0	anticancer
+Perindopril Erbumine	0	anti-allergy
+Pravastatin Na	0	antifungal
+Raltegravir	0	proton pump inhibitor
+Ramelteon	0	antiviral
+Ritonavir	0	antibiotic
+Ropinirole HCl	0	antiviral
+Saquinavir Mesylate	0	anti-epileptic
+Sorafenib Tosylate	0	anti-diabetic
+Temazepam	0	antibiotic
+Thioguanine (6-Thioguanine)	0	Asthma
+Tiagabine HCl	0	anticancer
+Triamcinolone Acetonide	0	antidepressant
+Trihexyphenidyl HCl	0	insomnia
+Warfarin Na	0	antifungal
+Ziprasidone hydrochloride	0	hypnotic
+Nicardipine HCl	0	antipsychotic
+Tolcapone	1	antipsychotic
+Entacapone	1	immunosuppressive
+Betamethasone	1	anti-gout
+Flutamide	1	antiviral
+Methylprednisolone	1	antibiotic
+Nabumetone	1	anti-GERD
+Sulfasalazine	1	antibiotic
+Duloxetine HCl	1	antipsychotic
+Nitazoxanide	1	antipsychotic
+Paliperidone	1	antibiotic

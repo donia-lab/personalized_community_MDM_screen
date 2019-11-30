@@ -1,0 +1,41 @@
+Tolbutamide	0	anti-diabetic
+Maprotiline HCl	0	antidepressant
+Cimetidine	0	anti-histamine
+Quetiapine Fumarate	0	antipsychotic
+Famotidine	0	anti-histamine
+Aripiprazole	0	antipsychotic
+Carvedilol	0	anti-hypertensive / cardiac
+Gefitinib	0	anticancer
+Erlotinib	0	anticancer
+Amlodipine	0	anti-hypertensive / cardiac
+Alfuzosin	0	Muscle relaxant
+Bumetanide	0	Diuretic
+Cetirizine HCl	0	anti-histamine
+Lapatinib Ditosylate	0	anticancer
+Clindamycin Palmitate HCl	0	antibiotic
+Fosinopril Na	0	anti-hypertensive / cardiac
+Acyclovir (Acycloguanosine) Zovirax	0	antiviral
+Buspirone HCl	0	anti-anxiety
+Gemfibrozil	0	cholesterol-lowering agent
+Pentoxifylline	0	hemorrheologic
+Tamsulosin HCl	0	muscle relaxant
+Alosetron HCl	0	antiviral
+Brompheniramine Maleate	0	anti-hypertensive / cardiac
+Cinacalcet HCl	0	anti-platelet
+Clobazam	0	hyperparathyroidism
+Desvenlafaxine Succinate Hydrate	0	antidepressant
+Flavoxate HCl	0	immunomodulatory
+Formoterol	0	antidepressant
+Indinavir 	0	anti-histamine
+Lopinavir	0	anti-histamine
+Nortriptyline HCl	0	anti-histamine
+Oxaprozin	0	antidepressant
+Pyrazinamide	0	antidepressant
+Raltegravir	0	proton pump inhibitor
+Temazepam	0	antibiotic
+Capsaicin	1	anti-hypertensive / cardiac
+Dexamethasone	1	dietary product
+Dolasetron	1	HDAC inhibitor
+Fluoxetine HCl	1	anti-ulcer
+Megestrol Acetate	1	anticancer
+Duloxetine HCl	1	antipsychotic

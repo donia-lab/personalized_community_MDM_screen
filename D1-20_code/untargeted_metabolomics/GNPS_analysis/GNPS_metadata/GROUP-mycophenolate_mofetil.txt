@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-C1.mzXML
+GROUP-2=Myco_D1_C1.mzXML,Myco_D9_C1.mzXML,Myco_D17_C1.mzXML

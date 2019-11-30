@@ -1,0 +1,770 @@
+Sequence Read Archive ID,HMP Isolation Body Site,HMP Isolation Body Subsite,Host Gender,MRN (Subject ID),Visit Number
+SRS018984,Gastrointestinal tract,,Male,764305738,2
+SRS015431,Gastrointestinal tract,,Male,764083206,1
+SRS019068,Gastrointestinal tract,,Male,764083206,2
+SRS011111,Urogenital tract,Posterior fornix,Female,158458797,1
+SRS017209,Oral,Tongue dorsum,Male,159814214,1
+SRS011310,Oral,Buccal mucosa,Female,158944319,1
+SRS011098,Oral,Supragingival plaque,Female,158458797,1
+SRS017025,Oral,Supragingival plaque,Male,159490532,1
+SRS052027,Gastrointestinal tract,,Male,159490532,2
+SRS055495,Oral,Tongue dorsum,Male,159490532,2
+SRS046686,Oral,Buccal mucosa,Male,159490532,2
+SRS054430,Oral,Supragingival plaque,Male,159490532,2
+SRS013800,Gastrointestinal tract,,Male,159571453,1
+SRS013836,Oral,Supragingival plaque,Male,159571453,1
+SRS024435,Gastrointestinal tract,,Male,159571453,2
+SRS024388,Gastrointestinal tract,,Female,159713063,2
+SRS016585,Gastrointestinal tract,,Female,159915365,1
+SRS017497,Urogenital tract,Posterior fornix,Female,160319967,1
+SRS020233,Gastrointestinal tract,,Male,160400887,1
+SRS017701,Gastrointestinal tract,,Female,160582958,1
+SRS017821,Gastrointestinal tract,,Male,160603188,1
+SRS020869,Gastrointestinal tract,,Male,160765029,1
+SRS020858,Oral,Buccal mucosa,Male,160765029,1
+SRS024441,Oral,Tongue dorsum,Male,159571453,2
+SRS024447,Oral,Supragingival plaque,Male,159571453,2
+SRS013269,Airways,Nares,Male,159591683,1
+SRS013215,Gastrointestinal tract,,Male,159591683,1
+SRS024140,Oral,Buccal mucosa,Male,159207311,2
+SRS024144,Oral,Supragingival plaque,Male,159207311,2
+SRS016989,Gastrointestinal tract,,Male,159490532,1
+SRS017007,Oral,Tongue dorsum,Male,159490532,1
+SRS017451,Airways,Nares,Female,160319967,1
+SRS017433,Gastrointestinal tract,,Female,160319967,1
+SRS017439,Oral,Tongue dorsum,Female,160319967,1
+SRS017441,Oral,Buccal mucosa,Female,160319967,1
+SRS013239,Oral,Buccal mucosa,Male,159591683,1
+SRS024567,Airways,Nares,Male,159591683,2
+SRS024549,Gastrointestinal tract,,Male,159591683,2
+SRS024557,Oral,Buccal mucosa,Male,159591683,2
+SRS016584,Urogenital tract,Posterior fornix,Female,159915365,1
+SRS018351,Gastrointestinal tract,,Male,160178356,1
+SRS018357,Oral,Tongue dorsum,Male,160178356,1
+SRS018359,Oral,Buccal mucosa,Male,160178356,1
+SRS017820,Airways,Nares,Male,160603188,1
+SRS017808,Oral,Tongue dorsum,Male,160603188,1
+SRS019986,Airways,Nares,Female,160643649,1
+SRS019968,Gastrointestinal tract,,Female,160643649,1
+SRS024561,Oral,Supragingival plaque,Male,159591683,2
+SRS012291,Airways,Nares,Female,158337416,1
+SRS012273,Gastrointestinal tract,,Female,158337416,1
+SRS012279,Oral,Tongue dorsum,Female,158337416,1
+SRS023526,Gastrointestinal tract,,Male,158802708,2
+SRS023534,Oral,Buccal mucosa,Male,158802708,2
+SRS012902,Gastrointestinal tract,,Female,158883629,1
+SRS023583,Gastrointestinal tract,,Female,159005010,2
+SRS021948,Gastrointestinal tract,,Female,158256496,2
+SRS021954,Oral,Tongue dorsum,Female,158256496,2
+SRS021960,Oral,Supragingival plaque,Female,158256496,2
+SRS021969,Urogenital tract,Posterior fornix,Female,158256496,2
+SRS024021,Oral,Supragingival plaque,Female,159247771,2
+SRS024068,Urogenital tract,Posterior fornix,Female,159247771,2
+SRS024375,Oral,Tongue dorsum,Female,159713063,2
+SRS024377,Oral,Buccal mucosa,Female,159713063,2
+SRS020328,Gastrointestinal tract,,Female,160704339,1
+SRS020334,Oral,Tongue dorsum,Female,160704339,1
+SRS020336,Oral,Buccal mucosa,Female,160704339,1
+SRS020340,Oral,Supragingival plaque,Female,160704339,1
+SRS012281,Oral,Buccal mucosa,Female,158337416,1
+SRS012285,Oral,Supragingival plaque,Female,158337416,1
+SRS012294,Urogenital tract,Posterior fornix,Female,158337416,1
+SRS022071,Gastrointestinal tract,,Female,158337416,2
+SRS023595,Oral,Supragingival plaque,Female,159005010,2
+SRS023604,Urogenital tract,Posterior fornix,Female,159005010,2
+SRS024009,Gastrointestinal tract,,Female,159247771,2
+SRS024015,Oral,Tongue dorsum,Female,159247771,2
+SRS018312,Airways,Nares,Male,160380657,1
+SRS018300,Oral,Tongue dorsum,Male,160380657,1
+SRS020232,Airways,Nares,Male,160400887,1
+SRS020220,Oral,Tongue dorsum,Male,160400887,1
+SRS024428,Urogenital tract,Posterior fornix,Female,159713063,2
+SRS016581,Airways,Nares,Female,159915365,1
+SRS016569,Oral,Tongue dorsum,Female,159915365,1
+SRS016575,Oral,Supragingival plaque,Female,159915365,1
+SRS019974,Oral,Tongue dorsum,Female,160643649,1
+SRS019976,Oral,Buccal mucosa,Female,160643649,1
+SRS019980,Oral,Supragingival plaque,Female,160643649,1
+SRS019989,Urogenital tract,Posterior fornix,Female,160643649,1
+SRS020222,Oral,Buccal mucosa,Male,160400887,1
+SRS020226,Oral,Supragingival plaque,Male,160400887,1
+SRS017691,Oral,Supragingival plaque,Female,160582958,1
+SRS017700,Urogenital tract,Posterior fornix,Female,160582958,1
+SRS020349,Urogenital tract,Posterior fornix,Female,160704339,1
+SRS020868,Airways,Nares,Male,160765029,1
+SRS020856,Oral,Tongue dorsum,Male,160765029,1
+SRS013637,Airways,Nares,Male,159207311,1
+SRS013476,Gastrointestinal tract,,Male,159207311,1
+SRS024132,Gastrointestinal tract,,Male,159207311,2
+SRS024138,Oral,Tongue dorsum,Male,159207311,2
+SRS022077,Oral,Tongue dorsum,Female,158337416,2
+SRS022079,Oral,Buccal mucosa,Female,158337416,2
+SRS022083,Oral,Supragingival plaque,Female,158337416,2
+SRS022092,Urogenital tract,Posterior fornix,Female,158337416,2
+SRS020905,Airways,Nares,Male,700096416,0
+SRS013521,Gastrointestinal tract,,Female,159227541,1
+SRS013533,Oral,Supragingival plaque,Female,159227541,1
+SRS013542,Urogenital tract,Posterior fornix,Female,159227541,1
+SRS057717,Gastrointestinal tract,,Female,246515023,2
+SRS016516,Urogenital tract,Posterior fornix,Female,159753524,1
+SRS016503,Oral,Buccal mucosa,Female,159753524,1
+SRS017247,Gastrointestinal tract,,Male,159510762,1
+SRS016753,Gastrointestinal tract,,Male,160421117,1
+SRS024017,Oral,Buccal mucosa,Female,159247771,2
+SRS013818,Oral,Tongue dorsum,Male,159571453,1
+SRS021483,Airways,Nares,Male,158479027,2
+SRS016342,Oral,Tongue dorsum,Male,159632143,1
+SRS024381,Oral,Supragingival plaque,Female,159713063,2
+SRS020862,Oral,Supragingival plaque,Male,160765029,1
+SRS017445,Oral,Supragingival plaque,Female,160319967,1
+SRS017511,Oral,Supragingival plaque,Female,160502038,1
+SRS013164,Oral,Tongue dorsum,Male,159369152,1
+SRS023958,Oral,Tongue dorsum,Male,159369152,2
+SRS021484,Gastrointestinal tract,,Male,158479027,2
+SRS011239,Gastrointestinal tract,,Female,158742018,1
+SRS057692,Oral,Tongue dorsum,Male,160158126,2
+SRS013155,Airways,Nares,Male,159571453,1
+SRS017227,Oral,Supragingival plaque,Male,159814214,1
+SRS017156,Airways,Nares,Male,159551223,1
+SRS024355,Oral,Supragingival plaque,Male,159551223,2
+SRS013170,Oral,Supragingival plaque,Male,159369152,1
+SRS023964,Oral,Supragingival plaque,Male,159369152,2
+SRS054569,Oral,Buccal mucosa,Male,160158126,2
+SRS018463,Airways,Nares,Male,160218816,1
+SRS017810,Oral,Buccal mucosa,Male,160603188,1
+SRS017697,Airways,Nares,Female,160582958,1
+SRS023970,Airways,Nares,Male,159369152,2
+SRS050669,Oral,Tongue dorsum,Male,159814214,2
+SRS017120,Oral,Tongue dorsum,Male,159551223,1
+SRS017307,Gastrointestinal tract,,Male,159632143,1
+SRS017521,Gastrointestinal tract,,Female,160502038,1
+SRS013723,Oral,Supragingival plaque,Male,159268001,1
+SRS024331,Gastrointestinal tract,,Male,159551223,2
+SRS022621,Oral,Tongue dorsum,Male,158499257,2
+SRS017013,Oral,Buccal mucosa,Male,159490532,1
+SRS013158,Gastrointestinal tract,,Male,159369152,1
+SRS023538,Oral,Supragingival plaque,Male,158802708,2
+SRS023176,Gastrointestinal tract,,Male,158924089,2
+SRS017139,Oral,Supragingival plaque,Male,159551223,1
+SRS017687,Oral,Buccal mucosa,Female,160582958,1
+SRS018439,Oral,Tongue dorsum,Male,160218816,1
+SRS022602,Oral,Supragingival plaque,Male,158499257,2
+SRS023971,Gastrointestinal tract,,Male,159369152,2
+SRS018369,Airways,Nares,Male,160178356,1
+SRS043701,Gastrointestinal tract,,Male,159814214,2
+SRS018427,Gastrointestinal tract,,Male,160218816,1
+SRS011255,Oral,Supragingival plaque,Female,158742018,1
+SRS023591,Oral,Buccal mucosa,Female,159005010,2
+SRS016740,Oral,Tongue dorsum,Male,160421117,1
+SRS024620,Skin,Retroauricular crease,Male,159611913,2
+SRS016746,Oral,Supragingival plaque,Male,160421117,1
+SRS011306,Oral,Tongue dorsum,Female,158944319,1
+SRS022137,Gastrointestinal tract,,Female,638754422,1
+SRS022143,Oral,Tongue dorsum,Female,638754422,1
+SRS022149,Oral,Supragingival plaque,Female,638754422,1
+SRS022158,Urogenital tract,Posterior fornix,Female,638754422,1
+SRS024087,Oral,Supragingival plaque,Male,159510762,2
+SRS049995,Gastrointestinal tract,,Female,159227541,2
+SRS052756,Urogenital tract,Posterior fornix,Female,159227541,2
+SRS049147,Oral,Tongue dorsum,Female,159227541,2
+SRS053214,Gastrointestinal tract,,Female,159753524,2
+SRS055982,Gastrointestinal tract,,Female,638754422,2
+SRS042984,Oral,Supragingival plaque,Female,638754422,2
+SRS063035,Airways,Nares,Male,159510762,3
+SRS077738,Oral,Buccal mucosa,Female,159753524,3
+SRS078176,Gastrointestinal tract,,Female,159227541,3
+SRS065431,Oral,Buccal mucosa,Female,809635352,2
+SRS063040,Gastrointestinal tract,,Female,809635352,2
+SRS023358,Oral,Supragingival plaque,Female,246515023,1
+SRS063288,Oral,Tongue dorsum,Female,809635352,2
+SRS023346,Gastrointestinal tract,,Female,246515023,1
+SRS023352,Oral,Tongue dorsum,Female,246515023,1
+SRS022530,Oral,Tongue dorsum,Female,809635352,1
+SRS022524,Gastrointestinal tract,,Female,809635352,1
+SRS016495,Gastrointestinal tract,,Female,159753524,1
+SRS016513,Airways,Nares,Female,159753524,1
+SRS022145,Oral,Buccal mucosa,Female,638754422,1
+SRS022532,Oral,Buccal mucosa,Female,809635352,1
+SRS022536,Oral,Supragingival plaque,Female,809635352,1
+SRS022545,Urogenital tract,Posterior fornix,Female,809635352,1
+SRS022713,Gastrointestinal tract,,Female,370425937,1
+SRS022719,Oral,Tongue dorsum,Female,370425937,1
+SRS023354,Oral,Buccal mucosa,Female,246515023,1
+SRS023468,Urogenital tract,Posterior fornix,Female,246515023,1
+SRS057478,Gastrointestinal tract,,Female,370425937,2
+SRS044662,Oral,Tongue dorsum,Female,370425937,2
+SRS052668,Oral,Buccal mucosa,Female,370425937,2
+SRS053917,Oral,Supragingival plaque,Female,370425937,2
+SRS052620,Urogenital tract,Posterior fornix,Female,370425937,2
+SRS045645,Gastrointestinal tract,,Male,604812005,2
+SRS024081,Oral,Tongue dorsum,Male,159510762,2
+SRS056157,Oral,Buccal mucosa,Female,159753524,2
+SRS042858,Urogenital tract,Posterior fornix,Female,159753524,2
+SRS048791,Oral,Tongue dorsum,Female,638754422,2
+SRS051116,Oral,Buccal mucosa,Female,638754422,2
+SRS064704,Urogenital tract,Posterior fornix,Female,809635352,2
+SRS063932,Oral,Tongue dorsum,Male,159510762,3
+SRS064329,Oral,Supragingival plaque,Male,159510762,3
+SRS045715,Oral,Tongue dorsum,Female,246515023,2
+SRS077730,Gastrointestinal tract,,Female,159753524,3
+SRS077751,Urogenital tract,Posterior fornix,Female,159753524,3
+SRS057022,Oral,Buccal mucosa,Female,246515023,2
+SRS049318,Oral,Supragingival plaque,Female,246515023,2
+SRS045004,Gastrointestinal tract,,Male,604812005,1
+SRS055298,Urogenital tract,Posterior fornix,Female,246515023,2
+SRS045127,Oral,Tongue dorsum,Male,604812005,2
+SRS046623,Oral,Buccal mucosa,Male,604812005,2
+SRS049268,Oral,Supragingival plaque,Male,604812005,2
+SRS024318,Oral,Tongue dorsum,Male,159551223,2
+SRS022609,Gastrointestinal tract,,Male,158499257,2
+SRS023938,Oral,Supragingival plaque,Male,159268001,2
+SRS058770,Gastrointestinal tract,,Male,160158126,2
+SRS017191,Gastrointestinal tract,,Male,159814214,1
+SRS013705,Oral,Tongue dorsum,Male,159268001,1
+SRS023914,Gastrointestinal tract,,Male,159268001,2
+SRS017103,Gastrointestinal tract,,Male,159551223,1
+SRS017244,Airways,Nares,Male,159814214,1
+SRS024265,Gastrointestinal tract,,Female,158944319,2
+SRS011061,Gastrointestinal tract,,Female,158458797,1
+SRS017814,Oral,Supragingival plaque,Male,160603188,1
+SRS013687,Gastrointestinal tract,,Male,159268001,1
+SRS018145,Oral,Tongue dorsum,Male,160158126,1
+SRS021496,Oral,Tongue dorsum,Male,158479027,2
+SRS016360,Oral,Supragingival plaque,Male,159632143,1
+SRS022645,Airways,Nares,Male,158499257,2
+SRS047634,Oral,Supragingival plaque,Male,160158126,2
+SRS023926,Oral,Tongue dorsum,Male,159268001,2
+SRS011090,Oral,Buccal mucosa,Female,158458797,1
+SRS023617,Oral,Tongue dorsum,Female,159005010,2
+SRS011355,Urogenital tract,Posterior fornix,Female,158944319,1
+SRS024310,Urogenital tract,Posterior fornix,Female,158944319,2
+SRS022006,Airways,Nares,Female,158256496,2
+SRS011105,Airways,Nares,Female,158458797,1
+SRS011247,Oral,Buccal mucosa,Female,158742018,1
+SRS011397,Airways,Nares,Female,158984779,1
+SRS016541,Oral,Supragingival plaque,Female,159753524,1
+SRS024289,Oral,Supragingival plaque,Female,158944319,2
+SRS024277,Oral,Tongue dorsum,Female,158944319,2
+SRS011302,Gastrointestinal tract,,Female,158944319,1
+SRS011269,Urogenital tract,Posterior fornix,Female,158742018,1
+SRS024301,Airways,Nares,Female,158944319,2
+SRS011243,Oral,Tongue dorsum,Female,158742018,1
+SRS024281,Oral,Buccal mucosa,Female,158944319,2
+SRS011343,Oral,Supragingival plaque,Female,158944319,1
+SRS021473,Oral,Buccal mucosa,Male,158479027,2
+SRS021477,Oral,Supragingival plaque,Male,158479027,2
+SRS017520,Urogenital tract,Posterior fornix,Female,160502038,1
+SRS016752,Airways,Nares,Male,160421117,1
+SRS017076,Oral,Tongue dorsum,Male,159611913,1
+SRS016553,Airways,Nares,Female,159753524,1
+SRS017080,Oral,Buccal mucosa,Male,159611913,1
+SRS022129,Airways,Nares,Female,158337416,2
+SRS011263,Airways,Nares,Female,158742018,1
+SRS024637,Oral,Tongue dorsum,Male,159611913,2
+SRS011134,Gastrointestinal tract,,Male,158499257,1
+SRS016559,Urogenital tract,Posterior fornix,Female,159753524,1
+SRS023835,Oral,Tongue dorsum,Female,158883629,2
+SRS023837,Oral,Buccal mucosa,Female,158883629,2
+SRS065099,Oral,Supragingival plaque,Female,809635352,2
+SRS014683,Gastrointestinal tract,,Male,763961826,1
+SRS015065,Gastrointestinal tract,,Female,763577454,2
+SRS014459,Gastrointestinal tract,,Female,763577454,1
+SRS019030,Gastrointestinal tract,,Male,763961826,2
+SRS013951,Gastrointestinal tract,,Male,763496533,1
+SRS019161,Gastrointestinal tract,,Male,763496533,2
+SRS015890,Gastrointestinal tract,,Male,764305738,1
+SRS018791,Oral,Tongue dorsum,Male,765135172,1
+SRS019124,Oral,Buccal mucosa,Male,763496533,2
+SRS015190,Gastrointestinal tract,,Female,763759525,1
+SRS011586,Gastrointestinal tract,,Female,159733294,1
+SRS014979,Gastrointestinal tract,,Female,764062976,1
+SRS019267,Gastrointestinal tract,,Female,765034022,1
+SRS053335,Gastrointestinal tract,,Female,508703490,1
+SRS065504,Gastrointestinal tract,,Female,764062976,2
+SRS011529,Gastrointestinal tract,,Male,159166850,1
+SRS062520,Urogenital tract,Posterior fornix,Female,764062976,2
+SRS016335,Gastrointestinal tract,,Male,765074482,1
+SRS064449,Oral,Supragingival plaque,Female,764062976,2
+SRS063272,Oral,Buccal mucosa,Female,764062976,2
+SRS011405,Gastrointestinal tract,,Female,159247771,1
+SRS049712,Gastrointestinal tract,,Male,823052294,1
+SRS011271,Gastrointestinal tract,,Male,158802708,1
+SRS016095,Gastrointestinal tract,,Female,764588959,1
+SRS016331,Oral,Supragingival plaque,Male,765074482,1
+SRS016319,Oral,Tongue dorsum,Male,765074482,1
+SRS014494,Urogenital tract,Posterior fornix,Female,763577454,1
+SRS064276,Gastrointestinal tract,,Female,763840445,2
+SRS015133,Gastrointestinal tract,,Female,763901136,1
+SRS015782,Gastrointestinal tract,,Male,764224817,1
+SRS042628,Gastrointestinal tract,,Male,764447348,2
+SRS015794,Gastrointestinal tract,,Male,763435843,2
+SRS056796,Urogenital tract,Posterior fornix,Female,675950834,1
+SRS054590,Gastrointestinal tract,,Female,338793263,1
+SRS043411,Gastrointestinal tract,,Female,763759525,2
+SRS063417,Urogenital tract,Posterior fornix,Female,763840445,2
+SRS016018,Gastrointestinal tract,,Male,764447348,1
+SRS051930,Oral,Supragingival plaque,Female,764143897,2
+SRS056892,Oral,Buccal mucosa,Female,764143897,2
+SRS015040,Oral,Buccal mucosa,Female,763901136,1
+SRS014629,Urogenital tract,Posterior fornix,Female,763840445,1
+SRS016056,Gastrointestinal tract,,Male,764508039,1
+SRS015073,Urogenital tract,Posterior fornix,Female,763577454,2
+SRS016002,Oral,Tongue dorsum,Male,764447348,1
+SRS056210,Airways,Nares,Female,763759525,2
+SRS015663,Gastrointestinal tract,,Male,764487809,1
+SRS044742,Urogenital tract,Posterior fornix,Female,763759525,2
+SRS049389,Oral,Tongue dorsum,Male,765701615,1
+SRS019607,Oral,Tongue dorsum,Female,765620695,1
+SRS049959,Gastrointestinal tract,,Male,765701615,1
+SRS047265,Oral,Supragingival plaque,Male,764487809,2
+SRS051031,Gastrointestinal tract,,Male,764487809,2
+SRS015578,Gastrointestinal tract,,Male,764285508,1
+SRS015154,Oral,Buccal mucosa,Female,763759525,1
+SRS015434,Oral,Tongue dorsum,Male,764083206,1
+SRS015395,Oral,Tongue dorsum,Female,764042746,1
+SRS014613,Gastrointestinal tract,,Female,763840445,1
+SRS019381,Gastrointestinal tract,,Female,765337473,1
+SRS015158,Oral,Supragingival plaque,Female,763759525,1
+SRS016225,Oral,Tongue dorsum,Female,764649650,1
+SRS015369,Gastrointestinal tract,,Female,764042746,1
+SRS056259,Gastrointestinal tract,,Male,764325968,2
+SRS019071,Oral,Tongue dorsum,Male,764083206,2
+SRS045197,Oral,Supragingival plaque,Male,765094712,2
+SRS015762,Oral,Tongue dorsum,Male,764224817,1
+SRS014684,Oral,Tongue dorsum,Male,763961826,1
+SRS015174,Oral,Tongue dorsum,Female,763759525,1
+SRS019245,Urogenital tract,Posterior fornix,Female,765034022,1
+SRS019379,Urogenital tract,Posterior fornix,Female,765337473,1
+SRS018739,Oral,Tongue dorsum,Female,765013792,1
+SRS043018,Oral,Supragingival plaque,Female,763759525,2
+SRS015960,Gastrointestinal tract,,Male,764325968,1
+SRS019906,Oral,Supragingival plaque,Male,764892411,2
+SRS051600,Airways,Nares,Male,765094712,2
+SRS015425,Urogenital tract,Posterior fornix,Female,764042746,1
+SRS018769,Urogenital tract,Posterior fornix,Female,765013792,1
+SRS015574,Oral,Supragingival plaque,Male,764285508,1
+SRS015797,Oral,Tongue dorsum,Male,763435843,2
+SRS055450,Oral,Supragingival plaque,Male,764325968,2
+SRS015168,Urogenital tract,Posterior fornix,Female,763759525,1
+SRS016105,Airways,Nares,Female,764588959,1
+SRS016203,Gastrointestinal tract,,Female,764649650,1
+SRS018591,Oral,Tongue dorsum,Male,765094712,1
+SRS016111,Urogenital tract,Posterior fornix,Female,764588959,1
+SRS058221,Skin,Retroauricular crease,Male,404239096,1
+SRS047708,Airways,Nares,Female,508703490,1
+SRS042643,Oral,Tongue dorsum,Male,404239096,1
+SRS052697,Gastrointestinal tract,,Female,706846339,1
+SRS056622,Oral,Tongue dorsum,Female,764143897,2
+SRS014578,Oral,Supragingival plaque,Female,763840445,1
+SRS047254,Airways,Nares,Male,764447348,2
+SRS047335,Urogenital tract,Posterior fornix,Female,764143897,2
+SRS063999,Oral,Supragingival plaque,Female,763840445,2
+SRS013881,Oral,Buccal mucosa,Male,763435843,1
+SRS062752,Urogenital tract,Vaginal introitus,Female,764042746,2
+SRS047844,Airways,Nares,Male,763982056,2
+SRS063215,Oral,Subgingival plaque,Female,764042746,2
+SRS019122,Oral,Tongue dorsum,Male,763496533,2
+SRS015225,Urogenital tract,Posterior fornix,Female,764143897,1
+SRS064376,Urogenital tract,Posterior fornix,Female,764042746,2
+SRS054061,Airways,Nares,Female,338793263,1
+SRS013956,Airways,Nares,Male,763496533,1
+SRS057083,Skin,Retroauricular crease,Male,764447348,2
+SRS013949,Oral,Supragingival plaque,Male,763496533,1
+SRS015803,Oral,Supragingival plaque,Male,763435843,2
+SRS019128,Oral,Supragingival plaque,Male,763496533,2
+SRS063193,Oral,Tongue dorsum,Female,763840445,2
+SRS046344,Airways,Nares,Male,823052294,1
+SRS015893,Oral,Tongue dorsum,Male,764305738,1
+SRS015793,Airways,Nares,Male,763435843,2
+SRS047210,Oral,Tongue dorsum,Female,763759525,2
+SRS015440,Oral,Supragingival plaque,Male,764083206,1
+SRS014923,Gastrointestinal tract,,Male,763860675,1
+SRS044486,Oral,Tongue dorsum,Male,763982056,2
+SRS015051,Airways,Nares,Female,763901136,1
+SRS048164,Gastrointestinal tract,,Male,861967750,1
+SRS015217,Gastrointestinal tract,,Female,764143897,1
+SRS019067,Airways,Nares,Male,764083206,2
+SRS014894,Oral,Supragingival plaque,Male,763860675,1
+SRS052988,Skin,Retroauricular crease,Male,765094712,2
+SRS019077,Oral,Supragingival plaque,Male,764083206,2
+SRS013945,Oral,Buccal mucosa,Male,763496533,1
+SRS019386,Airways,Nares,Male,765560005,1
+SRS019022,Oral,Tongue dorsum,Male,763961826,2
+SRS058336,Oral,Tongue dorsum,Male,764447348,2
+SRS019024,Oral,Buccal mucosa,Male,763961826,2
+SRS054962,Urogenital tract,Posterior fornix,Female,763820215,2
+SRS053630,Oral,Supragingival plaque,Female,508703490,1
+SRS050025,Airways,Nares,Male,404239096,1
+SRS014126,Oral,Buccal mucosa,Female,763820215,1
+SRS018671,Airways,Nares,Female,765013792,1
+SRS015899,Oral,Supragingival plaque,Male,764305738,1
+SRS045606,Skin,Retroauricular crease,Female,338793263,1
+SRS016092,Oral,Supragingival plaque,Female,764588959,1
+SRS062878,Oral,Hard palate,Male,765560005,2
+SRS015063,Oral,Supragingival plaque,Female,763577454,2
+SRS015381,Skin,Retroauricular crease,Female,764042746,1
+SRS014901,Airways,Nares,Male,763860675,1
+SRS019073,Oral,Buccal mucosa,Male,764083206,2
+SRS048719,Oral,Buccal mucosa,Male,823052294,1
+SRS015430,Airways,Nares,Male,764083206,1
+SRS043676,Oral,Buccal mucosa,Female,763820215,2
+SRS014682,Airways,Nares,Male,763961826,1
+SRS014575,Oral,Buccal mucosa,Female,763840445,1
+SRS015378,Oral,Supragingival plaque,Female,764042746,1
+SRS015937,Airways,Nares,Male,764325968,1
+SRS014464,Airways,Nares,Female,763577454,1
+SRS015996,Airways,Nares,Male,764447348,1
+SRS014472,Oral,Buccal mucosa,Female,763577454,1
+SRS019016,Skin,Retroauricular crease,Male,763961826,2
+SRS016088,Oral,Buccal mucosa,Female,764588959,1
+SRS045262,Oral,Buccal mucosa,Female,706846339,1
+SRS019064,Skin,Retroauricular crease,Male,764083206,2
+SRS057791,Oral,Tongue dorsum,Male,823052294,1
+SRS019116,Skin,Retroauricular crease,Male,763496533,2
+SRS058213,Airways,Nares,Female,706846339,1
+SRS043239,Oral,Buccal mucosa,Female,675950834,1
+SRS051244,Oral,Supragingival plaque,Male,861967750,1
+SRS044626,Airways,Nares,Male,764325968,2
+SRS015436,Oral,Buccal mucosa,Male,764083206,1
+SRS055118,Oral,Buccal mucosa,Female,737052003,1
+SRS019600,Urogenital tract,Posterior fornix,Female,765620695,1
+SRS053603,Oral,Tongue dorsum,Female,764811490,2
+SRS047044,Gastrointestinal tract,,Male,764224817,2
+SRS051791,Oral,Tongue dorsum,Male,765094712,2
+SRS015272,Oral,Tongue dorsum,Male,763982056,1
+SRS014476,Oral,Supragingival plaque,Female,763577454,1
+SRS015985,Oral,Buccal mucosa,Male,764447348,1
+SRS064423,Oral,Tongue dorsum,Female,763901136,2
+SRS015537,Oral,Tongue dorsum,Male,764285508,1
+SRS050925,Gastrointestinal tract,,Male,763860675,2
+SRS015745,Oral,Buccal mucosa,Male,764224817,1
+SRS042910,Oral,Tongue dorsum,Female,763820215,2
+SRS019219,Oral,Tongue dorsum,Female,765034022,1
+SRS014124,Oral,Tongue dorsum,Female,763820215,1
+SRS055378,Oral,Supragingival plaque,Male,763860675,2
+SRS019397,Gastrointestinal tract,,Male,765560005,1
+SRS019867,Airways,Nares,Male,764892411,2
+SRS057182,Oral,Buccal mucosa,Female,765640925,1
+SRS015059,Oral,Buccal mucosa,Female,763577454,2
+SRS018981,Airways,Nares,Male,764305738,2
+SRS046688,Skin,Retroauricular crease,Male,764224817,2
+SRS014890,Oral,Buccal mucosa,Male,763860675,1
+SRS019019,Airways,Nares,Male,763961826,2
+SRS015646,Oral,Buccal mucosa,Male,764487809,1
+SRS063178,Airways,Nares,Male,765560005,2
+SRS015374,Oral,Buccal mucosa,Female,764042746,1
+SRS016297,Oral,Buccal mucosa,Male,765074482,1
+SRS050422,Gastrointestinal tract,,Male,763536994,2
+SRS062540,Oral,Tongue dorsum,Female,764042746,2
+SRS053854,Oral,Tongue dorsum,Female,508703490,1
+SRS050184,Urogenital tract,Posterior fornix,Female,508703490,1
+SRS047824,Oral,Tongue dorsum,Female,737052003,1
+SRS016267,Gastrointestinal tract,,Male,764669880,1
+SRS015854,Gastrointestinal tract,,Male,764002286,2
+SRS064774,Oral,Tongue dorsum,Female,764062976,2
+SRS019685,Gastrointestinal tract,,Male,763678604,2
+SRS057205,Oral,Tongue dorsum,Male,764224817,2
+SRS019787,Gastrointestinal tract,,Male,764669880,2
+SRS043803,Oral,Buccal mucosa,Male,765094712,2
+SRS052590,Airways,Nares,Female,737052003,1
+SRS018656,Gastrointestinal tract,,Female,765013792,1
+SRS015941,Oral,Tongue dorsum,Male,764325968,1
+SRS015947,Oral,Supragingival plaque,Male,764325968,1
+SRS065142,Airways,Nares,Female,764062976,2
+SRS018784,Airways,Nares,Male,765135172,1
+SRS016037,Oral,Tongue dorsum,Male,764508039,1
+SRS016043,Oral,Supragingival plaque,Male,764508039,1
+SRS019225,Oral,Supragingival plaque,Female,765034022,1
+SRS015755,Oral,Supragingival plaque,Male,764224817,1
+SRS016039,Oral,Buccal mucosa,Male,764508039,1
+SRS016292,Airways,Nares,Male,765074482,1
+SRS015278,Oral,Supragingival plaque,Male,763982056,1
+SRS019391,Oral,Buccal mucosa,Male,765560005,1
+SRS015269,Airways,Nares,Male,763982056,1
+SRS016196,Oral,Buccal mucosa,Female,764649650,1
+SRS015799,Oral,Buccal mucosa,Male,763435843,2
+SRS016086,Oral,Tongue dorsum,Female,764588959,1
+SRS018778,Oral,Supragingival plaque,Male,765135172,1
+SRS015989,Oral,Supragingival plaque,Male,764447348,1
+SRS019872,Oral,Buccal mucosa,Male,764892411,2
+SRS015209,Oral,Tongue dorsum,Female,764143897,1
+SRS063351,Oral,Palatine tonsils,Female,764042746,2
+SRS051505,Urogenital tract,Posterior fornix,Female,338793263,1
+SRS044373,Oral,Tongue dorsum,Female,550534656,1
+SRS043001,Gastrointestinal tract,,Female,550534656,1
+SRS014235,Gastrointestinal tract,,Male,763678604,1
+SRS057807,Urogenital tract,Posterior fornix,Female,550534656,1
+SRS018665,Oral,Supragingival plaque,Female,765013792,1
+SRS018661,Oral,Buccal mucosa,Female,765013792,1
+SRS018573,Oral,Supragingival plaque,Male,765094712,1
+SRS018575,Gastrointestinal tract,,Male,765094712,1
+SRS054956,Gastrointestinal tract,,Female,737052003,1
+SRS051941,Oral,Supragingival plaque,Female,706846339,1
+SRS045713,Gastrointestinal tract,,Male,404239096,1
+SRS057539,Oral,Tongue dorsum,Male,861967750,1
+SRS050244,Oral,Tongue dorsum,Female,675950834,1
+SRS043755,Oral,Supragingival plaque,Male,404239096,1
+SRS042428,Urogenital tract,Posterior fornix,Female,706846339,1
+SRS055401,Oral,Supragingival plaque,Female,675950834,1
+SRS052604,Oral,Supragingival plaque,Female,338793263,1
+SRS053398,Gastrointestinal tract,,Female,675950834,1
+SRS048411,Oral,Tongue dorsum,Male,764325968,2
+SRS054687,Oral,Tongue dorsum,Female,706846339,1
+SRS016033,Airways,Nares,Male,764508039,1
+SRS016191,Urogenital tract,Posterior fornix,Female,764649650,1
+SRS049237,Urogenital tract,Posterior fornix,Female,764811490,2
+SRS024075,Gastrointestinal tract,,Male,159510762,2
+SRS016501,Oral,Tongue dorsum,Female,159753524,1
+SRS077736,Oral,Tongue dorsum,Female,159753524,3
+SRS078182,Oral,Tongue dorsum,Female,159227541,3
+SRS078197,Urogenital tract,Posterior fornix,Female,159227541,3
+SRS048536,Urogenital tract,Posterior fornix,Female,638754422,2
+SRS012663,Airways,Nares,Male,158398106,1
+SRS011084,Gastrointestinal tract,,Male,158479027,1
+SRS024649,Oral,Supragingival plaque,Male,159611913,2
+SRS011132,Airways,Nares,Male,158479027,1
+SRS016349,Oral,Buccal mucosa,Male,159632143,1
+SRS011152,Oral,Supragingival plaque,Male,158499257,1
+SRS017044,Airways,Nares,Male,159490532,1
+SRS023841,Oral,Supragingival plaque,Female,158883629,2
+SRS023850,Urogenital tract,Posterior fornix,Female,158883629,2
+SRS016954,Gastrointestinal tract,,Male,159611913,1
+SRS024598,Skin,Retroauricular crease,Male,159591683,2
+SRS017849,Skin,Retroauricular crease,Male,160603188,1
+SRS017851,Skin,Retroauricular crease,Male,160603188,1
+SRS058182,Skin,Retroauricular crease,Male,159490532,2
+SRS024625,Gastrointestinal tract,,Male,159611913,2
+SRS023829,Gastrointestinal tract,,Female,158883629,2
+SRS016517,Gastrointestinal tract,,Female,159753524,1
+SRS017304,Oral,Supragingival plaque,Male,159207311,1
+SRS017713,Oral,Tongue dorsum,Female,160582958,1
+SRS013234,Oral,Tongue dorsum,Male,159591683,1
+SRS023847,Airways,Nares,Female,158883629,2
+SRS047225,Airways,Nares,Male,159814214,2
+SRS017127,Oral,Buccal mucosa,Male,159551223,1
+SRS024482,Skin,Retroauricular crease,Male,159571453,2
+SRS047113,Oral,Supragingival plaque,Male,159814214,2
+SRS017537,Oral,Buccal mucosa,Female,160502038,1
+SRS013502,Oral,Tongue dorsum,Male,159207311,1
+SRS023557,Oral,Tongue dorsum,Male,158802708,2
+SRS011086,Oral,Tongue dorsum,Female,158458797,1
+SRS016533,Oral,Buccal mucosa,Female,159753524,1
+SRS023930,Oral,Buccal mucosa,Male,159268001,2
+SRS016434,Airways,Nares,Male,159672603,1
+SRS022625,Oral,Buccal mucosa,Male,158499257,2
+SRS013252,Oral,Supragingival plaque,Male,159591683,1
+SRS024347,Oral,Buccal mucosa,Male,159551223,2
+SRS018157,Oral,Supragingival plaque,Male,160158126,1
+SRS018133,Gastrointestinal tract,,Male,160158126,1
+SRS013825,Oral,Buccal mucosa,Male,159571453,1
+SRS024470,Oral,Buccal mucosa,Male,159571453,2
+SRS018337,Oral,Supragingival plaque,Male,160380657,1
+SRS016600,Oral,Buccal mucosa,Female,159915365,1
+SRS017533,Oral,Tongue dorsum,Female,160502038,1
+SRS018149,Oral,Buccal mucosa,Male,160158126,1
+SRS011115,Oral,Tongue dorsum,Male,158479027,1
+SRS013258,Skin,Retroauricular crease,Male,159591683,1
+SRS024424,Airways,Nares,Female,159713063,2
+SRS020386,Airways,Nares,Female,160704339,1
+SRS013261,Skin,Retroauricular crease,Male,159591683,1
+SRS024580,Oral,Tongue dorsum,Male,159591683,2
+SRS043422,Oral,Buccal mucosa,Male,159814214,2
+SRS018394,Oral,Supragingival plaque,Male,160178356,1
+SRS016529,Oral,Tongue dorsum,Female,159753524,1
+SRS024655,Skin,Retroauricular crease,Male,159611913,2
+SRS024064,Airways,Nares,Female,159247771,2
+SRS013711,Oral,Buccal mucosa,Male,159268001,1
+SRS018313,Gastrointestinal tract,,Male,160380657,1
+SRS011126,Oral,Supragingival plaque,Male,158479027,1
+SRS020263,Skin,Retroauricular crease,Male,160400887,1
+SRS024596,Skin,Retroauricular crease,Male,159591683,2
+SRS020261,Skin,Retroauricular crease,Male,160400887,1
+SRS016944,Skin,Retroauricular crease,Male,159450072,1
+SRS017215,Oral,Buccal mucosa,Male,159814214,1
+SRS044474,Airways,Nares,Male,159490532,2
+SRS023987,Oral,Buccal mucosa,Male,159369152,2
+SRS024641,Oral,Buccal mucosa,Male,159611913,2
+SRS011144,Oral,Buccal mucosa,Male,158499257,1
+SRS017088,Oral,Supragingival plaque,Male,159611913,1
+SRS021986,Oral,Buccal mucosa,Female,158256496,2
+SRS023212,Airways,Nares,Male,158924089,2
+SRS013506,Oral,Buccal mucosa,Male,159207311,1
+SRS018443,Oral,Buccal mucosa,Male,160218816,1
+SRS018329,Oral,Buccal mucosa,Male,160380657,1
+SRS011140,Oral,Tongue dorsum,Male,158499257,1
+SRS018774,Oral,Buccal mucosa,Male,765135172,1
+SRS019327,Oral,Tongue dorsum,Female,765337473,1
+SRS014470,Oral,Tongue dorsum,Female,763577454,1
+SRS015644,Oral,Tongue dorsum,Male,764487809,1
+SRS042131,Oral,Tongue dorsum,Male,764487809,2
+SRS050628,Oral,Buccal mucosa,Male,765701615,1
+SRS015640,Airways,Nares,Male,764487809,1
+SRS018971,Oral,Buccal mucosa,Male,764305738,2
+SRS058808,Oral,Supragingival plaque,Male,765701615,1
+SRS019339,Airways,Nares,Female,765337473,1
+SRS049744,Airways,Nares,Male,764487809,2
+SRS015057,Oral,Tongue dorsum,Female,763577454,2
+SRS015895,Oral,Buccal mucosa,Male,764305738,1
+SRS052330,Urogenital tract,Posterior fornix,Female,765640925,1
+SRS065335,Oral,Throat,Male,765560005,2
+SRS019125,Oral,Attached/Keratinized gingiva,Male,763496533,2
+SRS052876,Oral,Supragingival plaque,Female,737052003,1
+SRS053584,Oral,Supragingival plaque,Male,764224817,2
+SRS019587,Oral,Buccal mucosa,Female,765620695,1
+SRS019029,Oral,Subgingival plaque,Male,763961826,2
+SRS013950,Oral,Subgingival plaque,Male,763496533,1
+SRS015072,Urogenital tract,Vaginal,Female,763577454,2
+SRS019329,Oral,Buccal mucosa,Female,765337473,1
+SRS019028,Oral,Supragingival plaque,Male,763961826,2
+SRS018969,Oral,Tongue dorsum,Male,764305738,2
+SRS014687,Oral,Attached/Keratinized gingiva,Male,763961826,1
+SRS014691,Oral,Subgingival plaque,Male,763961826,1
+SRS013879,Oral,Tongue dorsum,Male,763435843,1
+SRS046973,Airways,Nares,Male,765701615,1
+SRS015450,Airways,Nares,Male,764083206,1
+SRS063603,Oral,Supragingival plaque,Female,763901136,2
+SRS018978,Skin,Retroauricular crease,Male,764305738,2
+SRS019026,Oral,Palatine tonsils,Male,763961826,2
+SRS043772,Oral,Supragingival plaque,Male,763982056,2
+SRS063985,Gastrointestinal tract,,Female,763901136,2
+SRS019126,Oral,Palatine tonsils,Male,763496533,2
+SRS014465,Urogenital tract,Vaginal introitus,Female,763577454,1
+SRS014474,Oral,Palatine tonsils,Female,763577454,1
+SRS065278,Oral,Tongue dorsum,Female,763901136,2
+SRS019129,Oral,Subgingival plaque,Male,763496533,2
+SRS014688,Oral,Palatine tonsils,Male,700023342,0
+SRS019025,Oral,Attached/Keratinized gingiva,Male,763961826,2
+SRS057290,Oral,Supragingival plaque,Male,764447348,2
+SRS011584,Urogenital tract,Posterior fornix,Female,159247771,1
+SRS051613,Airways,Nares,Male,861967750,1
+SRS056906,Airways,Nares,Female,550534656,1
+SRS054653,Oral,Supragingival plaque,Female,765640925,1
+SRS051378,Oral,Supragingival plaque,Female,763820215,2
+SRS019081,Skin,Retroauricular crease,Male,764083206,2
+SRS013942,Oral,,Male,763496533,1
+SRS019087,Airways,Nares,Male,764083206,2
+SRS019033,Skin,Retroauricular crease,Male,763961826,2
+SRS019039,Airways,Nares,Male,763961826,2
+SRS019597,Airways,Nares,Female,765620695,1
+SRS050752,Gastrointestinal tract,,Female,765640925,1
+SRS054776,Oral,Buccal mucosa,Male,764224817,2
+SRS019119,Airways,Nares,Male,763496533,2
+SRS019591,Oral,Supragingival plaque,Female,765620695,1
+SRS019221,Oral,Buccal mucosa,Female,765034022,1
+SRS047219,Oral,Tongue dorsum,Male,763536994,2
+SRS019582,Gastrointestinal tract,,Male,763597684,2
+SRS015921,Oral,Buccal mucosa,Male,764305738,1
+SRS019910,Gastrointestinal tract,,Male,764892411,2
+SRS065179,Airways,Nares,Female,764042746,2
+SRS019120,Oral,,Male,763496533,2
+SRS013947,Oral,Palatine tonsils,Male,763496533,1
+SRS014689,Oral,Throat,Male,763961826,1
+SRS050299,Gastrointestinal tract,,Male,763982056,2
+SRS019015,Skin,Retroauricular crease,Male,763961826,2
+SRS014690,Oral,Supragingival plaque,Male,763961826,1
+SRS064493,Oral,Supragingival plaque,Male,763536994,3
+SRS014468,Oral,,Female,763577454,1
+SRS015061,Oral,Palatine tonsils,Female,763577454,2
+SRS013948,Oral,Throat,Male,763496533,1
+SRS064557,Gastrointestinal tract,,Female,764042746,2
+SRS014271,Oral,Tongue dorsum,Male,763536994,1
+SRS019127,Oral,Throat,Male,763496533,2
+SRS014107,Oral,Subgingival plaque,Male,763435843,1
+SRS014686,Oral,Buccal mucosa,Male,763961826,1
+SRS062427,Gastrointestinal tract,,Male,763536994,3
+SRS018975,Oral,Supragingival plaque,Male,764305738,2
+SRS011452,Gastrointestinal tract,,Male,159146620,1
+SRS048870,Gastrointestinal tract,,Female,764184357,2
+SRS063287,Oral,Buccal mucosa,Male,763536994,3
+SRS065310,Oral,Supragingival plaque,Female,764042746,2
+SRS014473,Oral,Attached/Keratinized gingiva,Female,763577454,1
+SRS019045,Oral,Tongue dorsum,Male,763961826,2
+SRS019389,Oral,Tongue dorsum,Male,765560005,1
+SRS051882,Gastrointestinal tract,,Female,764143897,2
+SRS015470,Oral,Supragingival plaque,Male,764083206,1
+SRS019894,Oral,Tongue dorsum,Male,764892411,2
+SRS014287,Gastrointestinal tract,,Male,763536994,1
+SRS049164,Gastrointestinal tract,,Male,765074482,2
+SRS015062,Oral,Throat,Female,763577454,2
+SRS014692,Oral,,Male,763961826,1
+SRS019063,Skin,Retroauricular crease,Male,764083206,2
+SRS062544,Oral,Tongue dorsum,Male,763536994,3
+SRS064809,Oral,Buccal mucosa,Female,763901136,2
+SRS014477,Oral,Subgingival plaque,Female,763577454,1
+SRS014573,Oral,Tongue dorsum,Female,763840445,1
+SRS018817,Gastrointestinal tract,,Male,765135172,1
+SRS013946,Oral,Attached/Keratinized gingiva,Male,763496533,1
+SRS014466,Urogenital tract,Vaginal,Female,763577454,1
+SRS019027,Oral,Throat,Male,763961826,2
+SRS014343,Urogenital tract,Posterior fornix,Female,763820215,1
+SRS014475,Oral,Throat,Female,763577454,1
+SRS015071,Urogenital tract,Vaginal introitus,Female,763577454,2
+SRS015055,Oral,,Female,763577454,2
+SRS058105,Oral,Buccal mucosa,Male,764487809,2
+SRS045049,Oral,Buccal mucosa,Male,404239096,1
+SRS057355,Oral,Tongue dorsum,Male,763860675,2
+SRS015060,Oral,Attached/Keratinized gingiva,Female,763577454,2
+SRS015064,Oral,Subgingival plaque,Female,763577454,2
+SRS065347,Urogenital tract,Posterior fornix,Female,763901136,2
+SRS018585,Airways,Nares,Male,765094712,1
+SRS015038,Oral,Tongue dorsum,Female,763901136,1
+SRS045978,Oral,Buccal mucosa,Female,763759525,2
+SRS062713,Airways,Nares,Female,763840445,2
+SRS016188,Airways,Nares,Female,764649650,1
+SRS014313,Gastrointestinal tract,,Female,763820215,1
+SRS058723,Gastrointestinal tract,,Female,763820215,2
+SRS049283,Oral,Buccal mucosa,Male,764325968,2
+SRS050029,Oral,Buccal mucosa,Female,338793263,1
+SRS050007,Oral,Buccal mucosa,Female,550534656,1
+SRS063478,Oral,Buccal mucosa,Female,763840445,2
+SRS015264,Gastrointestinal tract,,Male,763982056,1
+SRS015540,Oral,Buccal mucosa,Male,764285508,1
+SRS047014,Gastrointestinal tract,,Male,765074482,2
+SRS015054,Urogenital tract,Posterior fornix,Female,763901136,1
+SRS019215,Airways,Nares,Female,765034022,1
+SRS056695,Urogenital tract,Posterior fornix,Female,737052003,1
+SRS015752,Airways,Nares,Male,764224817,1
+SRS045254,Oral,Buccal mucosa,Male,861967750,1
+SRS014888,Oral,Tongue dorsum,Male,763860675,1
+SRS053437,Airways,Nares,Female,765640925,1
+SRS015274,Oral,Buccal mucosa,Male,763982056,1
+SRS019601,Gastrointestinal tract,,Female,765620695,1
+SRS056519,Gastrointestinal tract,,Male,765094712,2
+SRS016200,Oral,Supragingival plaque,Female,764649650,1
+SRS052227,Oral,Tongue dorsum,Female,338793263,1
+SRS019387,Oral,Supragingival plaque,Male,765560005,1
+SRS015650,Oral,Supragingival plaque,Male,764487809,1
+SRS042284,Gastrointestinal tract,,Female,764811490,2
+SRS058186,Oral,Buccal mucosa,Female,508703490,1
+SRS018569,Oral,Buccal mucosa,Male,765094712,1
+SRS047100,Oral,Supragingival plaque,Female,764811490,2
+SRS052874,Oral,Buccal mucosa,Female,764811490,2
+SRS015044,Oral,Supragingival plaque,Female,763901136,1
+SRS015215,Oral,Supragingival plaque,Female,764143897,1
+SRS013876,Airways,Nares,Male,763435843,1
+SRS044366,Oral,Supragingival plaque,Female,550534656,1
+SRS050484,Airways,Nares,Female,764143897,2
+SRS056323,Oral,Tongue dorsum,Female,765640925,1
+SRS019333,Oral,Supragingival plaque,Female,765337473,1
+SRS055426,Oral,Tongue dorsum,Male,604812005,1
+SRS058053,Oral,Supragingival plaque,Male,604812005,1
+SRS022721,Oral,Buccal mucosa,Female,370425937,1
+SRS043646,Oral,Buccal mucosa,Male,604812005,1
+SRS022725,Oral,Supragingival plaque,Female,370425937,1
+SRS045313,Oral,Supragingival plaque,Male,686765762,1
+SRS064219,Oral,Supragingival plaque,Male,686765762,2
+SRS022734,Urogenital tract,Posterior fornix,Female,370425937,1
+SRS013216,Gastrointestinal tract,,Male,700015923,0
+SRS064645,Gastrointestinal tract,,Male,686765762,2
+SRS016990,Gastrointestinal tract,,Male,700033503,0
+SRS022093,Gastrointestinal tract,,Female,700097859,0
+SRS075404,Oral,Tongue dorsum,Female,158883629,3
+SRS075419,Urogenital tract,Posterior fornix,Female,158883629,3
+SRS075398,Gastrointestinal tract,,Female,158883629,3
+SRS075406,Oral,Buccal mucosa,Female,158883629,3
+SRS075410,Oral,Supragingival plaque,Female,158883629,3
+SRS042457,Oral,Buccal mucosa,Male,686765762,1
+SRS062761,Oral,Tongue dorsum,Male,686765762,2
+SRS043663,Oral,Tongue dorsum,Male,686765762,1
+SRS065133,Oral,Buccal mucosa,Male,686765762,2
+SRS049900,Gastrointestinal tract,,Male,686765762,1

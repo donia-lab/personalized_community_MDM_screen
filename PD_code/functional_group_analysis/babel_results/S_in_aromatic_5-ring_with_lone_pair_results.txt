@@ -1,0 +1,23 @@
+Riluzole HCl	0	anti-ALS
+Famotidine	0	anti-histamine
+Ticlopidine HCl	0	anti-platelet
+Olanzapine	0	antipsychotic
+Eprosartan Mesylate	0	anti-hypertensive / cardiac
+Tizanidine HCl	0	muscle relaxant
+Meloxicam	0	NSAID
+Raloxifene HCl	0	anti-estrogen
+Zileuton	0	Asthma
+Pramipexole Dihydrochloride Monohydrate	0	anti-parkinson's
+Clopidogrel Hydrogen Sulfate 	0	anti-platelet
+Ketotifen Fumarate	0	anti-histamine
+Cefpodoxime Proxetil	0	antibiotic
+Chlorothiazide	0	antibiotic
+Deferasirox	0	anticancer
+Fexofenadine HCl	0	anti-gout
+Methenamine Hippurate	0	glaucoma
+Nortriptyline HCl	0	anti-histamine
+Ropinirole HCl	0	antiviral
+Tolterodine Tartrate	0	anti-epileptic
+Nicardipine HCl	0	antipsychotic
+Cortisone Acetate	1	antidepressant
+Nitisinone	1	anti-platelet

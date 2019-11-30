@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-A9.mzXML
+GROUP-2=Ketocon_D8_A9.mzXML,Ketocon_D11_A9.mzXML,Ketocon_D15_A9.mzXML

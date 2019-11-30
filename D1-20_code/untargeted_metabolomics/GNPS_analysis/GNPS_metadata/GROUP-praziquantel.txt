@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-D5.mzXML
+GROUP-2=Prazi_D10_D5.mzXML,Prazi_D18_D5.mzXML

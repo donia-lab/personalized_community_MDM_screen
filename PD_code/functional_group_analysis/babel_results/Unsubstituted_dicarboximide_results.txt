@@ -1,0 +1,6 @@
+Phenytoin	0	antiepileptic
+Rosiglitazone	0	anti-diabetic
+Pioglitazone HCl	0	anti-diabetic
+Thalidomide	0	immunomodulatory
+Levocetirizine Dihydrochloride	0	anticancer
+Lorazepam	1	antibiotic

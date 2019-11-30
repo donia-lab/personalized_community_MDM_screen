@@ -1,0 +1,4 @@
+Methimazole	0	anti-thyroid
+Etodolac	0	antibiotic
+Protriptyline HCl	0	hyperthyrodism
+Tiagabine HCl	0	anticancer

@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-B9.mzXML
+GROUP-2=Miso_D5_B9.mzXML,Miso_D8_B9.mzXML,Miso_D10_B9.mzXML,Miso_D16_B9.mzXML

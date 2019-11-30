@@ -1,0 +1,36 @@
+Mycophenolic Acid	0	immunosuppressive
+Naltrexone HCl	0	Opoid antagonist
+Apomorphine HCl Hemihydrate	0	anti-parkinson's
+Carbidopa	0	anti-parkinson's
+Raloxifene HCl	0	anti-estrogen
+Etoposide	0	anticancer
+4-Aminosalicylic Acid	0	antibiotic
+Diflunisal	0	NSAID
+Doxycycline Monohydrate	0	antibiotic
+Estrone	0	steroidal hormone
+Minocycline 	0	antibiotic
+Nelfinavir Mesylate	0	antiviral
+Topotecan HCl	0	anticancer
+Acetaminophen	0	analgesic
+Carbinoxamine Maleate	0	analgesic
+Desipramine HCl	0	antibiotic
+Dexchlorpheniramine Maleate	0	antidepressant
+Ethionamide	0	steroidal hormone
+Febuxostat	0	cholesterol-lowering agent
+Gemifloxacin 	0	Asthma
+Lacosamide	0	anti-hypertensive / cardiac
+Metaxalone	0	Asthma
+Palonosetron HCl	0	antibiotic
+Pitavastatin Calcium	0	decongestant
+Ramelteon	0	antiviral
+Rifaximin	0	antibiotic
+Ritonavir	0	antibiotic
+Tetrabenazine	0	Asthma
+Tolvaptan	0	antispasmodic
+Azathioprine	1	anti-parkinson's
+Exemestane	1	anti-parkinson's
+Dexamethasone	1	dietary product
+Sulindac	1	antibiotic
+Zidovudine (3'-Azido-3'-Deoxythymidine)	1	immunosuppressive
+Famciclovir	1	steroidal hormone
+Oxazepam	1	antibiotic

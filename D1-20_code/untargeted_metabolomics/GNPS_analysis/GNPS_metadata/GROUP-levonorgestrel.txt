@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-D1.mzXML
+GROUP-2=Levon_D15_D1.mzXML,Levon_D18_D1.mzXML,Levon_D19_D1.mzXML

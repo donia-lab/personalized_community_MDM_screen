@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-C5.mzXML
+GROUP-2=Spiro_D5_C5.mzXML,Spiro_D8_C5.mzXML,Spiro_D10_C5.mzXML,Spiro_D15_C5.mzXML,Spiro_D18_C5.mzXML,Spiro_D20_C5.mzXML

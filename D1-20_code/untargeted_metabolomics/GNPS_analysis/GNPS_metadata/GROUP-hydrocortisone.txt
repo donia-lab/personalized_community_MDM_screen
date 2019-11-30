@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-A5.mzXML
+GROUP-2=Hydro_D7_A5.mzXML,Hydro_D8_A5.mzXML,Hydro_D15_A5.mzXML,Hydro_D18_A5.mzXML

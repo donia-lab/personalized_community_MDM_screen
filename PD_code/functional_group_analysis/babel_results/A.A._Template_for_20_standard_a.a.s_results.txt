@@ -1,0 +1,17 @@
+Cyclosporine A	0	immunosuppressive
+Nateglinide	0	anti-diabetic
+Enalaprilat Maleate	0	anti-hypertensive / cardiac
+Atazanavir	0	antiviral
+Enalapril	0	anti-hypertensive / cardiac
+Quinapril HCl	0	anti-hypertensive / cardiac
+Ramipril	0	anti-hypertensive / cardiac
+Benztropine Mesylate	0	anti-hypertensive / cardiac
+Cefpodoxime Proxetil	0	antibiotic
+Chlorothiazide	0	antibiotic
+Lamivudine	0	anti-epileptic
+Methocarbamol	0	antibiotic
+Nadolol	0	anti-hypertensive / cardiac
+Perphenazine	0	anti-hypertensive / cardiac
+Ropinirole HCl	0	antiviral
+Selegiline HCl	0	antiviral
+Trazodone HCl	0	anti-hypertensive / cardiac

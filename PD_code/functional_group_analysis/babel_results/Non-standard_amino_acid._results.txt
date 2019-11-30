@@ -1,0 +1,26 @@
+Clindamycin Hcl	0	antibiotic
+Cyclosporine A	0	immunosuppressive
+Lincomycin HCl	0	antibiotic
+Bromocriptine Mesylate	0	anti-parkinson's
+Ergotamine Tartrate	0	anti-migraine
+Clindamycin Palmitate HCl	0	antibiotic
+Fosinopril Na	0	anti-hypertensive / cardiac
+Atazanavir	0	antiviral
+Thalidomide	0	immunomodulatory
+Clopidogrel Hydrogen Sulfate 	0	anti-platelet
+Quinapril HCl	0	anti-hypertensive / cardiac
+Ramipril	0	anti-hypertensive / cardiac
+Nelfinavir Mesylate	0	antiviral
+Benztropine Mesylate	0	anti-hypertensive / cardiac
+Cefpodoxime Proxetil	0	antibiotic
+Chlorothiazide	0	antibiotic
+Ezetimibe	0	immunosuppressive
+Irbesartan	0	antiviral
+Lamivudine	0	anti-epileptic
+Levocetirizine Dihydrochloride	0	anticancer
+Loxapine Succinate	0	antiviral
+Nadolol	0	anti-hypertensive / cardiac
+Perphenazine	0	anti-hypertensive / cardiac
+Selegiline HCl	0	antiviral
+Telbivudine 	0	erectile dysfunction
+Trazodone HCl	0	anti-hypertensive / cardiac

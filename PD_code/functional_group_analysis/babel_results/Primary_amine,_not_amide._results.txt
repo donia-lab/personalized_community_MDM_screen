@@ -1,0 +1,47 @@
+Procainamide HCl	0	anti-arrythmic / cardiac
+Amantadine HCl	0	anti-Parkinson's
+Prazosin HCl	0	anti-hypertensive / cardiac
+Emtricitabine	0	antiviral
+Memantine HCl	0	anti-Alzheimer's
+Riluzole HCl	0	anti-ALS
+Aminophylline 	0	bronchodilator
+Metoclopramide HCl	0	antiemetic
+Lamotrigine	0	antiepileptic
+Tacrine HCl	0	anti-Alzheimer's
+Amiloride HCl 2H2O	0	Diuretic
+Amlodipine	0	anti-hypertensive / cardiac
+Gabapentin	0	anti-epileptic
+Alfuzosin	0	Muscle relaxant
+Tranylcypromine Hemisulfate	0	antidepressant
+Oseltamivir Phosphate	0	antiviral
+Pramipexole Dihydrochloride Monohydrate	0	anti-parkinson's
+Acyclovir (Acycloguanosine) Zovirax	0	antiviral
+4-Aminosalicylic Acid	0	antibiotic
+Doxazosin Mesylate	0	anti-hypertensive / cardiac
+Nystatin	0	antifungal
+Primaquine Phosphate	0	antimalarial
+Rimantadine HCl	0	antiviral
+Sulfadiazine	0	antibiotic
+Terazosin HCl	0	muscle relaxant
+Trimethoprim	0	antibiotic
+Abacavir Sulfate	0	antiviral
+Alosetron HCl	0	antiviral
+Cefpodoxime Proxetil	0	antibiotic
+Chlorothiazide	0	antibiotic
+Darifenacin HBr	0	antibiotic
+Dasatinib	0	antiviral
+Flavoxate HCl	0	immunomodulatory
+Formoterol	0	antidepressant
+Griseofulvin	0	antibiotic
+Labetalol HCl	0	NSAID
+Lansoprazole	0	antiviral
+Levocetirizine Dihydrochloride	0	anticancer
+Miconazole	0	anti-arrythmic / cardiac
+Mirtazapine	0	fibromyalgia
+Perphenazine	0	anti-hypertensive / cardiac
+Quinidine HCl H2O	0	antimalarial
+Sorafenib Tosylate	0	anti-diabetic
+Tiagabine HCl	0	anticancer
+Triazolam	0	diuretic
+Flutamide	1	antiviral
+Paliperidone	1	antibiotic

@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-G9.mzXML
+GROUP-2=Vorin_D5_G9.mzXML,Vorin_D9_G9.mzXML

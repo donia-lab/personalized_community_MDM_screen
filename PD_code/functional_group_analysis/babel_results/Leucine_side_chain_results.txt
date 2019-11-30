@@ -1,0 +1,9 @@
+Cyclosporine A	0	immunosuppressive
+Nisoldipine	0	anti-hypertensive / cardiac
+Bromocriptine Mesylate	0	anti-parkinson's
+Ibuprofen	0	NSAID
+Dasatinib	0	antiviral
+Fexofenadine HCl	0	anti-gout
+Reserpine	0	anti-diabetic
+Theophylline	0	antipsychotic
+Oxazepam	1	antibiotic

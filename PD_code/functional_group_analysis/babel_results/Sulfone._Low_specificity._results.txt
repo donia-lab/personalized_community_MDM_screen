@@ -1,0 +1,59 @@
+Tolbutamide	0	anti-diabetic
+Glipizide	0	anti-diabetic
+Sotalol HCl	0	anti-arrythmic / cardiac
+Famotidine	0	anti-histamine
+Vardenafil 	0	erectile dysfunction
+Sildenafil Citrate	0	erectile dysfunction
+Eprosartan Mesylate	0	anti-hypertensive / cardiac
+Imatinib Mesylate	0	anticancer
+Dofetilide	0	anti-arrythmic / cardiac
+Bromocriptine Mesylate	0	anti-parkinson's
+Bumetanide	0	Diuretic
+Tranylcypromine Hemisulfate	0	antidepressant
+Piroxicam	0	NSAID
+Meloxicam	0	NSAID
+Delavirdine Mesylate	0	antiviral
+Lapatinib Ditosylate	0	anticancer
+Zafirlukast	0	Asthma
+Diazoxide	0	Peripheral vasodilator
+Glyburide	0	anti-diabetic
+Tolazamide	0	anti-diabetic
+Bicalutamide	0	anti-androgen
+Fosinopril Na	0	anti-hypertensive / cardiac
+Sumatriptan Succinate	0	anti-migraine
+Clopidogrel Hydrogen Sulfate 	0	anti-platelet
+Doxazosin Mesylate	0	anti-hypertensive / cardiac
+Furosemide	0	diuretic
+Glimepiride	0	anti-diabetic
+Indapamide	0	diuretic
+Nelfinavir Mesylate	0	antiviral
+Sulfadiazine	0	antibiotic
+Tamsulosin HCl	0	muscle relaxant
+Bosentan	0	Pulmonary arterial hypertension
+Abacavir Sulfate	0	antiviral
+Acetohexamide	0	anti-diabetic
+Biperiden HCl	0	anti-parkinson's
+Chlorpropamide	0	diuretic
+Chlorthalidone	0	anti-diabetic
+Chlorzoxazone	0	diuretic
+Darifenacin HBr	0	antibiotic
+Dasatinib	0	antiviral
+Eszopiclone	0	steroidal hormone
+Hydroflumethiazide	0	diuretic
+Hydroxychloroquine Sulfate	0	diuretic
+Hydroxyzine Dihydrochloride	0	antimalarial
+Methenamine Hippurate	0	glaucoma
+Metyrapone	0	diuretic
+Nebivolol HCl	0	anti-migraine
+Pemirolast Potassium	0	anticancer
+Repaglinide	0	anti-parkinson's
+Rufinamide	0	cholesterol-lowering agent
+Selegiline HCl	0	antiviral
+Sunitinib Malate	0	anticancer
+Tetrabenazine	0	Asthma
+Torsemide	0	anti-epileptic
+Trandolapril	0	diuretic
+Spironolactone	1	immunomodulatory
+Sulfasalazine	1	antibiotic
+Nitrofurantoin	1	anti-gout
+Paliperidone	1	antibiotic

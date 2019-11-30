@@ -1,0 +1,12 @@
+Montelukast Na	0	Asthma
+Cromolyn Na (Disodium Cromoglycate)	0	Asthma
+Fluvastatin Na	0	cholesterol-lowering agent
+Fosinopril Na	0	anti-hypertensive / cardiac
+Diclofenac Na Salt	0	NSAID
+Fenoprofen Calcium	0	NSAID
+Tolmetin sodium dihydrate	0	NSAID
+Benazepril HCl	0	cholesterol-lowering agent
+Mefloquine HCl	0	NSAID
+Posaconazole	0	cholesterol-lowering agent
+Primidone	0	cholesterol-lowering agent
+Rufinamide	0	cholesterol-lowering agent

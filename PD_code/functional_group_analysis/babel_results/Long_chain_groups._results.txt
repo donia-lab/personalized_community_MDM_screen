@@ -1,0 +1,51 @@
+Felbamate	0	antiepileptic
+Tolbutamide	0	anti-diabetic
+Procainamide HCl	0	anti-arrythmic / cardiac
+Cimetidine	0	anti-histamine
+Metoclopramide HCl	0	antiemetic
+Famotidine	0	anti-histamine
+Carvedilol	0	anti-hypertensive / cardiac
+Verapamil HCl	0	anti-hypertensive / cardiac
+Alfuzosin	0	Muscle relaxant
+Acitretin	0	psoriasis
+Terbinafine HCl	0	antifungal
+Clindamycin Palmitate HCl	0	antibiotic
+Enalaprilat Maleate	0	anti-hypertensive / cardiac
+Fluvastatin Na	0	cholesterol-lowering agent
+Fosinopril Na	0	anti-hypertensive / cardiac
+Atazanavir	0	antiviral
+Cabergoline	0	hyperprolactinemia
+Chloroquine Diphosphate	0	antimalarial
+Enalapril	0	anti-hypertensive / cardiac
+Quinapril HCl	0	anti-hypertensive / cardiac
+Ramipril	0	anti-hypertensive / cardiac
+Alosetron HCl	0	antiviral
+Benazepril HCl	0	cholesterol-lowering agent
+Cefpodoxime Proxetil	0	antibiotic
+Chlorothiazide	0	antibiotic
+Chlorthalidone	0	anti-diabetic
+Dasatinib	0	antiviral
+Dienogest	0	antispasmodic
+Doxepin HCl	0	anti-arrythmic / cardiac
+Flavoxate HCl	0	immunomodulatory
+Formoterol	0	antidepressant
+Hydroxyzine Dihydrochloride	0	antimalarial
+Loxapine Succinate	0	antiviral
+Mestranol	0	anti-anxiety
+Nadolol	0	anti-hypertensive / cardiac
+Nortriptyline HCl	0	anti-histamine
+Oxytetracycline HCl	0	antispasmodic
+Perphenazine	0	anti-hypertensive / cardiac
+Posaconazole	0	cholesterol-lowering agent
+Primidone	0	cholesterol-lowering agent
+Ropinirole HCl	0	antiviral
+Rufinamide	0	cholesterol-lowering agent
+Selegiline HCl	0	antiviral
+Tadalafil	0	anticancer
+Trazodone HCl	0	anti-hypertensive / cardiac
+Dexamethasone	1	dietary product
+Dolasetron	1	HDAC inhibitor
+Zidovudine (3'-Azido-3'-Deoxythymidine)	1	immunosuppressive
+Flutamide	1	antiviral
+Fluoxetine HCl	1	anti-ulcer
+Megestrol Acetate	1	anticancer

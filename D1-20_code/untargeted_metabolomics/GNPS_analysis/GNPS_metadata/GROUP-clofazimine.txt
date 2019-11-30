@@ -1,0 +1,2 @@
+GROUP-1=BG-1X-P1-G1.mzXML
+GROUP-2=Clofaz_D8_G1.mzXML,Clofaz_D9_G1.mzXML,Clofaz_D10_G1.mzXML,Clofaz_D13_G1.mzXML,Clofaz_D15_G1.mzXML,Clofaz_D16_G1.mzXML
