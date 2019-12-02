@@ -263,7 +263,7 @@ print(gcf, '-dsvg', '-painters','figures/drug_heatmap_figure_vector.svg');
 
 %% Make metabolite heatmap
 
-newfigure(4,4);
+newfigure(1.2*4,4);
 h1 = imagesc(mean_met_table.Variables);
 hold on
 colormap(parula)

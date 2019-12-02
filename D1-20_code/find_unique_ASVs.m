@@ -36,14 +36,22 @@ total_num_unique_ASVs = length(combined_unique_ASVs);
 mean_num_unique_ASVs = mean(num_unique_ASVs);
 
 
+%% Load taxonomy and make table of unique ASVs for export 
 
-%% Verify unique ASVs and see what samples they are present in
+unique_table = readtable('16S_data/taxonomy.csv');
+unique_table = unique_table(contains(unique_table.FeatureID,combined_unique_ASVs),:);
+unique_table.donor = nan(size(unique_table.Confidence));
+unique_table.conditions = cell(size(unique_table.Confidence));
 
-test_asv = '1c2edba6f16fd68a4972f9933d463941';
-samples = filtered_manifest.sample;
-test_asv_abun = zeros(length(samples),1);
-for i = 1:length(samples)
-    test_asv_abun(i) = filtered_manifest.rel_asv{i}{test_asv,:};
+for i = 1:size(unique_table,1)
+    ASV = unique_table.FeatureID{i};
+    test_ASV_abun = zeros(size(filtered_manifest.donor));
+    for j = 1:length(test_ASV_abun)
+        test_asv_abun(j) = filtered_manifest.rel_asv{j}{ASV,:};
+    end
+    unique_table.conditions{i} = join(unique(filtered_manifest.media(test_asv_abun > 0)),',');
+    unique_table.donor(i) = unique(filtered_manifest.donor(test_asv_abun > 0));
 end
 
-present_samples = samples(test_asv_abun > 0);
+unique_table = sortrows(unique_table,'donor','ascend');
+writetable(unique_table,'saved_analyses/unique_ASV_table.csv')

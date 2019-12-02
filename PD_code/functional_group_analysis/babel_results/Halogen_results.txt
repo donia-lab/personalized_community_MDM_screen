@@ -1,214 +1,140 @@
-Clindamycin Hcl	0	antibiotic
-Donepezil HCl	0	anti-Alzheimer's
-Lincomycin HCl	0	antibiotic
+Clindamycin·HCl	0	antibiotic
 Pimozide	0	antipsychotic
-Loperamide HCl	0	anti-diarrhea
-Quinine HCl H2O	0	anti-malarial (anti-protozoal)
-Propafenone HCl	0	anti-arrythmic / cardiac
-Procainamide HCl	0	anti-arrythmic / cardiac
+Loperamide·HCl	0	anti-diarrhea
 Flecainide Acetate	0	anti-arrythmic / cardiac
-Amantadine HCl	0	anti-Parkinson's
-Prazosin HCl	0	anti-hypertensive / cardiac
-Clonidine HCl	0	anti-hypertensive / cardiac
+Clonidine·HCl	0	anti-hypertensive / cardiac
 Guanabenz Acetate 	0	anti-hypertensive / cardiac
 Emtricitabine	0	antiviral
-Sotalol HCl	0	anti-arrythmic / cardiac
-Maprotiline HCl	0	antidepressant
-Pilocarpine HCl	0	Cholinergic Receptor Agonist/anti-glaucoma
 Haloperidol 	0	antipsychotic
-Naltrexone HCl	0	Opoid antagonist
-Memantine HCl	0	anti-Alzheimer's
-Riluzole HCl	0	anti-ALS
-Apomorphine HCl Hemihydrate	0	anti-parkinson's
-Fluphenazine  HCl	0	antipsychotic
-Diphenhydramine HCl	0	anti-histamine
-Promethazine HCl	0	anti-histamine
-Imipramine HCl	0	antidepressant
+Riluzole·HCl	0	anti-ALS
+Fluphenazine· HCl	0	antipsychotic
 Amoxapine	0	antidepressant
-Metoclopramide HCl	0	antiemetic
-Ticlopidine HCl	0	anti-platelet
+Metoclopramide·HCl	0	antiemetic
+Ticlopidine·HCl	0	anti-platelet
 Linezolid	0	antibiotic
 Lamotrigine	0	antiepileptic
 Atovaquone	0	anti-malarial (anti-protozoal)
 Aripiprazole	0	antipsychotic
 Escitalopram 	0	antidepressant
-Guanfacine HCl	0	anti-hypertensive / cardiac
-Tizanidine HCl	0	muscle relaxant
+Guanfacine·HCl	0	anti-hypertensive / cardiac
+Tizanidine·HCl	0	muscle relaxant
 Gefitinib	0	anticancer
-Montelukast Na	0	Asthma
-Metformin HCl	0	anti-diabetic
+Montelukast·Na	0	Asthma
 Anagrelide	0	anti-platelet
-Tacrine HCl	0	anti-Alzheimer's
-Galantamine HBr	0	anti-Alzheimer's
-Amiloride HCl 2H2O	0	Diuretic
+Amiloride·HCl·2H2O	0	Diuretic
 Amlodipine	0	anti-hypertensive / cardiac
-Verapamil HCl	0	anti-hypertensive / cardiac
 Felodipine	0	anti-hypertensive / cardiac
-Phenoxybenzamine HCl	0	anti-hypertensive / cardiac
-Trifluoperazine  HCl	0	antipsychotic
+Phenoxybenzamine·HCl	0	anti-hypertensive / cardiac
+Trifluoperazine· HCl	0	antipsychotic
 Bromocriptine Mesylate	0	anti-parkinson's
 Clozapine	0	antipsychotic
 Ketoconazole	0	antifungal
 Indomethacin	0	NSAID
-Moxifloxacin HCl	0	antibiotic
-Terbinafine HCl	0	antifungal
-Raloxifene HCl	0	anti-estrogen
+Moxifloxacin·HCl	0	antibiotic
 Cetirizine HCl	0	anti-histamine
 Lapatinib Ditosylate	0	anticancer
-Pioglitazone HCl	0	anti-diabetic
 Diazoxide	0	Peripheral vasodilator
 Glyburide	0	anti-diabetic
 Bicalutamide	0	anti-androgen
-Clindamycin Palmitate HCl	0	antibiotic
-Fluvastatin Na	0	cholesterol-lowering agent
-Fosinopril Na	0	anti-hypertensive / cardiac
-Granisetron HCl	0	antiemetic
-Pramipexole Dihydrochloride Monohydrate	0	anti-parkinson's
-Buspirone HCl	0	anti-anxiety
+Clindamycin Palmitate·HCl	0	antibiotic
+Fluvastatin·Na	0	cholesterol-lowering agent
 Chlorpheniramine Maleate	0	anti-histamine
 Chloroquine Diphosphate	0	antimalarial
 Ciprofloxacin	0	antibiotic
-Citalopram HBr	0	antidepressant
+Citalopram·HBr	0	antidepressant
 Clomiphene Citrate	0	infertility
 Clopidogrel Hydrogen Sulfate 	0	anti-platelet
 Cyclophosphamide monohydrate	0	anticancer
 Desloratadine	0	anti-histamine
-Diclofenac Na Salt	0	NSAID
+Diclofenac·Na Salt	0	NSAID
 Diflunisal	0	NSAID
 Flurbiprofen	0	NSAID
-Amitriptyline HCl	0	antidepressant
 Fluconazole	0	antifungal
 Furosemide	0	diuretic
 Gatifloxacin	0	antibiotic
 Indapamide	0	diuretic
 Itraconazole	0	antifungal
-Levofloxacin HCl	0	antibiotic
+Levofloxacin·HCl	0	antibiotic
 Leflunomide	0	immunosuppressive
 Loratadine	0	anti-histamine
 Losartan Potassium	0	anti-hypertensive / cardiac
-Nefazodone HCl	0	antidepressant
+Nefazodone·HCl	0	antidepressant
 Ofloxacin	0	antibiotic
-Paroxetine HCl	0	antidepressant
-Quinapril HCl	0	anti-hypertensive / cardiac
-Ranolazine 2HCl	0	anti-angina
-Rimantadine HCl	0	antiviral
-Propranolol HCl	0	anti-hypertensive / cardiac
-Scopolamine HBr	0	antiemetic
-Tamsulosin HCl	0	muscle relaxant
-Terazosin HCl	0	muscle relaxant
-Topotecan HCl	0	anticancer
+Paroxetine·HCl	0	antidepressant
 Toremifene Base	0	Selective Estrogen Receptor Modulator
-Tramadol HCl	0	analgesic
-Venlafaxine HCl	0	antidepressant
-Thioridazine HCl	0	antipsychotic
 Aprepitant	0	antiemetic
 Efavirenz	0	antiviral
-Cyproheptadine HCl Sesquihydrate	0	anti-histamine
-Acebutolol HCl	0	anti-hypertensive / cardiac
-Ambrisentan	0	anti-diarrhea
-Atorvastatin Calcium	0	antipsychotic
-Benazepril HCl	0	cholesterol-lowering agent
-Benztropine Mesylate	0	anti-hypertensive / cardiac
-Bisoprolol Fumarate	0	anti-parkinson's
-Budesonide	0	anti-histamine
-Butorphanol-(+)-Tartrate (Schedule Iv)	0	antidepressant
-Cefditoren Pivoxil	0	anti-histamine
-Chlorpropamide	0	diuretic
-Chlorthalidone	0	anti-diabetic
-Chlorzoxazone	0	diuretic
-Cilostazol	0	muscle relaxant
-Clobazam	0	hyperparathyroidism
-Clomipramine HCl	0	anti-epileptic
-Colchicine	0	antidepressant
-Dapsone	0	muscle relaxant
-Darunavir	0	antispasmodic
-Deferasirox	0	anticancer
-Desipramine HCl	0	antibiotic
-Desvenlafaxine Succinate Hydrate	0	antidepressant
-Diazepam	0	anti-histamine
-Dicyclomine HCl	0	anti-anxiety
-Dienogest	0	antispasmodic
-Disopyramide 	0	anti-histamine
-Drospirenone	0	antidepressant
-Estropipate	0	steroidal hormone
-Ethinyl Estradiol	0	hypnotic
-Febuxostat	0	cholesterol-lowering agent
-Fingolimod	0	anti-histamine
-Fluvoxamine Maleate	0	antispasmodic
-Formoterol	0	antidepressant
-Griseofulvin	0	antibiotic
-Hydralazine HCl	0	antifungal
-Hydrochlorothiazide	0	anti-hypertensive / cardiac
+Asenapine Maleate	0	antipsychotic
+Atorvastatin Calcium	0	cholesterol-lowering agent
+Brompheniramine Maleate	0	anti-histamine
+Bupropion 	0	antidepressant
+Carbinoxamine Maleate	0	anti-histamine
+Chlorothiazide	0	diuretic
+Chlorpropamide	0	anti-diabetic
+Chlorthalidone	0	diuretic
+Chlorzoxazone	0	muscle relaxant
+Cinacalcet·HCl	0	hyperparathyroidism
+Clobazam	0	anti-epileptic
+Clomipramine·HCl	0	antidepressant
+Dasatinib	0	anticancer
+Demeclocycline·HCl	0	antibiotic
+Dexchlorpheniramine Maleate	0	anti-histamine
+Diazepam	0	anti-anxiety
+Dutasteride	0	steroidal hormone
+Eszopiclone	0	hypnotic
+Ezetimibe	0	cholesterol-lowering agent
+Fluvoxamine Maleate	0	antidepressant
+Gemifloxacin 	0	antibiotic
+Griseofulvin	0	antifungal
+Hydrochlorothiazide	0	diuretic
 Hydroflumethiazide	0	diuretic
-Hydroxychloroquine Sulfate	0	diuretic
-Hydroxyzine Dihydrochloride	0	antimalarial
-Indinavir 	0	anti-histamine
-Lacosamide	0	anti-hypertensive / cardiac
-Lenalidomide	0	proton pump inhibitor
-Lopinavir	0	anti-histamine
-Maraviroc	0	antipsychotic
-Meclizine Dihydrochloride	0	antiviral
-Meclofenamate Na	0	anti-histamine
-Mefloquine HCl	0	NSAID
-Mepenzolate Bromide	0	antimalarial
-Meprobamate (Schedule Iv)	0	parasympathetic inhibitor
-Metyrapone	0	diuretic
-Miconazole	0	anti-arrythmic / cardiac
-Milnacipran HCl	0	antifungal
-Mirtazapine	0	fibromyalgia
-Modafinil (Schedule Iv)	0	anticancer
-Nadolol	0	anti-hypertensive / cardiac
-Nebivolol HCl	0	anti-migraine
-Nevirapine	0	anti-hypertensive / cardiac
-Oxaprozin	0	antidepressant
-Oxytetracycline HCl	0	antispasmodic
-Palonosetron HCl	0	antibiotic
-Pazopanib HCl	0	antiemetic
-Pemirolast Potassium	0	anticancer
-Phenylephrine 	0	antipsychotic
-Posaconazole	0	cholesterol-lowering agent
-Pravastatin Na	0	antifungal
-Pyrazinamide	0	antidepressant
-Quinidine HCl H2O	0	antimalarial
-Rabeprazole Na	0	anti-arrythmic / cardiac
-Ramelteon	0	antiviral
-Rosuvastatin Calcium	0	anti-parkinson's
-Rufinamide	0	cholesterol-lowering agent
-Saquinavir Mesylate	0	anti-epileptic
-Sertraline HCl	0	anti-parkinson's
-Sitagliptin Phosphate	0	antidepressant
-Sorafenib Tosylate	0	anti-diabetic
+Hydroxychloroquine Sulfate	0	antimalarial
+Hydroxyzine Dihydrochloride	0	anti-histamine
+Lansoprazole	0	proton pump inhibitor
+Levocetirizine Dihydrochloride	0	anti-histamine
+Loxapine Succinate	0	antipsychotic
+Maraviroc	0	antiviral
+Meclizine Dihydrochloride	0	anti-histamine
+Meclofenamate·Na	0	NSAID
+Mefloquine·HCl	0	antimalarial
+Metolazone	0	diuretic
+Miconazole	0	antifungal
+Mitotane	0	anticancer
+Nebivolol·HCl	0	anti-hypertensive / cardiac
+Perphenazine	0	antipsychotic
+Pitavastatin Calcium	0	cholesterol-lowering agent
+Posaconazole	0	antifungal
+Pyrimethamine	0	antimalarial
+Raltegravir	0	antiviral
+Rosuvastatin Calcium	0	cholesterol-lowering agent
+Rufinamide	0	anti-epileptic
+Sertraline·HCl	0	antidepressant
+Sitagliptin Phosphate	0	anti-diabetic
+Sorafenib Tosylate	0	anticancer
 Sunitinib Malate	0	anticancer
-Tadalafil	0	anticancer
-Terbutaline Hemisulfate	0	antidepressant
-Tolterodine Tartrate	0	anti-epileptic
-Topiramate	0	hyponatremia
-Triamcinolone Acetonide	0	antidepressant
-Triamterene	0	steroidal anti-inflammatory
-Trihexyphenidyl HCl	0	insomnia
-Trimethobenzamide HCl	0	anti-parkinson's
-Trimipramine Maleate	0	antiemetic
-Voriconazole	0	antispasmodic
-Warfarin Na	0	antifungal
-Nicardipine HCl	0	antipsychotic
-Risperidone	1	anti-hypertensive / cardiac
-Tolcapone	1	antipsychotic
-Ethacrynic Acid	1	steroidal anti-inflammatory
-Rifampin (Rifampicin)	1	diuretic
-Vorinostat 	1	NSAID
-Bisacodyl	1	steroidal anti-inflammatory
-Hydrocortisone	1	anti-androgen
-Nabumetone	1	anti-GERD
-Tinidazole	1	antidepressant
-Megestrol Acetate	1	anticancer
-Adefovir Dipivoxil	1	antibiotic
-Chenodiol (Chenodeoxycholic Acid)	1	anti-epileptic
-Cortisone Acetate	1	antidepressant
-Dantrolene Na	1	steroidal anti-inflammatory
-Duloxetine HCl	1	antipsychotic
-Fludarabine Phosphate	1	anti-anxiety
-Fludrocortisone Acetate 	1	anti-androgen
-Iloperidone	1	hereditary tyrosinemia type 1 (HT-1)
-Nilutamide	1	anti-anxiety
-Nitazoxanide	1	antipsychotic
-Nitisinone	1	anti-platelet
+Temazepam	0	antidepressant
+Tolvaptan	0	hyponatremia
+Trazodone·HCl	0	antidepressant
+Triamcinolone Acetonide	0	steroidal anti-inflammatory
+Triazolam	0	insomnia
+Voriconazole	0	antifungal
+Ziprasidone hydrochloride	0	antipsychotic
+Risperidone	1	antipsychotic
+Dexamethasone	1	steroidal anti-inflammatory
+Ethacrynic Acid	1	diuretic
+Sulindac	1	NSAID
+Betamethasone	1	steroidal anti-inflammatory
+Flutamide	1	anti-androgen
+Pantoprazole	1	anti-GERD
+Fluoxetine·HCl	1	antidepressant
+Capecitabine	1	anticancer
+Clofazimine	1	antibiotic
+Clonazepam	1	anti-epileptic
+Fludrocortisone Acetate 	1	steroidal anti-inflammatory
+Iloperidone	1	antipsychotic
+Lorazepam	1	anti-anxiety
+Nilutamide	1	anti-androgen
+Nitisinone	1	hereditary tyrosinemia type 1 (HT-1)
+Oxazepam	1	anti-anxiety
+Paliperidone	1	antipsychotic
+Prasugrel	1	anti-platelet

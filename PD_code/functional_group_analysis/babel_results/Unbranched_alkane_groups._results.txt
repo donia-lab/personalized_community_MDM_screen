@@ -1,5 +1,5 @@
 Tolbutamide	0	anti-diabetic
-Maprotiline HCl	0	antidepressant
+Maprotiline·HCl	0	antidepressant
 Cimetidine	0	anti-histamine
 Quetiapine Fumarate	0	antipsychotic
 Famotidine	0	anti-histamine
@@ -12,30 +12,30 @@ Alfuzosin	0	Muscle relaxant
 Bumetanide	0	Diuretic
 Cetirizine HCl	0	anti-histamine
 Lapatinib Ditosylate	0	anticancer
-Clindamycin Palmitate HCl	0	antibiotic
-Fosinopril Na	0	anti-hypertensive / cardiac
+Clindamycin Palmitate·HCl	0	antibiotic
+Fosinopril·Na	0	anti-hypertensive / cardiac
 Acyclovir (Acycloguanosine) Zovirax	0	antiviral
-Buspirone HCl	0	anti-anxiety
+Buspirone·HCl	0	anti-anxiety
 Gemfibrozil	0	cholesterol-lowering agent
 Pentoxifylline	0	hemorrheologic
-Tamsulosin HCl	0	muscle relaxant
-Alosetron HCl	0	antiviral
-Brompheniramine Maleate	0	anti-hypertensive / cardiac
-Cinacalcet HCl	0	anti-platelet
-Clobazam	0	hyperparathyroidism
-Desvenlafaxine Succinate Hydrate	0	antidepressant
-Flavoxate HCl	0	immunomodulatory
-Formoterol	0	antidepressant
-Indinavir 	0	anti-histamine
-Lopinavir	0	anti-histamine
-Nortriptyline HCl	0	anti-histamine
-Oxaprozin	0	antidepressant
-Pyrazinamide	0	antidepressant
-Raltegravir	0	proton pump inhibitor
-Temazepam	0	antibiotic
-Capsaicin	1	anti-hypertensive / cardiac
-Dexamethasone	1	dietary product
-Dolasetron	1	HDAC inhibitor
-Fluoxetine HCl	1	anti-ulcer
-Megestrol Acetate	1	anticancer
-Duloxetine HCl	1	antipsychotic
+Tamsulosin·HCl	0	muscle relaxant
+Adefovir Dipivoxil	0	antiviral
+Bisoprolol Fumarate	0	anti-hypertensive / cardiac
+Cilostazol	0	anti-platelet
+Cinacalcet·HCl	0	hyperparathyroidism
+Desipramine·HCl	0	antidepressant
+Fingolimod	0	immunomodulatory
+Fluvoxamine Maleate	0	antidepressant
+Hydroxyzine Dihydrochloride	0	anti-histamine
+Levocetirizine Dihydrochloride	0	anti-histamine
+Nizatidine	0	anti-histamine
+Nortriptyline·HCl	0	antidepressant
+Protriptyline·HCl	0	antidepressant
+Rabeprazole·Na	0	proton pump inhibitor
+Telithromycin	0	antibiotic
+Nimodipine	1	anti-hypertensive / cardiac
+Capsaicin	1	dietary product
+Vorinostat 	1	HDAC inhibitor
+Misoprostol	1	anti-ulcer
+Capecitabine	1	anticancer
+Iloperidone	1	antipsychotic

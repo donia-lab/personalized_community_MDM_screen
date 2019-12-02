@@ -1,4 +1,4 @@
 Lapatinib Ditosylate	0	anticancer
 Bicalutamide	0	anti-androgen
-Darifenacin HBr	0	antibiotic
-Sulfasalazine	1	antibiotic
+Dapsone	0	antibiotic
+Tinidazole	1	antibiotic

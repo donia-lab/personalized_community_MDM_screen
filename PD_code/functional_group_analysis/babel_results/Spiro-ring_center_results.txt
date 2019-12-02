@@ -1,6 +1,6 @@
-Buspirone HCl	0	anti-anxiety
-Dutasteride	0	steroidal hormone
-Hydralazine HCl	0	antifungal
-Isocarboxazid	0	anti-hypertensive / cardiac
-Prednisone	1	steroidal diuretic
-Oxazepam	1	antibiotic
+Buspirone·HCl	0	anti-anxiety
+Drospirenone	0	steroidal hormone
+Griseofulvin	0	antifungal
+Irbesartan	0	anti-hypertensive / cardiac
+Spironolactone	1	steroidal diuretic
+Rifabutin	1	antibiotic

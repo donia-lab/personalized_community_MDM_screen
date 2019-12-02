@@ -1,10 +1,10 @@
 Erlotinib	0	anticancer
-Terbinafine HCl	0	antifungal
+Terbinafine·HCl	0	antifungal
 Levonorgestrel	0	steroidal hormone
 Mifepristone	0	steroidal hormone
 Efavirenz	0	antiviral
-Ethionamide	0	steroidal hormone
-Metaproterenol Hemisulfate (Orciprenaline)	0	steroidal hormone
-Oxytetracycline HCl	0	antispasmodic
-Repaglinide	0	anti-parkinson's
-Sertraline HCl	0	anti-parkinson's
+Ethinyl Estradiol	0	steroidal hormone
+Mestranol	0	steroidal hormone
+Oxybutynin Chloride	0	antispasmodic
+Rasagiline Mesylate	0	anti-parkinson's
+Selegiline·HCl	0	anti-parkinson's

@@ -1,7 +1,7 @@
-Dicyclomine HCl	0	anti-anxiety
-Terbutaline Hemisulfate	0	antidepressant
-Trihexyphenidyl HCl	0	insomnia
-Chenodiol (Chenodeoxycholic Acid)	1	anti-epileptic
-Fludarabine Phosphate	1	anti-anxiety
-Nilutamide	1	anti-anxiety
-Oxazepam	1	antibiotic
+Diazepam	0	anti-anxiety
+Temazepam	0	antidepressant
+Triazolam	0	insomnia
+Clonazepam	1	anti-epileptic
+Lorazepam	1	anti-anxiety
+Oxazepam	1	anti-anxiety
+Rifabutin	1	antibiotic

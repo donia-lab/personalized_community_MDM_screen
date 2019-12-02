@@ -1,16 +1,16 @@
-Prazosin HCl	0	anti-hypertensive / cardiac
+Prazosin·HCl	0	anti-hypertensive / cardiac
 Lapatinib Ditosylate	0	anticancer
 Furosemide	0	diuretic
 Leflunomide	0	immunosuppressive
-Cilostazol	0	muscle relaxant
-Isradipine	0	antidepressant
-Ketorolac Tromethamine	0	anti-hypertensive / cardiac
-Methylergonovine Maleate	0	psoriasis
-Oxtriphylline	0	NSAID
-Ramelteon	0	antiviral
-Tolcapone	1	antipsychotic
-Clonazepam	1	muscle relaxant
-Duloxetine HCl	1	antipsychotic
-Lorazepam	1	antibiotic
-Nitazoxanide	1	antipsychotic
-Paliperidone	1	antibiotic
+Chlorzoxazone	0	muscle relaxant
+Isocarboxazid	0	antidepressant
+Isradipine	0	anti-hypertensive / cardiac
+Methoxsalen (Xanthotoxin)	0	psoriasis
+Oxaprozin	0	NSAID
+Raltegravir	0	antiviral
+Risperidone	1	antipsychotic
+Dantrolene·Na	1	muscle relaxant
+Iloperidone	1	antipsychotic
+Nitrofurantoin	1	antibiotic
+Paliperidone	1	antipsychotic
+Sulfamethoxazole	1	antibiotic

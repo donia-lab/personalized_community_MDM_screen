@@ -1,3 +1,2 @@
-Spironolactone	1	immunomodulatory
-Clonazepam	1	muscle relaxant
-Lorazepam	1	antibiotic
+Dantrolene·Na	1	muscle relaxant
+Nitrofurantoin	1	antibiotic

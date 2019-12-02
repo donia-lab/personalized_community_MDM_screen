@@ -1,7 +1,7 @@
 Esomeprazole Potassium	0	anti-GERD
 Omeprazole	0	anti-GERD
-Lenalidomide	0	proton pump inhibitor
-Moexipril HCl	0	CNS stimulant
-Raltegravir	0	proton pump inhibitor
-Vorinostat 	1	NSAID
-Nabumetone	1	anti-GERD
+Lansoprazole	0	proton pump inhibitor
+Modafinil (Schedule Iv)	0	CNS stimulant
+Rabeprazole·Na	0	proton pump inhibitor
+Sulindac	1	NSAID
+Pantoprazole	1	anti-GERD

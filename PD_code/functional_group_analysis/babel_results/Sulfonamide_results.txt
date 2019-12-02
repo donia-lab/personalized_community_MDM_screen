@@ -1,6 +1,6 @@
 Tolbutamide	0	anti-diabetic
 Glipizide	0	anti-diabetic
-Sotalol HCl	0	anti-arrythmic / cardiac
+Sotalol·HCl	0	anti-arrythmic / cardiac
 Famotidine	0	anti-histamine
 Vardenafil 	0	erectile dysfunction
 Sildenafil Citrate	0	erectile dysfunction
@@ -12,27 +12,26 @@ Delavirdine Mesylate	0	antiviral
 Zafirlukast	0	Asthma
 Glyburide	0	anti-diabetic
 Tolazamide	0	anti-diabetic
-Fosinopril Na	0	anti-hypertensive / cardiac
 Sumatriptan Succinate	0	anti-migraine
 Furosemide	0	diuretic
 Glimepiride	0	anti-diabetic
 Indapamide	0	diuretic
 Sulfadiazine	0	antibiotic
-Tamsulosin HCl	0	muscle relaxant
+Tamsulosin·HCl	0	muscle relaxant
 Bosentan	0	Pulmonary arterial hypertension
 Acetohexamide	0	anti-diabetic
-Chlorpropamide	0	diuretic
-Chlorthalidone	0	anti-diabetic
-Chlorzoxazone	0	diuretic
-Dasatinib	0	antiviral
+Chlorothiazide	0	diuretic
+Chlorpropamide	0	anti-diabetic
+Chlorthalidone	0	diuretic
+Darunavir	0	antiviral
+Hydrochlorothiazide	0	diuretic
 Hydroflumethiazide	0	diuretic
-Hydroxychloroquine Sulfate	0	diuretic
-Methenamine Hippurate	0	glaucoma
-Metyrapone	0	diuretic
-Nebivolol HCl	0	anti-migraine
-Pemirolast Potassium	0	anticancer
-Rufinamide	0	cholesterol-lowering agent
-Trandolapril	0	diuretic
-Spironolactone	1	immunomodulatory
-Nitrofurantoin	1	anti-gout
-Paliperidone	1	antibiotic
+Methazolamide	0	glaucoma
+Metolazone	0	diuretic
+Naratriptan·HCl	0	anti-migraine
+Pazopanib·HCl	0	anticancer
+Rosuvastatin Calcium	0	cholesterol-lowering agent
+Torsemide	0	diuretic
+Sulfasalazine	1	immunomodulatory
+Probenecid	1	anti-gout
+Sulfamethoxazole	1	antibiotic

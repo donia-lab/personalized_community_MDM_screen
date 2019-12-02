@@ -1,10 +1,10 @@
-Donepezil HCl	0	anti-Alzheimer's
-Propafenone HCl	0	anti-arrythmic / cardiac
+Donepezil·HCl	0	anti-Alzheimer's
+Propafenone·HCl	0	anti-arrythmic / cardiac
 Haloperidol 	0	antipsychotic
-Naltrexone HCl	0	Opoid antagonist
+Naltrexone·HCl	0	Opoid antagonist
 Atovaquone	0	anti-malarial (anti-protozoal)
 Ketoprofen	0	NSAID
-Raloxifene HCl	0	anti-estrogen
+Raloxifene·HCl	0	anti-estrogen
 Clarithromycin	0	antibiotic
 Doxycycline Monohydrate	0	antibiotic
 Estrone	0	steroidal hormone
@@ -17,47 +17,46 @@ Tolmetin sodium dihydrate	0	NSAID
 Ketotifen Fumarate	0	anti-histamine
 Ondansetron	0	antiemetic
 Mifepristone	0	steroidal hormone
-Acebutolol HCl	0	anti-hypertensive / cardiac
+Acebutolol·HCl	0	anti-hypertensive / cardiac
 Acetohexamide	0	anti-diabetic
-Bupropion 	0	steroidal anti-inflammatory
-Butorphanol-(+)-Tartrate (Schedule Iv)	0	antidepressant
-Demeclocycline HCl	0	iron chelating agent
-Desipramine HCl	0	antibiotic
-Digoxin	0	steroidal hormone
-Dutasteride	0	steroidal hormone
-Eszopiclone	0	steroidal hormone
-Ezetimibe	0	immunosuppressive
-Hydralazine HCl	0	antifungal
-Labetalol HCl	0	NSAID
-Mexiletine HCl	0	diagnostic
-Palonosetron HCl	0	antibiotic
+Budesonide	0	steroidal anti-inflammatory
+Bupropion 	0	antidepressant
+Deferasirox	0	iron chelating agent
+Demeclocycline·HCl	0	antibiotic
+Dienogest	0	steroidal hormone
+Drospirenone	0	steroidal hormone
+Estropipate	0	steroidal hormone
+Everolimus	0	immunosuppressive
+Griseofulvin	0	antifungal
+Ketorolac Tromethamine	0	NSAID
+Metyrapone	0	diagnostic
+Oxytetracycline·HCl	0	antibiotic
+Rifapentine	0	antibiotic
 Rifaximin	0	antibiotic
-Ritonavir	0	antibiotic
-Temazepam	0	antibiotic
-Theophylline	0	antipsychotic
-Triamterene	0	steroidal anti-inflammatory
-Zaleplon	0	anticoagulant
-Azathioprine	1	anti-parkinson's
-Nimodipine	1	steroidal hormone
-Ethacrynic Acid	1	steroidal anti-inflammatory
-Rifampin (Rifampicin)	1	diuretic
-Sulindac	1	antibiotic
-Mycophenolate Mofetil	1	antiemetic
-Bisacodyl	1	steroidal anti-inflammatory
+Telithromycin	0	antibiotic
+Tetrabenazine	0	antipsychotic
+Triamcinolone Acetonide	0	steroidal anti-inflammatory
+Warfarin·Na	0	anticoagulant
+Tolcapone	1	anti-parkinson's
+Exemestane	1	steroidal hormone
+Dexamethasone	1	steroidal anti-inflammatory
+Ethacrynic Acid	1	diuretic
+Rifampin (Rifampicin)	1	antibiotic
+Dolasetron	1	antiemetic
+Betamethasone	1	steroidal anti-inflammatory
+Hydrocortisone	1	steroidal anti-inflammatory
 Hydrocortisone Acetate	1	steroidal anti-inflammatory
-Medroxyprogesterone Acetate	1	steroidal anti-inflammatory
-Melphalan	1	steroidal anti-inflammatory
-Metronidazole	1	NSAID
-Pantoprazole	1	steroidal anti-inflammatory
-Prednisolone	1	steroidal hormone
-Progesterone	1	steroidal anti-inflammatory
-Prednisone	1	steroidal diuretic
-Spironolactone	1	immunomodulatory
-Fluoxetine HCl	1	anti-ulcer
-Misoprostol	1	steroidal hormone
-Clofazimine	1	steroidal anti-inflammatory
-Dantrolene Na	1	steroidal anti-inflammatory
-Duloxetine HCl	1	antipsychotic
-Iloperidone	1	hereditary tyrosinemia type 1 (HT-1)
-Nitisinone	1	anti-platelet
-Oxazepam	1	antibiotic
+Methylprednisolone	1	steroidal anti-inflammatory
+Nabumetone	1	NSAID
+Prednisolone	1	steroidal anti-inflammatory
+Progesterone	1	steroidal hormone
+Prednisone	1	steroidal anti-inflammatory
+Spironolactone	1	steroidal diuretic
+Misoprostol	1	anti-ulcer
+Megestrol Acetate	1	steroidal hormone
+Cortisone Acetate	1	steroidal anti-inflammatory
+Fludrocortisone Acetate 	1	steroidal anti-inflammatory
+Iloperidone	1	antipsychotic
+Nitisinone	1	hereditary tyrosinemia type 1 (HT-1)
+Prasugrel	1	anti-platelet
+Rifabutin	1	antibiotic

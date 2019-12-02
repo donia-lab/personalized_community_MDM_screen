@@ -1,47 +1,47 @@
 #SMILES	name	modification	drug_class
-CCCC1CC(N(C1)C)C(=O)NC(C2C(C(C(C(O2)SC)O)O)O)C(C)Cl.Cl	Clindamycin Hcl	0	antibiotic
+CCCC1CC(N(C1)C)C(=O)NC(C2C(C(C(C(O2)SC)O)O)O)C(C)Cl	Clindamycin·HCl	0	antibiotic
 C1=CC=C(C=C1)C(COC(=O)N)COC(=O)N	Felbamate	0	antiepileptic
 CCC1C(=O)N(CC(=O)N(C(C(=O)NC(C(=O)N(C(C(=O)NC(C(=O)NC(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N1)C(C(C)CC=CC)O)C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)C)CC(C)C)C)C(C)C)CC(C)C)C)C	Cyclosporine A	0	immunosuppressive
-COC1=C(C=C2C(=C1)CC(C2=O)CC3CCN(CC3)CC4=CC=CC=C4)OC.Cl	Donepezil HCl	0	anti-Alzheimer's
-CCCC1CC(N(C1)C)C(=O)NC(C2C(C(C(C(O2)SC)O)O)O)C(C)O.Cl	Lincomycin HCl	0	antibiotic
+COC1=C(C=C2C(=C1)CC(C2=O)CC3CCN(CC3)CC4=CC=CC=C4)OC	Donepezil·HCl	0	anti-Alzheimer's
+CCCC1CC(N(C1)C)C(=O)NC(C2C(C(C(C(O2)SC)O)O)O)C(C)O	Lincomycin·HCl	0	antibiotic
 CC1=C(C(=C(C2=C1COC2=O)O)CC=C(C)CCC(=O)O)OC	Mycophenolic Acid	0	immunosuppressive
 C1CN(CCC1N2C3=CC=CC=C3NC2=O)CCCC(C4=CC=C(C=C4)F)C5=CC=C(C=C5)F	Pimozide	0	antipsychotic
-CN(C)C(=O)C(CCN1CCC(CC1)(C2=CC=C(C=C2)Cl)O)(C3=CC=CC=C3)C4=CC=CC=C4.Cl	Loperamide HCl	0	anti-diarrhea
+CN(C)C(=O)C(CCN1CCC(CC1)(C2=CC=C(C=C2)Cl)O)(C3=CC=CC=C3)C4=CC=CC=C4	Loperamide·HCl	0	anti-diarrhea
 CCCCNC(=O)NS(=O)(=O)C1=CC=C(C=C1)C	Tolbutamide	0	anti-diabetic
 CC1=NC=C(N=C1)C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)NC3CCCCC3	Glipizide	0	anti-diabetic
-COC1=CC2=C(C=CN=C2C=C1)C(C3CC4CCN3CC4C=C)O.O.O.Cl	Quinine HCl H2O	0	anti-malarial (anti-protozoal)
-CCNCC(COC1=CC=CC=C1C(=O)CCC2=CC=CC=C2)O.Cl	Propafenone HCl	0	anti-arrythmic / cardiac
+COC1=CC2=C(C=CN=C2C=C1)C(C3CC4CCN3CC4C=C)O	Quinine·HCl·H2O	0	anti-malarial (anti-protozoal)
+CCNCC(COC1=CC=CC=C1C(=O)CCC2=CC=CC=C2)O	Propafenone·HCl	0	anti-arrythmic / cardiac
 C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3	Phenytoin	0	antiepileptic
-CCN(CC)CCNC(=O)C1=CC=C(C=C1)N.Cl	Procainamide HCl	0	anti-arrythmic / cardiac
-CC(=O)O.C1CCNC(C1)CNC(=O)C2=C(C=CC(=C2)OCC(F)(F)F)OCC(F)(F)F	Flecainide Acetate	0	anti-arrythmic / cardiac
-CN(CCOC1=CC=C(C=C1)CC2C(=O)NC(=O)S2)C3=CC=CC=N3	Rosiglitazone	0	anti-diabetic
-C1C2CC3CC1CC(C2)(C3)N.Cl	Amantadine HCl	0	anti-Parkinson's
-COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4=CC=CO4)N)OC.Cl	Prazosin HCl	0	anti-hypertensive / cardiac
-C1CN=C(N1)NC2=C(C=CC=C2Cl)Cl.Cl	Clonidine HCl	0	anti-hypertensive / cardiac
-CC(=O)O.C1=CC(=C(C(=C1)Cl)C=NN=C(N)N)Cl	Guanabenz Acetate 	0	anti-hypertensive / cardiac
+CCN(CC)CCNC(=O)C1=CC=C(C=C1)N	Procainamide·HCl	0	anti-arrythmic / cardiac
+C1CCNC(C1)CNC(=O)C2=C(C=CC(=C2)OCC(F)(F)F)OCC(F)(F)F	Flecainide Acetate	0	anti-arrythmic / cardiac
+CN(CCOC1=CC=C(C=C1)CC2C(=O)NC(=O)S2)C3=CC=CC=N3	Rosiglitazone 	0	anti-diabetic
+C1C2CC3CC1CC(C2)(C3)N	Amantadine·HCl	0	anti-Parkinson's
+COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4=CC=CO4)N)OC	Prazosin·HCl	0	anti-hypertensive / cardiac
+C1CN=C(N1)NC2=C(C=CC=C2Cl)Cl	Clonidine·HCl	0	anti-hypertensive / cardiac
+C1=CC(=C(C(=C1)Cl)C=NN=C(N)N)Cl	Guanabenz Acetate 	0	anti-hypertensive / cardiac
 C1C(OC(S1)CO)N2C=C(C(=NC2=O)N)F	Emtricitabine	0	antiviral
 CN1C=NC2=C1C(=O)N(C(=O)N2C)C	Caffeine 	0	CNS stimulant
-CC(C)NCC(C1=CC=C(C=C1)NS(=O)(=O)C)O.Cl	Sotalol HCl	0	anti-arrythmic / cardiac
-CNCCCC12CCC(C3=CC=CC=C31)C4=CC=CC=C24.Cl	Maprotiline HCl	0	antidepressant
-CCC1C(COC1=O)CC2=CN=CN2C.Cl	Pilocarpine HCl	0	Cholinergic Receptor Agonist/anti-glaucoma
+CC(C)NCC(C1=CC=C(C=C1)NS(=O)(=O)C)O	Sotalol·HCl	0	anti-arrythmic / cardiac
+CNCCCC12CCC(C3=CC=CC=C31)C4=CC=CC=C24	Maprotiline·HCl	0	antidepressant
+CCC1C(COC1=O)CC2=CN=CN2C	Pilocarpine·HCl	0	Cholinergic Receptor Agonist/anti-glaucoma
 C1CN(CCC1(C2=CC=C(C=C2)Cl)O)CCCC(=O)C3=CC=C(C=C3)F	Haloperidol 	0	antipsychotic
 CC1=C(N=CN1)CSCCNC(=NC)NC#N	Cimetidine	0	anti-histamine
-C1CC1CN2CCC34C5C(=O)CCC3(C2CC6=C4C(=C(C=C6)O)O5)O.Cl	Naltrexone HCl	0	Opoid antagonist
+C1CC1CN2CCC34C5C(=O)CCC3(C2CC6=C4C(=C(C=C6)O)O5)O	Naltrexone·HCl	0	Opoid antagonist
 CN(C)CCC1=CNC2=C1C=C(C=C2)CC3COC(=O)N3	Zolmitriptan	0	anti-migraine
-CC12CC3CC(C1)(CC(C3)(C2)N)C.Cl	Memantine HCl	0	anti-Alzheimer's
-C1=CC2=C(C=C1OC(F)(F)F)SC(=N2)N	Riluzole HCl	0	anti-ALS
-CN1C2=C(C(=O)N(C1=O)C)NC=N2.CN1C2=C(C(=O)N(C1=O)C)NC=N2.C(CN)N	Aminophylline 	0	bronchodilator
+CC12CC3CC(C1)(CC(C3)(C2)N)C	Memantine·HCl	0	anti-Alzheimer's
+C1=CC2=C(C=C1OC(F)(F)F)SC(=N2)N	Riluzole·HCl	0	anti-ALS
+CN1C2=C(C(=O)N(C1=O)C)NC=N2	Aminophylline 	0	bronchodilator
 CC(C)C1CCC(CC1)C(=O)NC(CC2=CC=CC=C2)C(=O)O	Nateglinide	0	anti-diabetic
-CN1CCC2=CC=CC3=C2C1CC4=C3C(=C(C=C4)O)O.CN1CCC2=CC=CC3=C2C1CC4=C3C(=C(C=C4)O)O.O.Cl.Cl	Apomorphine HCl Hemihydrate	0	anti-parkinson's
-C1CN(CCN1CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F)CCO.Cl.Cl	Fluphenazine  HCl	0	antipsychotic
-CN(C)CCOC(C1=CC=CC=C1)C2=CC=CC=C2.Cl	Diphenhydramine HCl	0	anti-histamine
-CC(CN1C2=CC=CC=C2SC3=CC=CC=C31)N(C)C.Cl	Promethazine HCl	0	anti-histamine
-C1CN(CCN1CCOCCO)C2=NC3=CC=CC=C3SC4=CC=CC=C42.C1CN(CCN1CCOCCO)C2=NC3=CC=CC=C3SC4=CC=CC=C42.C(=CC(=O)O)C(=O)O	Quetiapine Fumarate	0	antipsychotic
-CN(C)CCCN1C2=CC=CC=C2CCC3=CC=CC=C31.Cl	Imipramine HCl	0	antidepressant
+CN1CCC2=CC=CC3=C2C1CC4=C3C(=C(C=C4)O)O	Apomorphine·HCl Hemihydrate	0	anti-parkinson's
+C1CN(CCN1CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F)CCO	Fluphenazine· HCl	0	antipsychotic
+CN(C)CCOC(C1=CC=CC=C1)C2=CC=CC=C2	Diphenhydramine·HCl	0	anti-histamine
+CC(CN1C2=CC=CC=C2SC3=CC=CC=C31)N(C)C	Promethazine·HCl	0	anti-histamine
+C1CN(CCN1CCOCCO)C2=NC3=CC=CC=C3SC4=CC=CC=C42	Quetiapine Fumarate	0	antipsychotic
+CN(C)CCCN1C2=CC=CC=C2CCC3=CC=CC=C31	Imipramine·HCl	0	antidepressant
 C1CN(CCN1)C2=NC3=CC=CC=C3OC4=C2C=C(C=C4)Cl	Amoxapine	0	antidepressant
-CCN(CC)CCNC(=O)C1=CC(=C(C=C1OC)N)Cl.O.Cl	Metoclopramide HCl	0	antiemetic
+CCN(CC)CCNC(=O)C1=CC(=C(C=C1OC)N)Cl	Metoclopramide·HCl	0	antiemetic
 C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N	Famotidine	0	anti-histamine
-C1CN(CC2=C1SC=C2)CC3=CC=CC=C3Cl.Cl	Ticlopidine HCl	0	anti-platelet
+C1CN(CC2=C1SC=C2)CC3=CC=CC=C3Cl	Ticlopidine·HCl	0	anti-platelet
 CCCC1=NC(=C2N1NC(=NC2=O)C3=C(C=CC(=C3)S(=O)(=O)N4CCN(CC4)CC)OCC)C	Vardenafil 	0	erectile dysfunction
 CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F	Linezolid	0	antibiotic
 CN(C)CCC=C1C2=CC=CC=C2COC3=C1C=C(C=C3)CC(=O)O	Olopatadine	0	anti-histamine
@@ -50,59 +50,59 @@ CC1=C(C(C(=C(N1)C)C(=O)OCC(C)C)C2=CC=CC=C2[N+](=O)[O-])C(=O)OC	Nisoldipine	0	ant
 CC1=CC2=C(NC3=CC=CC=C3N=C2S1)N4CCN(CC4)C	Olanzapine	0	antipsychotic
 CCC(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC3CC(CC(=O)O3)O)C	Lovastatin	0	cholesterol-lowering agent
 C1=CC(=C(C(=C1)Cl)Cl)C2=C(N=C(N=N2)N)N	Lamotrigine	0	antiepileptic
-CCCC1=NN(C2=C1NC(=NC2=O)C3=C(C=CC(=C3)S(=O)(=O)N4CCN(CC4)C)OCC)C.C(C(=O)O)C(CC(=O)O)(C(=O)O)O	Sildenafil Citrate	0	erectile dysfunction
+CCCC1=NN(C2=C1NC(=NC2=O)C3=C(C=CC(=C3)S(=O)(=O)N4CCN(CC4)C)OCC)C	Sildenafil Citrate	0	erectile dysfunction
 C1CC(CCC1C2=CC=C(C=C2)Cl)C3=C(C4=CC=CC=C4C(=O)C3=O)O	Atovaquone	0	anti-malarial (anti-protozoal)
 C1CC(=O)NC2=C1C=CC(=C2)OCCCCN3CCN(CC3)C4=C(C(=CC=C4)Cl)Cl	Aripiprazole	0	antipsychotic
 CCOC1=NC2=CC=CC(=C2N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NNN=N5)C(=O)O	Candesartan	0	anti-hypertensive / cardiac
 CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F	Escitalopram 	0	antidepressant
-CCCCC1=NC=C(N1CC2=CC=C(C=C2)C(=O)O)C=C(CC3=CC=CS3)C(=O)O.CS(=O)(=O)O	Eprosartan Mesylate	0	anti-hypertensive / cardiac
-C1=CC(=C(C(=C1)Cl)CC(=O)N=C(N)N)Cl.Cl	Guanfacine HCl	0	anti-hypertensive / cardiac
-C1CN=C(N1)NC2=C(C=CC3=NSN=C32)Cl.Cl	Tizanidine HCl	0	muscle relaxant
+CCCCC1=NC=C(N1CC2=CC=C(C=C2)C(=O)O)C=C(CC3=CC=CS3)C(=O)O	Eprosartan Mesylate	0	anti-hypertensive / cardiac
+C1=CC(=C(C(=C1)Cl)CC(=O)N=C(N)N)Cl	Guanfacine·HCl	0	anti-hypertensive / cardiac
+C1CN=C(N1)NC2=C(C=CC3=NSN=C32)Cl	Tizanidine·HCl	0	muscle relaxant
 COC1=CC=CC=C1OCCNCC(COC2=CC=CC3=C2C4=CC=CC=C4N3)O	Carvedilol	0	anti-hypertensive / cardiac
 COC1=C(C=C2C(=C1)N=CN=C2NC3=CC(=C(C=C3)F)Cl)OCCCN4CCOCC4	Gefitinib	0	anticancer
-CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5.CS(=O)(=O)O	Imatinib Mesylate	0	anticancer
-CC(C)(C1=CC=CC=C1CCC(C2=CC=CC(=C2)C=CC3=NC4=C(C=CC(=C4)Cl)C=C3)SCC5(CC5)CC(=O)[O-])O.[Na+]	Montelukast Na	0	Asthma
-CN(C)C(=N)N=C(N)N.Cl	Metformin HCl	0	anti-diabetic
+CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5	Imatinib Mesylate	0	anticancer
+CC(C)(C1=CC=CC=C1CCC(C2=CC=CC(=C2)C=CC3=NC4=C(C=CC(=C4)Cl)C=C3)SCC5(CC5)CC(=O)[O-])O	Montelukast·Na	0	Asthma
+CN(C)C(=N)N=C(N)N	Metformin·HCl	0	anti-diabetic
 C1C2=C(C=CC(=C2Cl)Cl)NC3=NC(=O)CN31	Anagrelide	0	anti-platelet
 CN(CCC1=CC=C(C=C1)NS(=O)(=O)C)CCOC2=CC=C(C=C2)NS(=O)(=O)C	Dofetilide	0	anti-arrythmic / cardiac
 COCCOC1=C(C=C2C(=C1)C(=NC=N2)NC3=CC=CC(=C3)C#C)OCCOC	Erlotinib	0	anticancer
-C1CCC2=NC3=CC=CC=C3C(=C2C1)N.Cl	Tacrine HCl	0	anti-Alzheimer's
-CN1CCC23C=CC(CC2OC4=C(C=CC(=C34)C1)OC)O.Br	Galantamine HBr	0	anti-Alzheimer's
-C1(=C(N=C(C(=N1)Cl)N)N)C(=O)N=C(N)N.O.O.Cl	Amiloride HCl 2H2O	0	Diuretic
+C1CCC2=NC3=CC=CC=C3C(=C2C1)N	Tacrine·HCl	0	anti-Alzheimer's
+CN1CCC23C=CC(CC2OC4=C(C=CC(=C34)C1)OC)O	Galantamine·HBr	0	anti-Alzheimer's
+C1(=C(N=C(C(=N1)Cl)N)N)C(=O)N=C(N)N	Amiloride·HCl·2H2O	0	Diuretic
 CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)COCCN	Amlodipine	0	anti-hypertensive / cardiac
-CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC.Cl	Verapamil HCl	0	anti-hypertensive / cardiac
+CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC	Verapamil·HCl	0	anti-hypertensive / cardiac
 C1CCC(CC1)(CC(=O)O)CN	Gabapentin	0	anti-epileptic
 CCOC(=O)C1=C(NC(=C(C1C2=C(C(=CC=C2)Cl)Cl)C(=O)OC)C)C	Felodipine	0	anti-hypertensive / cardiac
-CC(COC1=CC=CC=C1)N(CCCl)CC2=CC=CC=C2.Cl	Phenoxybenzamine HCl	0	anti-hypertensive / cardiac
-CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F	Trifluoperazine  HCl	0	antipsychotic
+CC(COC1=CC=CC=C1)N(CCCl)CC2=CC=CC=C2	Phenoxybenzamine·HCl	0	anti-hypertensive / cardiac
+CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F	Trifluoperazine· HCl	0	antipsychotic
 CN(CCCNC(=O)C1CCCO1)C2=NC3=CC(=C(C=C3C(=N2)N)OC)OC	Alfuzosin	0	Muscle relaxant
-CC(C)CC1C(=O)N2CCCC2C3(N1C(=O)C(O3)(C(C)C)NC(=O)C4CN(C5CC6=C(NC7=CC=CC(=C67)C5=C4)Br)C)O.CS(=O)(=O)O	Bromocriptine Mesylate	0	anti-parkinson's
+CC(C)CC1C(=O)N2CCCC2C3(N1C(=O)C(O3)(C(C)C)NC(=O)C4CN(C5CC6=C(NC7=CC=CC(=C67)C5=C4)Br)C)O	Bromocriptine Mesylate	0	anti-parkinson's
 CN1CCN(CC1)C2=C3C=CC=CC3=NC4=C(N2)C=C(C=C4)Cl	Clozapine	0	antipsychotic
 CC1=CC(=C(C(=C1C=CC(=CC=CC(=CC(=O)O)C)C)C)C)OC	Acitretin	0	psoriasis
 CC(CCCC(C)(C)O)C1CCC2C1(CCCC2=CC=C3CC(CC(C3=C)O)O)C	Calcitriol	0	Hypocalcemia
 CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl	Ketoconazole	0	antifungal
-C1=CC2=C(C(=C1)OCC(COC3=CC=CC4=C3C(=O)C=C(O4)C(=O)[O-])O)C(=O)C=C(O2)C(=O)[O-].[Na+].[Na+]	Cromolyn Na (Disodium Cromoglycate)	0	Asthma
+C1=CC2=C(C(=C1)OCC(COC3=CC=CC4=C3C(=O)C=C(O4)C(=O)[O-])O)C(=O)C=C(O2)C(=O)[O-]	Cromolyn·Na (Disodium Cromoglycate)	0	Asthma
 C1CCN(CC1)C2=NC(=NC3=C2N=C(N=C3N4CCCCC4)N(CCO)CCO)N(CCO)CCO	Dipyridamole	0	anti-platelet
 CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O	Indomethacin	0	NSAID
 CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O	Naproxen	0	NSAID
 CC(C)CC1=CC=C(C=C1)C(C)C(=O)O	Ibuprofen	0	NSAID
 CCCCNC1=C(C(=CC(=C1)C(=O)O)S(=O)(=O)N)OC2=CC=CC=C2	Bumetanide	0	Diuretic
-C1C(C1N)C2=CC=CC=C2.C1C(C1N)C2=CC=CC=C2.OS(=O)(=O)O	Tranylcypromine Hemisulfate	0	antidepressant
+C1C(C1N)C2=CC=CC=C2	Tranylcypromine Hemisulfate	0	antidepressant
 CN1C(=C(C2=CC=CC=C2S1(=O)=O)O)C(=O)NC3=CC=CC=N3	Piroxicam	0	NSAID
-COC1=C2C(=CC(=C1N3CC4CCCNC4C3)F)C(=O)C(=CN2C5CC5)C(=O)O.Cl	Moxifloxacin HCl	0	antibiotic
+COC1=C2C(=CC(=C1N3CC4CCCNC4C3)F)C(=O)C(=CN2C5CC5)C(=O)O	Moxifloxacin·HCl	0	antibiotic
 CC(CC1=CC(=C(C=C1)O)O)(C(=O)O)NN	Carbidopa	0	anti-parkinson's
 CC(C1=CC=CC(=C1)C(=O)C2=CC=CC=C2)C(=O)O	Ketoprofen	0	NSAID
 CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O	Meloxicam	0	NSAID
-CC(C)(C)C#CC=CCN(C)CC1=CC=CC2=CC=CC=C21.Cl	Terbinafine HCl	0	antifungal
+CC(C)(C)C#CC=CCN(C)CC1=CC=CC2=CC=CC=C21	Terbinafine·HCl	0	antifungal
 CCC(C)(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC3CC(CC(=O)O3)O)C	Simvastatin	0	cholesterol-lowering agent
-C1CCN(CC1)CCOC2=CC=C(C=C2)C(=O)C3=C(SC4=C3C=CC(=C4)O)C5=CC=C(C=C5)O.Cl	Raloxifene HCl	0	anti-estrogen
+C1CCN(CC1)CCOC2=CC=C(C=C2)C(=O)C3=C(SC4=C3C=CC(=C4)O)C5=CC=C(C=C5)O	Raloxifene·HCl	0	anti-estrogen
 CC1OCC2C(O1)C(C(C(O2)OC3C4COC(=O)C4C(C5=CC6=C(C=C35)OCO6)C7=CC(=C(C(=C7)OC)O)OC)O)O	Etoposide	0	anticancer
-CC(C)NC1=C(N=CC=C1)N2CCN(CC2)C(=O)C3=CC4=C(N3)C=CC(=C4)NS(=O)(=O)C.CS(=O)(=O)O	Delavirdine Mesylate	0	antiviral
-C1CN(CCN1CCOCC(=O)O)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl.Cl.Cl	Cetirizine HCl	0	anti-histamine
-CC1=CC=C(C=C1)S(=O)(=O)O.CC1=CC=C(C=C1)S(=O)(=O)O.CS(=O)(=O)CCNCC1=CC=C(O1)C2=CC3=C(C=C2)N=CN=C3NC4=CC(=C(C=C4)OCC5=CC(=CC=C5)F)Cl	Lapatinib Ditosylate	0	anticancer
-CCC1=CN=C(C=C1)CCOC2=CC=C(C=C2)CC3C(=O)NC(=O)S3.Cl	Pioglitazone HCl	0	anti-diabetic
-CCN(C)C(=O)OC1=CC=CC(=C1)C(C)N(C)C.C(C(C(=O)O)O)(C(=O)O)O	Rivastigmine Tartrate	0	Dementia
-CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C.C(C(C(=O)O)O)(C(=O)O)O	Ergotamine Tartrate	0	anti-migraine
+CC(C)NC1=C(N=CC=C1)N2CCN(CC2)C(=O)C3=CC4=C(N3)C=CC(=C4)NS(=O)(=O)C	Delavirdine Mesylate	0	antiviral
+C1CN(CCN1CCOCC(=O)O)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl	Cetirizine HCl	0	anti-histamine
+CS(=O)(=O)CCNCC1=CC=C(O1)C2=CC3=C(C=C2)N=CN=C3NC4=CC(=C(C=C4)OCC5=CC(=CC=C5)F)Cl	Lapatinib Ditosylate	0	anticancer
+CCC1=CN=C(C=C1)CCOC2=CC=C(C=C2)CC3C(=O)NC(=O)S3	Pioglitazone·HCl	0	anti-diabetic
+CCN(C)C(=O)OC1=CC=CC(=C1)C(C)N(C)C	Rivastigmine Tartrate	0	Dementia
+CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C	Ergotamine Tartrate	0	anti-migraine
 CC1=CC=CC=C1S(=O)(=O)NC(=O)C2=CC(=C(C=C2)CC3=CN(C4=C3C=C(C=C4)NC(=O)OC5CCCC5)C)OC	Zafirlukast	0	Asthma
 CC(C1=CC2=CC=CC=C2S1)N(C(=O)N)O	Zileuton	0	Asthma
 CC1=NS(=O)(=O)C2=C(N1)C=CC(=C2)Cl	Diazoxide	0	Peripheral vasodilator
@@ -112,47 +112,47 @@ CC1=CC2=C(C=C1C(=C)C3=CC=C(C=C3)C(=O)O)C(CCC2(C)C)(C)C	Bexarotene	0	anticancer
 C1=CC(=CC=C1C#N)C(C2=CC=C(C=C2)C#N)N3C=NC=N3	Letrozole	0	anti-estrogen
 CC(C)(C#N)C1=CC(=CC(=C1)CN2C=NC=N2)C(C)(C)C#N	Anastrozole	0	anti-estrogen
 CC(CS(=O)(=O)C1=CC=C(C=C1)F)(C(=O)NC2=CC(=C(C=C2)C#N)C(F)(F)F)O	Bicalutamide	0	anti-androgen
-CCCCCCCCCCCCCCCC(=O)OC1C(C(C(OC1SC)C(C(C)Cl)NC(=O)C2CC(CN2C)CCC)O)O.Cl	Clindamycin Palmitate HCl	0	antibiotic
-CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2CCCC2C(=O)O.C(=CC(=O)O)C(=O)O	Enalaprilat Maleate	0	anti-hypertensive / cardiac
-CC(C)N1C2=CCCC=C2C(=C1C=CC(CC(CC(=O)[O-])O)O)C3=CC=C(C=C3)F.[Na+]	Fluvastatin Na	0	cholesterol-lowering agent
-CCC(=O)OC(C(C)C)OP(=O)(CCCCC1=CC=CC=C1)CC(=O)N2CC(CC2C(=O)[O-])C3CCCCC3.C1NC2=CC(=C(C=C2S(=O)(=O)N1)S(=O)(=O)N)Cl.[Na+]	Fosinopril Na	0	anti-hypertensive / cardiac
-CN1C2CCCC1CC(C2)NC(=O)C3=NN(C4=CC=CC=C43)C.Cl	Granisetron HCl	0	antiemetic
+CCCCCCCCCCCCCCCC(=O)OC1C(C(C(OC1SC)C(C(C)Cl)NC(=O)C2CC(CN2C)CCC)O)O	Clindamycin Palmitate·HCl	0	antibiotic
+CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2CCCC2C(=O)O	Enalaprilat Maleate	0	anti-hypertensive / cardiac
+CC(C)N1C2=CCCC=C2C(=C1C=CC(CC(CC(=O)[O-])O)O)C3=CC=C(C=C3)F	Fluvastatin·Na	0	cholesterol-lowering agent
+CCC(=O)OC(C(C)C)OP(=O)(CCCCC1=CC=CC=C1)CC(=O)N2CC(CC2C(=O)[O-])C3CCCCC3	Fosinopril·Na	0	anti-hypertensive / cardiac
+CN1C2CCCC1CC(C2)NC(=O)C3=NN(C4=CC=CC=C43)C	Granisetron·HCl	0	antiemetic
 CC(C)(C)C(C(=O)NC(CC1=CC=CC=C1)C(CN(CC2=CC=C(C=C2)C3=CC=CC=N3)NC(=O)C(C(C)(C)C)NC(=O)OC)O)NC(=O)OC	Atazanavir	0	antiviral
 CCNC(=O)N(CCCN(C)C)C(=O)C1CC2C(CC3=CNC4=CC=CC2=C34)N(C1)CC=C	Cabergoline	0	hyperprolactinemia
-CCC(CC)OC1C=C(CC(C1NC(=O)C)N)C(=O)OCC.OP(=O)(O)O	Oseltamivir Phosphate	0	antiviral
-CCCNC1CCC2=C(C1)SC(=N2)N.O.Cl.Cl	Pramipexole Dihydrochloride Monohydrate	0	anti-parkinson's
+CCC(CC)OC1C=C(CC(C1NC(=O)C)N)C(=O)OCC	Oseltamivir Phosphate	0	antiviral
+CCCNC1CCC2=C(C1)SC(=N2)N	Pramipexole Dihydrochloride Monohydrate	0	anti-parkinson's
 CCC1=CC2CC(C3=C(CN(C2)C1)C4=CC=CC=C4N3)(C5=C(C=C6C(=C5)C78CCN9C7C(C=CC9)(C(C(C8N6C)(C(=O)OC)O)OC(=O)C)CC)OC)C(=O)OC	Vinorelbine 	0	anticancer
 CC(=O)OC1=CC=CC=C1C(=O)O	Aspirin (Acetylsalicylic Acid)	0	NSAID
 C1=NC2=C(N1COCCO)NC(=NC2=O)N	Acyclovir (Acycloguanosine) Zovirax	0	antiviral
 CN(C)C1=NC(=NC(=N1)N(C)C)N(C)C	Altretamine	0	anticancer
 CCCSC1=CC2=C(C=C1)N=C(N2)NC(=O)OC	Albendazole	0	antihelminthic
-CNS(=O)(=O)CC1=CC2=C(C=C1)NC=C2CCN(C)C.C(CC(=O)O)C(=O)O	Sumatriptan Succinate	0	anti-migraine
+CNS(=O)(=O)CC1=CC2=C(C=C1)NC=C2CCN(C)C	Sumatriptan Succinate	0	anti-migraine
 C1=CC(=C(C=C1N)O)C(=O)O	4-Aminosalicylic Acid	0	antibiotic
 CCC1C(C(C(N(CC(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)C)O)(C)O	Azithromycin	0	antibiotic
-C1CCC2(C1)CC(=O)N(C(=O)C2)CCCCN3CCN(CC3)C4=NC=CC=N4.Cl	Buspirone HCl	0	anti-anxiety
+C1CCC2(C1)CC(=O)N(C(=O)C2)CCCCN3CCN(CC3)C4=NC=CC=N4	Buspirone·HCl	0	anti-anxiety
 C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N	Carbamazepine	0	anti-epileptic
-CN(C)CCC(C1=CC=C(C=C1)Cl)C2=CC=CC=N2.C(=CC(=O)O)C(=O)O	Chlorpheniramine Maleate	0	anti-histamine
-CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl.OP(=O)(O)O.OP(=O)(O)O	Chloroquine Diphosphate	0	antimalarial
+CN(C)CCC(C1=CC=C(C=C1)Cl)C2=CC=CC=N2	Chlorpheniramine Maleate	0	anti-histamine
+CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl	Chloroquine Diphosphate	0	antimalarial
 C1CC(=O)NC(=O)C1N2C(=O)C3=CC=CC=C3C2=O	Thalidomide	0	immunomodulatory
 C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O	Ciprofloxacin	0	antibiotic
-CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F.Br	Citalopram HBr	0	antidepressant
+CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F	Citalopram·HBr	0	antidepressant
 CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O	Clarithromycin	0	antibiotic
-CCN(CC)CCOC1=CC=C(C=C1)C(=C(C2=CC=CC=C2)Cl)C3=CC=CC=C3.C(C(=O)O)C(CC(=O)O)(C(=O)O)O	Clomiphene Citrate	0	infertility
-COC(=O)C(C1=CC=CC=C1Cl)N2CCC3=C(C2)C=CS3.OS(=O)(=O)O	Clopidogrel Hydrogen Sulfate 	0	anti-platelet
-C1CNP(=O)(OC1)N(CCCl)CCCl.O	Cyclophosphamide monohydrate	0	anticancer
+CCN(CC)CCOC1=CC=C(C=C1)C(=C(C2=CC=CC=C2)Cl)C3=CC=CC=C3	Clomiphene Citrate	0	infertility
+COC(=O)C(C1=CC=CC=C1Cl)N2CCC3=C(C2)C=CS3	Clopidogrel Hydrogen Sulfate 	0	anti-platelet
+C1CNP(=O)(OC1)N(CCCl)CCCl	Cyclophosphamide monohydrate	0	anticancer
 C1CC2=C(C=CC(=C2)Cl)C(=C3CCNCC3)C4=C1C=CC=N4	Desloratadine	0	anti-histamine
 CN1CCC23CCCCC2C1CC4=C3C=C(C=C4)OC	Dextromethorphan	0	anti-tussive
-C1=CC=C(C(=C1)CC(=O)[O-])NC2=C(C=CC=C2Cl)Cl.[Na+]	Diclofenac Na Salt	0	NSAID
+C1=CC=C(C(=C1)CC(=O)[O-])NC2=C(C=CC=C2Cl)Cl	Diclofenac·Na Salt	0	NSAID
 C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O	Diflunisal	0	NSAID
-COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4COC5=CC=CC=C5O4)N)OC.CS(=O)(=O)O	Doxazosin Mesylate	0	anti-hypertensive / cardiac
-CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O.O	Doxycycline Monohydrate	0	antibiotic
+COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4COC5=CC=CC=C5O4)N)OC	Doxazosin Mesylate	0	anti-hypertensive / cardiac
+CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O	Doxycycline Monohydrate	0	antibiotic
 CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2CCCC2C(=O)O	Enalapril	0	anti-hypertensive / cardiac
-CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C([N-]2)C=CC(=C3)OC.[K+]	Esomeprazole Potassium	0	anti-GERD
+CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C([N-]2)C=CC(=C3)OC	Esomeprazole Potassium	0	anti-GERD
 CC12CCC3C(C1CCC2=O)CCC4=C3C=CC(=C4)O	Estrone	0	steroidal hormone
-CC(C1=CC(=CC=C1)OC2=CC=CC=C2)C(=O)[O-].CC(C1=CC(=CC=C1)OC2=CC=CC=C2)C(=O)[O-].[Ca+2]	Fenoprofen Calcium	0	NSAID
+CC(C1=CC(=CC=C1)OC2=CC=CC=C2)C(=O)[O-]	Fenoprofen Calcium	0	NSAID
 CC12CCC3C(C1CCC2C(=O)NC(C)(C)C)CCC4C3(C=CC(=O)N4)C	Finasteride	0	steroidal hormone
 CC(C1=CC(=C(C=C1)C2=CC=CC=C2)F)C(=O)O	Flurbiprofen	0	NSAID
-CN(C)CCC=C1C2=CC=CC=C2CCC3=CC=CC=C31.Cl	Amitriptyline HCl	0	antidepressant
+CN(C)CCC=C1C2=CC=CC=C2CCC3=CC=CC=C31	Amitriptyline·HCl	0	antidepressant
 C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O	Fluconazole	0	antifungal
 C1=COC(=C1)CNC2=CC(=C(C=C2C(=O)O)S(=O)(=O)N)Cl	Furosemide	0	diuretic
 CC1CN(CCN1)C2=C(C=C3C(=C2OC)N(C=C(C3=O)C(=O)O)C4CC4)F	Gatifloxacin	0	antibiotic
@@ -161,279 +161,279 @@ CCC1=C(CN(C1=O)C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)NC3CCC(CC3)C)C	Glimepiride	0	
 CC1CC2=CC=CC=C2N1NC(=O)C3=CC(=C(C=C3)Cl)S(=O)(=O)N	Indapamide	0	diuretic
 CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl	Itraconazole	0	antifungal
 CCC12CCC3C(C1CCC2(C#C)O)CCC4=CC(=O)CCC34	Levonorgestrel	0	steroidal hormone
-CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O.O	Levofloxacin HCl	0	antibiotic
+CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O	Levofloxacin·HCl	0	antibiotic
 CC1=C(C=NO1)C(=O)NC2=CC=C(C=C2)C(F)(F)F	Leflunomide	0	immunosuppressive
 CCOC(=O)N1CCC(=C2C3=C(CCC4=C2N=CC=C4)C=C(C=C3)Cl)CC1	Loratadine	0	anti-histamine
-CCCCC1=NC(=C(N1CC2=CC=C(C=C2)C3=CC=CC=C3C4=NN=N[N-]4)CO)Cl.[K+]	Losartan Potassium	0	anti-hypertensive / cardiac
+CCCCC1=NC(=C(N1CC2=CC=C(C=C2)C3=CC=CC=C3C4=NN=N[N-]4)CO)Cl	Losartan Potassium	0	anti-hypertensive / cardiac
 COC(=O)NC1=NC2=C(N1)C=C(C=C2)C(=O)C3=CC=CC=C3	Mebendazole	0	antihelminthic
 CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C	Mefenamic Acid	0	NSAID
-CC(C)NCC(COC1=CC=C(C=C1)CCOC)O.CC(C)NCC(COC1=CC=C(C=C1)CCOC)O.C(C(C(=O)O)O)(C(=O)O)O	Metoprolol Tartrate	0	anti-hypertensive / cardiac
+CC(C)NCC(COC1=CC=C(C=C1)CCOC)O	Metoprolol Tartrate	0	anti-hypertensive / cardiac
 CN1C=CNC1=S	Methimazole	0	anti-thyroid
 CN(C)C1C2CC3CC4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)N(C)C	Minocycline 	0	antibiotic
-CCC1=NN(C(=O)N1CCOC2=CC=CC=C2)CCCN3CCN(CC3)C4=CC(=CC=C4)Cl.Cl	Nefazodone HCl	0	antidepressant
+CCC1=NN(C(=O)N1CCOC2=CC=CC=C2)CCCN3CCN(CC3)C4=CC(=CC=C4)Cl	Nefazodone·HCl	0	antidepressant
 CC1C=CC=CCCC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(C(CCC(CC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O	Nystatin	0	antifungal
 CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O	Ofloxacin	0	antibiotic
 CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC	Omeprazole	0	anti-GERD
 C1C2=CC=CC=C2N(C3=CC=CC=C3C1=O)C(=O)N	Oxcarbazepine	0	anti-epileptic
-C1CNCC(C1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4.Cl	Paroxetine HCl	0	antidepressant
+C1CNCC(C1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4	Paroxetine·HCl	0	antidepressant
 CC(=O)CCCCN1C(=O)C2=C(N=CN2C)N(C1=O)C	Pentoxifylline	0	hemorrheologic
-CC(CCCN)NC1=C2C(=CC(=C1)OC)C=CC=N2.OP(=O)(O)O	Primaquine Phosphate	0	antimalarial
+CC(CCCN)NC1=C2C(=CC(=C1)OC)C=CC=N2	Primaquine Phosphate	0	antimalarial
 C1CCC(CC1)C(=O)N2CC3C4=CC=CC=C4CCN3C(=O)C2	Praziquantel	0	antihelminthic
-COC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2CC3=CC=CC=C3CC2C(=O)O.Cl	Quinapril HCl	0	anti-hypertensive / cardiac
-CC1=C(C(=CC=C1)C)NC(=O)CN2CCN(CC2)CC(COC3=CC=CC=C3OC)O.Cl.Cl	Ranolazine 2HCl	0	anti-angina
+COC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2CC3=CC=CC=C3CC2C(=O)O	Quinapril·HCl	0	anti-hypertensive / cardiac
+CC1=C(C(=CC=C1)C)NC(=O)CN2CCN(CC2)CC(COC3=CC=CC=C3OC)O	Ranolazine·2HCl	0	anti-angina
 CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2C3CCCC3CC2C(=O)O	Ramipril	0	anti-hypertensive / cardiac
-CC1=C(C=CC=C1O)C(=O)NC(CSC2=CC=CC=C2)C(CN3CC4CCCCC4CC3C(=O)NC(C)(C)C)O.CS(=O)(=O)O	Nelfinavir Mesylate	0	antiviral
-CC(C12CC3CC(C1)CC(C3)C2)N.Cl	Rimantadine HCl	0	antiviral
-CC(C)NCC(COC1=CC=CC2=CC=CC=C21)O.Cl	Propranolol HCl	0	anti-hypertensive / cardiac
-CN1C2CC(CC1C3C2O3)OC(=O)C(CO)C4=CC=CC=C4.Br	Scopolamine HBr	0	antiemetic
+CC1=C(C=CC=C1O)C(=O)NC(CSC2=CC=CC=C2)C(CN3CC4CCCCC4CC3C(=O)NC(C)(C)C)O	Nelfinavir Mesylate	0	antiviral
+CC(C12CC3CC(C1)CC(C3)C2)N	Rimantadine·HCl	0	antiviral
+CC(C)NCC(COC1=CC=CC2=CC=CC=C21)O	Propranolol·HCl	0	anti-hypertensive / cardiac
+CN1C2CC(CC1C3C2O3)OC(=O)C(CO)C4=CC=CC=C4	Scopolamine·HBr	0	antiemetic
 C1=CN=C(N=C1)NS(=O)(=O)C2=CC=C(C=C2)N	Sulfadiazine	0	antibiotic
-CCOC1=CC=CC=C1OCCNC(C)CC2=CC(=C(C=C2)OC)S(=O)(=O)N.Cl	Tamsulosin HCl	0	muscle relaxant
+CCOC1=CC=CC=C1OCCNC(C)CC2=CC(=C(C=C2)OC)S(=O)(=O)N	Tamsulosin·HCl	0	muscle relaxant
 CCCC1=NC2=C(C=C(C=C2N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C5=NC6=CC=CC=C6N5C)C	Telmisartan	0	anti-hypertensive / cardiac
-COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4CCCO4)N)OC.Cl	Terazosin HCl	0	muscle relaxant
-CCC1(C2=C(COC1=O)C(=O)N3CC4=C(C3=C2)N=C5C=CC(=C(C5=C4)CN(C)C)O)O.Cl	Topotecan HCl	0	anticancer
+COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4CCCO4)N)OC	Terazosin·HCl	0	muscle relaxant
+CCC1(C2=C(COC1=O)C(=O)N3CC4=C(C3=C2)N=C5C=CC(=C(C5=C4)CN(C)C)O)O	Topotecan·HCl	0	anticancer
 CN(C)CCOC1=CC=C(C=C1)C(=C(CCCl)C2=CC=CC=C2)C3=CC=CC=C3	Toremifene Base	0	Selective Estrogen Receptor Modulator
-CC1=CC=C(C=C1)C(=O)C2=CC=C(N2C)CC(=O)[O-].O.O.[Na+]	Tolmetin sodium dihydrate	0	NSAID
-CN(C)CC1CCCCC1(C2=CC(=CC=C2)OC)O.Cl	Tramadol HCl	0	analgesic
+CC1=CC=C(C=C1)C(=O)C2=CC=C(N2C)CC(=O)[O-]	Tolmetin sodium dihydrate	0	NSAID
+CN(C)CC1CCCCC1(C2=CC(=CC=C2)OC)O	Tramadol·HCl	0	analgesic
 COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N	Trimethoprim	0	antibiotic
-CN(C)CC(C1=CC=C(C=C1)OC)C2(CCCCC2)O.Cl	Venlafaxine HCl	0	antidepressant
-CN1CCC(=C2C3=C(C(=O)CC4=CC=CC=C42)SC=C3)CC1.C(=CC(=O)O)C(=O)O	Ketotifen Fumarate	0	anti-histamine
+CN(C)CC(C1=CC=C(C=C1)OC)C2(CCCCC2)O	Venlafaxine·HCl	0	antidepressant
+CN1CCC(=C2C3=C(C(=O)CC4=CC=CC=C42)SC=C3)CC1	Ketotifen Fumarate	0	anti-histamine
 CC1=NC=CN1CC2CCC3=C(C2=O)C4=CC=CC=C4N3C	Ondansetron	0	antiemetic
-CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)SC.Cl	Thioridazine HCl	0	antipsychotic
+CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)SC	Thioridazine·HCl	0	antipsychotic
 CC#CC1(CCC2C1(CC(C3=C4CCC(=O)C=C4CCC23)C5=CC=C(C=C5)N(C)C)C)O	Mifepristone	0	steroidal hormone
-CCC(=C(C1=CC=CC=C1)C2=CC=C(C=C2)OCCN(C)C)C3=CC=CC=C3.C(C(=O)O)C(CC(=O)O)(C(=O)O)O	Tamoxifen Citrate	0	Selective Estrogen Receptor Modulator
+CCC(=C(C1=CC=CC=C1)C2=CC=C(C=C2)OCCN(C)C)C3=CC=CC=C3	Tamoxifen Citrate	0	Selective Estrogen Receptor Modulator
 CC(C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F)OC2C(N(CCO2)CC3=NC(=O)NN3)C4=CC=C(C=C4)F	Aprepitant	0	antiemetic
 CC(C)(C)C1=CC=C(C=C1)S(=O)(=O)NC2=C(C(=NC(=N2)C3=NC=CC=N3)OCCO)OC4=CC=CC=C4OC	Bosentan	0	Pulmonary arterial hypertension
 C1CC1C#CC2(C3=C(C=CC(=C3)Cl)NC(=O)O2)C(F)(F)F	Efavirenz	0	antiviral
-CN1CCC(=C2C3=CC=CC=C3C=CC4=CC=CC=C42)CC1.Cl	Cyproheptadine HCl Sesquihydrate	0	anti-histamine
-C1CC1NC2=NC(=NC3=C2N=CN3C4CC(C=C4)CO)N.C1CC1NC2=NC(=NC3=C2N=CN3C4CC(C=C4)CO)N.OS(=O)(=O)O	Abacavir Sulfate	0	antiviral
-CCCC(=O)NC1=CC(=C(C=C1)OCC(CNC(C)C)O)C(=O)C.Cl	Acebutolol HCl	0	anti-hypertensive / cardiac
+CN1CCC(=C2C3=CC=CC=C3C=CC4=CC=CC=C42)CC1	Cyproheptadine·HCl Sesquihydrate	0	anti-histamine
+C1CC1NC2=NC(=NC3=C2N=CN3C4CC(C=C4)CO)N	Abacavir Sulfate	0	antiviral
+CCCC(=O)NC1=CC(=C(C=C1)OCC(CNC(C)C)O)C(=O)C	Acebutolol·HCl	0	anti-hypertensive / cardiac
 CC(=O)NC1=CC=C(C=C1)O	Acetaminophen	0	analgesic
 CC(=O)C1=CC=C(C=C1)S(=O)(=O)NC(=O)NC2CCCCC2	Acetohexamide	0	anti-diabetic
 CC1=CC=C(C=C1)C(=CCN2CCCC2)C3=CC=CC(=N3)C=CC(=O)O	Acrivastine	0	anti-histamine
-CC(C)(C)C(=O)OCOP(=O)(COCCN1C=NC2=C1N=CN=C2N)OCOC(=O)C(C)(C)C	Alosetron HCl	0	antiviral
-CC1=C(N=CN1)CN2CCC3=C(C2=O)C4=CC=CC=C4N3C.Cl	Ambrisentan	0	anti-diarrhea
-CC1=CC(=NC(=N1)OC(C(=O)O)C(C2=CC=CC=C2)(C3=CC=CC=C3)OC)C	Artemether	0	Pulmonary arterial hypertension
-CC1CCC2C(C(OC3C24C1CCC(O3)(OO4)C)OC)C	Asenapine Maleate	0	antimalarial
-CN1CC2C(C1)C3=C(C=CC(=C3)Cl)OC4=CC=CC=C24.C(=CC(=O)O)C(=O)O	Atorvastatin Calcium	0	antipsychotic
-CC(C)C1=C(C(=C(N1CCC(CC(CC(=O)[O-])O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4.CC(C)C1=C(C(=C(N1CCC(CC(CC(=O)[O-])O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4.[Ca+2]	Benazepril HCl	0	cholesterol-lowering agent
-CCOC(=O)C(CCC1=CC=CC=C1)NC2CCC3=CC=CC=C3N(C2=O)CC(=O)O.Cl	Benztropine Mesylate	0	anti-hypertensive / cardiac
-CN1C2CCC1CC(C2)OC(C3=CC=CC=C3)C4=CC=CC=C4.CS(=O)(=O)O	Biperiden HCl	0	anti-parkinson's
-C1CCN(CC1)CCC(C2CC3CC2C=C3)(C4=CC=CC=C4)O.Cl	Bisoprolol Fumarate	0	anti-parkinson's
-CC(C)NCC(COC1=CC=C(C=C1)COCCOC(C)C)O.C(=CC(=O)O)C(=O)O	Brompheniramine Maleate	0	anti-hypertensive / cardiac
-CN(C)CCC(C1=CC=C(C=C1)Br)C2=CC=CC=N2.C(=CC(=O)O)C(=O)O	Budesonide	0	anti-histamine
-CCCC1OC2CC3C4CCC5=CC(=O)C=CC5(C4C(CC3(C2(O1)C(=O)CO)C)O)C	Bupropion 	0	steroidal anti-inflammatory
-CC(C(=O)C1=CC(=CC=C1)Cl)NC(C)(C)C	Butorphanol-(+)-Tartrate (Schedule Iv)	0	antidepressant
-C1CCC2(C3CC4=C(C2(C1)CCN3CC5CCC5)C=C(C=C4)O)O.C(C(C(=O)O)O)(C(=O)O)O	Carbinoxamine Maleate	0	analgesic
-CN(C)CCOC(C1=CC=C(C=C1)Cl)C2=CC=CC=N2.C(=CC(=O)O)C(=O)O	Cefditoren Pivoxil	0	anti-histamine
-CC1=C(SC=N1)C=CC2=C(N3C(C(C3=O)NC(=O)C(=NOC)C4=CSC(=N4)N)SC2)C(=O)OCOC(=O)C(C)(C)C	Cefpodoxime Proxetil	0	antibiotic
-CC(C)OC(=O)OC(C)OC(=O)C1=C(CSC2N1C(=O)C2NC(=O)C(=NOC)C3=CSC(=N3)N)COC	Chlorothiazide	0	antibiotic
-C1=C2C(=CC(=C1Cl)S(=O)(=O)N)S(=O)(=O)N=CN2	Chlorpropamide	0	diuretic
-CCCNC(=O)NS(=O)(=O)C1=CC=C(C=C1)Cl	Chlorthalidone	0	anti-diabetic
-C1=CC=C2C(=C1)C(=O)NC2(C3=CC(=C(C=C3)Cl)S(=O)(=O)N)O	Chlorzoxazone	0	diuretic
-C1=CC2=C(C=C1Cl)NC(=O)O2	Cilostazol	0	muscle relaxant
-C1CCC(CC1)N2C(=NN=N2)CCCCOC3=CC4=C(C=C3)NC(=O)CC4	Cinacalcet HCl	0	anti-platelet
-CC(C1=CC=CC2=CC=CC=C21)NCCCC3=CC(=CC=C3)C(F)(F)F.Cl	Clobazam	0	hyperparathyroidism
-CN1C(=O)CC(=O)N(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3	Clomipramine HCl	0	anti-epileptic
-CN(C)CCCN1C2=CC=CC=C2CCC3=C1C=C(C=C3)Cl.Cl	Colchicine	0	antidepressant
-CC(=O)NC1CCC2=CC(=C(C(=C2C3=CC=C(C(=O)C=C13)OC)OC)OC)OC	Cyclobenzaprine HCl	0	anti-gout
-CN(C)CCC=C1C2=CC=CC=C2C=CC3=CC=CC=C31.Cl	Dapsone	0	muscle relaxant
-C1=CC(=CC=C1N)S(=O)(=O)C2=CC=C(C=C2)N	Darifenacin HBr	0	antibiotic
-C1CN(CC1C(C2=CC=CC=C2)(C3=CC=CC=C3)C(=O)N)CCC4=CC5=C(C=C4)OCC5.Br	Darunavir	0	antispasmodic
-CC(C)CN(CC(C(CC1=CC=CC=C1)NC(=O)OC2COC3C2CCO3)O)S(=O)(=O)C4=CC=C(C=C4)N	Dasatinib	0	antiviral
-CC1=C(C(=CC=C1)Cl)NC(=O)C2=CN=C(S2)NC3=NC(=NC(=C3)N4CCN(CC4)CCO)C	Deferasirox	0	anticancer
-C1=CC(=C2NC(=C3C=CC=CC3=O)N(N2)C4=CC=C(C=C4)C(=O)O)C(=O)C=C1	Demeclocycline HCl	0	iron chelating agent
-CN(C)C1C2CC3C(C4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)Cl)O.Cl	Desipramine HCl	0	antibiotic
-CNCCCN1C2=CC=CC=C2CCC3=CC=CC=C31.Cl	Desvenlafaxine Succinate Hydrate	0	antidepressant
-CN(C)CC(C1=CC=C(C=C1)O)C2(CCCCC2)O.C(CC(=O)O)C(=O)O.O	Dexchlorpheniramine Maleate	0	antidepressant
-CN(C)CCC(C1=CC=C(C=C1)Cl)C2=CC=CC=N2.C(=CC(=O)O)C(=O)O	Diazepam	0	anti-histamine
-CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3	Dicyclomine HCl	0	anti-anxiety
-CCN(CC)CCOC(=O)C1(CCCCC1)C2CCCCC2.Cl	Dienogest	0	antispasmodic
-CC12CCC3=C4CCC(=O)C=C4CCC3C1CCC2(CC#N)O	Digoxin	0	steroidal hormone
-CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O	Dimenhydrinate	0	cardiac glycoside
-CN1C2=C(C(=O)N(C1=O)C)NC(=N2)Cl.CN(C)CCOC(C1=CC=CC=C1)C2=CC=CC=C2	Disopyramide 	0	anti-histamine
-CC(C)N(CCC(C1=CC=CC=C1)(C2=CC=CC=N2)C(=O)N)C(C)C	Doxepin HCl	0	anti-arrythmic / cardiac
-CN(C)CCC=C1C2=CC=CC=C2COC3=CC=CC=C31.Cl	Drospirenone	0	antidepressant
-CC12CCC(=O)C=C1C3CC3C4C2CCC5(C4C6CC6C57CCC(=O)O7)C	Dutasteride	0	steroidal hormone
-CC12CCC3C(C1CCC2C(=O)NC4=C(C=CC(=C4)C(F)(F)F)C(F)(F)F)CCC5C3(C=CC(=O)N5)C	Estropipate	0	steroidal hormone
-CC12CCC3C(C1CCC2=O)CCC4=C3C=CC(=C4)OS(=O)(=O)O.C1CNCCN1	Eszopiclone	0	steroidal hormone
-CN1CCN(CC1)C(=O)OC2C3=NC=CN=C3C(=O)N2C4=NC=C(C=C4)Cl	Ethinyl Estradiol	0	hypnotic
-CC12CCC3C(C1CCC2(C#C)O)CCC4=C3C=CC(=C4)O	Ethionamide	0	steroidal hormone
-CCC1=NC=CC(=C1)C(=S)N	Etodolac	0	antibiotic
-CCC1=CC=CC2=C1NC3=C2CCOC3(CC)CC(=O)O	Everolimus	0	NSAID
-CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)OCCO)C)C)O)OC)C)C)C)OC	Ezetimibe	0	immunosuppressive
-C1=CC(=CC=C1C2C(C(=O)N2C3=CC=C(C=C3)F)CCC(C4=CC=C(C=C4)F)O)O	Febuxostat	0	cholesterol-lowering agent
-CC1=C(SC(=N1)C2=CC(=C(C=C2)OCC(C)C)C#N)C(=O)O	Fexofenadine HCl	0	anti-gout
-CC(C)(C1=CC=C(C=C1)C(CCCN2CCC(CC2)C(C3=CC=CC=C3)(C4=CC=CC=C4)O)O)C(=O)O.Cl	Fingolimod	0	anti-histamine
-CCCCCCCCC1=CC=C(C=C1)CCC(CO)(CO)N	Flavoxate HCl	0	immunomodulatory
-CC1=C(OC2=C(C1=O)C=CC=C2C(=O)OCCN3CCCCC3)C4=CC=CC=C4.Cl	Fluvoxamine Maleate	0	antispasmodic
-COCCCCC(=NOCCN)C1=CC=C(C=C1)C(F)(F)F.C(=CC(=O)O)C(=O)O	Formoterol	0	antidepressant
-CC(CC1=CC=C(C=C1)OC)NCC(C2=CC(=C(C=C2)O)NC=O)O	Gemifloxacin 	0	Asthma
-CON=C1CN(CC1CN)C2=C(C=C3C(=O)C(=CN(C3=N2)C4CC4)C(=O)O)F	Griseofulvin	0	antibiotic
-CC1CC(=O)C=C(C12C(=O)C3=C(O2)C(=C(C=C3OC)OC)Cl)OC	Hydralazine HCl	0	antifungal
-C1=CC=C2C(=C1)C=NN=C2NN.Cl	Hydrochlorothiazide	0	anti-hypertensive / cardiac
-C1NC2=CC(=C(C=C2S(=O)(=O)N1)S(=O)(=O)N)Cl	Hydroflumethiazide	0	diuretic
-C1NC2=C(C=C(C(=C2)C(F)(F)F)S(=O)(=O)N)S(=O)(=O)N1	Hydroxychloroquine Sulfate	0	diuretic
-CCN(CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl)CCO.OS(=O)(=O)O	Hydroxyzine Dihydrochloride	0	antimalarial
-C1CN(CCN1CCOCCO)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl.Cl.Cl	Indinavir 	0	anti-histamine
-CC(C)(C)NC(=O)C1CN(CCN1CC(CC(CC2=CC=CC=C2)C(=O)NC3C(CC4=CC=CC=C34)O)O)CC5=CN=CC=C5	Irbesartan	0	antiviral
-CCCCC1=NC2(CCCC2)C(=O)N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NNN=N5	Isocarboxazid	0	anti-hypertensive / cardiac
-CC1=CC(=NO1)C(=O)NNCC2=CC=CC=C2	Isradipine	0	antidepressant
-CC1=C(C(C(=C(N1)C)C(=O)OC(C)C)C2=CC=CC3=NON=C32)C(=O)OC	Ketorolac Tromethamine	0	anti-hypertensive / cardiac
-C1CN2C(=CC=C2C(=O)C3=CC=CC=C3)C1C(=O)O.C(C(CO)(CO)N)O	Labetalol HCl	0	NSAID
-CC(CCC1=CC=CC=C1)NCC(C2=CC(=C(C=C2)O)C(=O)N)O.Cl	Lacosamide	0	anti-hypertensive / cardiac
-CC(=O)NC(COC)C(=O)NCC1=CC=CC=C1	Lamivudine	0	anti-epileptic
-C1C(OC(S1)CO)N2C=CC(=NC2=O)N	Lansoprazole	0	antiviral
-CC1=C(C=CN=C1CS(=O)C2=NC3=CC=CC=C3N2)OCC(F)(F)F	Lenalidomide	0	proton pump inhibitor
-C1CC(=O)NC(=O)C1N2CC3=C(C2=O)C=CC=C3N	Levocetirizine Dihydrochloride	0	anticancer
-C1CN(CCN1CCOCC(=O)O)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl.Cl.Cl	Lopinavir	0	anti-histamine
-CC1=C(C(=CC=C1)C)OCC(=O)NC(CC2=CC=CC=C2)C(CC(CC3=CC=CC=C3)NC(=O)C(C(C)C)N4CCCNC4=O)O	Loxapine Succinate	0	antiviral
-CN1CCN(CC1)C2=NC3=CC=CC=C3OC4=C2C=C(C=C4)Cl.C(CC(=O)O)C(=O)O	Maraviroc	0	antipsychotic
-CC1=NN=C(N1C2CC3CCC(C2)N3CCC(C4=CC=CC=C4)NC(=O)C5CCC(CC5)(F)F)C(C)C	Meclizine Dihydrochloride	0	antiviral
-CC1=CC(=CC=C1)CN2CCN(CC2)C(C3=CC=CC=C3)C4=CC=C(C=C4)Cl.Cl.Cl	Meclofenamate Na	0	anti-histamine
-CC1=C(C(=C(C=C1)Cl)NC2=CC=CC=C2C(=O)[O-])Cl.O.[Na+]	Mefloquine HCl	0	NSAID
-C1CCNC(C1)C(C2=CC(=NC3=C2C=CC=C3C(F)(F)F)C(F)(F)F)O.Cl	Mepenzolate Bromide	0	antimalarial
-C[N+]1(CCCC(C1)OC(=O)C(C2=CC=CC=C2)(C3=CC=CC=C3)O)C.[Br-]	Meprobamate (Schedule Iv)	0	parasympathetic inhibitor
-CCCC(C)(COC(=O)N)COC(=O)N	Mestranol	0	anti-anxiety
-CC12CCC3C(C1CCC2(C#C)O)CCC4=C3C=CC(=C4)OC	Metaproterenol Hemisulfate (Orciprenaline)	0	steroidal hormone
-CC(C)NCC(C1=CC(=CC(=C1)O)O)O	Metaxalone	0	Asthma
-CC1=CC(=CC(=C1)OCC2CNC(=O)O2)C	Methazolamide	0	muscle relaxant
-CC(=O)N=C1N(N=C(S1)S(=O)(=O)N)C	Methenamine Hippurate	0	glaucoma
-C1N2CN3CN1CN(C2)C3.C1=CC=C(C=C1)C(=O)NCC(=O)O	Methocarbamol	0	antibiotic
-COC1=CC=CC=C1OCC(COC(=O)N)O	Methoxsalen (Xanthotoxin)	0	muscle relaxant
-COC1=C2C(=CC3=C1OC=C3)C=CC(=O)O2	Methylergonovine Maleate	0	psoriasis
-CCC(CO)NC(=O)C1CN(C2CC3=CNC4=CC=CC(=C34)C2=C1)C.C(=CC(=O)O)C(=O)O	Metolazone	0	increases contractions of uterus
-CC1NC2=CC(=C(C=C2C(=O)N1C3=CC=CC=C3C)S(=O)(=O)N)Cl	Metyrapone	0	diuretic
-CC(C)(C1=CN=CC=C1)C(=O)C2=CN=CC=C2	Mexiletine HCl	0	diagnostic
-CC1=C(C(=CC=C1)C)OCC(C)N.Cl	Miconazole	0	anti-arrythmic / cardiac
-C1=CC(=C(C=C1Cl)Cl)COC(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl	Milnacipran HCl	0	antifungal
-CCN(CC)C(=O)C1(CC1CN)C2=CC=CC=C2.Cl	Mirtazapine	0	fibromyalgia
-CN1CCN2C(C1)C3=CC=CC=C3CC4=C2N=CC=C4	Mitotane	0	antidepressant
-C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)C(Cl)Cl)Cl	Modafinil (Schedule Iv)	0	anticancer
-C1=CC=C(C=C1)C(C2=CC=CC=C2)S(=O)CC(=O)N	Moexipril HCl	0	CNS stimulant
-CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2CC3=CC(=C(C=C3CC2C(=O)O)OC)OC.Cl	Nadolol	0	anti-hypertensive / cardiac
-CC(C)(C)NCC(COC1=CC=CC2=C1CC(C(C2)O)O)O	Naratriptan HCl	0	anti-hypertensive / cardiac
-CNS(=O)(=O)CCC1=CC2=C(C=C1)NC=C2C3CCN(CC3)C.Cl	Nebivolol HCl	0	anti-migraine
-C1CC2=C(C=CC(=C2)F)OC1C(CNCC(C3CCC4=C(O3)C=CC(=C4)F)O)O.Cl	Nevirapine	0	anti-hypertensive / cardiac
-CC1=C2C(=NC=C1)N(C3=C(C=CC=N3)C(=O)N2)C4CC4	Nizatidine	0	antiviral
-CNC(=C[N+](=O)[O-])NCCSCC1=CSC(=N1)CN(C)C	Nortriptyline HCl	0	anti-histamine
-CNCCC=C1C2=CC=CC=C2CCC3=CC=CC=C31.Cl	Oxaprozin	0	antidepressant
-C1=CC=C(C=C1)C2=C(OC(=N2)CCC(=O)O)C3=CC=CC=C3	Oxtriphylline	0	NSAID
-CN1C(=C2C(=NC=N2)N(C1=O)C)[O-].C[N+](C)(C)CCO	Oxybutynin Chloride	0	Asthma
-CCN(CC)CC#CCOC(=O)C(C1CCCCC1)(C2=CC=CC=C2)O.Cl	Oxytetracycline HCl	0	antispasmodic
-CC1(C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O)O.Cl	Palonosetron HCl	0	antibiotic
-C1CC2CN(C(=O)C3=C2C(=CC=C3)C1)C4CN5CCC4CC5.Cl	Pazopanib HCl	0	antiemetic
-CC1=C(C=C(C=C1)NC2=NC=CC(=N2)N(C)C3=CC4=NN(C(=C4C=C3)C)C)S(=O)(=O)N.Cl	Pemirolast Potassium	0	anticancer
-CC1=CC=CN2C1=NC=C(C2=O)C3=NN=N[N-]3.[K+]	Perindopril Erbumine	0	anti-allergy
-CCCC(C(=O)OCC)NC(C)C(=O)N1C2CCCCC2CC1C(=O)O.CC(C)(C)N	Perphenazine	0	anti-hypertensive / cardiac
-C1CN(CCN1CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)Cl)CCO	Phenylephrine 	0	antipsychotic
-CNCC(C1=CC(=CC=C1)O)O	Pitavastatin Calcium	0	decongestant
-C1CC1C2=NC3=CC=CC=C3C(=C2C=CC(CC(CC(=O)[O-])O)O)C4=CC=C(C=C4)F.C1CC1C2=NC3=CC=CC=C3C(=C2C=CC(CC(CC(=O)[O-])O)O)C4=CC=C(C=C4)F.[Ca+2]	Posaconazole	0	cholesterol-lowering agent
-CCC(C(C)O)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5CC(OC5)(CN6C=NC=N6)C7=C(C=C(C=C7)F)F	Pravastatin Na	0	antifungal
-CCC(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC(CC(CC(=O)[O-])O)O)O.[Na+]	Primidone	0	cholesterol-lowering agent
-CCC1(C(=O)NCNC1=O)C2=CC=CC=C2	Propylthiouracil	0	anti-epileptic
-CCCC1=CC(=O)NC(=S)N1	Protriptyline HCl	0	hyperthyrodism
-CNCCCC1C2=CC=CC=C2C=CC3=CC=CC=C13.Cl	Pyrazinamide	0	antidepressant
-C1=CN=C(C=N1)C(=O)N	Pyrimethamine	0	antibiotic
-CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl	Quinidine HCl H2O	0	antimalarial
-CN1CCC23CCCCC2C1CC4=C3C=C(C=C4)OC.O.Br	Rabeprazole Na	0	anti-arrythmic / cardiac
-CC1=C(C=CN=C1CS(=O)C2=NC3=CC=CC=C3[N-]2)OCCCOC.[Na+]	Raltegravir	0	proton pump inhibitor
-CC1=NN=C(O1)C(=O)NC(C)(C)C2=NC(=C(C(=O)N2C)O)C(=O)NCC3=CC=C(C=C3)F	Ramelteon	0	antiviral
-CCC(=O)NCCC1CCC2=C1C3=C(C=C2)OCC3	Rasagiline Mesylate	0	insomnia
-CS(=O)(=O)O.C#CCNC1CCC2=CC=CC=C12	Repaglinide	0	anti-parkinson's
-CCOC1=C(C=CC(=C1)CC(=O)NC(CC(C)C)C2=CC=CC=C2N3CCCCC3)C(=O)O	Reserpine	0	anti-diabetic
-COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC	Rifapentine	0	anti-hypertensive / cardiac
-CC1C=CC=C(C(=O)NC2=C(C3=C(C(=C4C(=C3C(=O)C2=CNN5CCN(CC5)C6CCCC6)C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)O)C	Rifaximin	0	antibiotic
-CC1C=CC=C(C(=O)NC2=C(C3=C(C4=C(C(=C3O)C)OC(C4=O)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C5=C2N6C=CC(=CC6=N5)C)O)C	Ritonavir	0	antibiotic
-CC(C)C1=NC(=CS1)CN(C)C(=O)NC(C(C)C)C(=O)NC(CC2=CC=CC=C2)CC(C(CC3=CC=CC=C3)NC(=O)OCC4=CN=CS4)O	Ropinirole HCl	0	antiviral
-CCCN(CCC)CCC1=C2CC(=O)NC2=CC=C1.Cl	Rosuvastatin Calcium	0	anti-parkinson's
-CC(C)C1=NC(=NC(=C1C=CC(CC(CC(=O)[O-])O)O)C2=CC=C(C=C2)F)N(C)S(=O)(=O)C.CC(C)C1=NC(=NC(=C1C=CC(CC(CC(=O)[O-])O)O)C2=CC=C(C=C2)F)N(C)S(=O)(=O)C.[Ca+2]	Rufinamide	0	cholesterol-lowering agent
-C1=CC(=C(C(=C1)F)CN2C=C(N=N2)C(=O)N)F	Saquinavir Mesylate	0	anti-epileptic
-CC(C)(C)NC(=O)C1CC2CCCCC2CN1CC(C(CC3=CC=CC=C3)NC(=O)C(CC(=O)N)NC(=O)C4=NC5=CC=CC=C5C=C4)O.CS(=O)(=O)O	Selegiline HCl	0	antiviral
-CC(CC1=CC=CC=C1)N(C)CC#C.Cl	Sertraline HCl	0	anti-parkinson's
-CNC1CCC(C2=CC=CC=C12)C3=CC(=C(C=C3)Cl)Cl.Cl	Sitagliptin Phosphate	0	antidepressant
-C1CN2C(=NN=C2C(F)(F)F)CN1C(=O)CC(CC3=CC(=C(C=C3F)F)F)N.OP(=O)(O)O	Sorafenib Tosylate	0	anti-diabetic
-CC1=CC=C(C=C1)S(=O)(=O)O.CNC(=O)C1=NC=CC(=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F	Sunitinib Malate	0	anticancer
-CCN(CC)CCNC(=O)C1=C(NC(=C1C)C=C2C3=C(C=CC(=C3)F)NC2=O)C.C(C(C(=O)O)O)C(=O)O	Tadalafil	0	anticancer
-CN1CC(=O)N2C(C1=O)CC3=C(C2C4=CC5=C(C=C4)OCO5)NC6=CC=CC=C36	Telbivudine 	0	erectile dysfunction
-CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)O	Telithromycin	0	antiviral
-CCC1C2(C(C(C(=O)C(CC(C(C(C(=O)C(C(=O)O1)C)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)N(C(=O)O2)CCCCN4C=C(N=C4)C5=CN=CC=C5)C	Temazepam	0	antibiotic
-CN1C2=C(C=C(C=C2)Cl)C(=NC(C1=O)O)C3=CC=CC=C3	Terbutaline Hemisulfate	0	antidepressant
-CC(C)(C)NCC(C1=CC(=CC(=C1)O)O)O.CC(C)(C)NCC(C1=CC(=CC(=C1)O)O)O.OS(=O)(=O)O	Tetrabenazine	0	Asthma
-CC(C)CC1CN2CCC3=CC(=C(C=C3C2CC1=O)OC)OC	Theophylline	0	antipsychotic
-CN1C2=C(C(=O)N(C1=O)C)NC=N2	Thioguanine (6-Thioguanine)	0	Asthma
-C1=NC2=C(N1)C(=S)N=C(N2)N	Tiagabine HCl	0	anticancer
-CC1=C(SC=C1)C(=CCCN2CCCC(C2)C(=O)O)C3=C(C=CS3)C.Cl	Tolterodine Tartrate	0	anti-epileptic
-CC1=CC(=C(C=C1)O)C(CCN(C(C)C)C(C)C)C2=CC=CC=C2.C(C(C(=O)O)O)(C(=O)O)O	Tolvaptan	0	antispasmodic
-CC1=CC=CC=C1C(=O)NC2=CC(=C(C=C2)C(=O)N3CCCC(C4=C3C=CC(=C4)Cl)O)C	Topiramate	0	hyponatremia
-CC1(OC2COC3(C(C2O1)OC(O3)(C)C)COS(=O)(=O)N)C	Torsemide	0	anti-epileptic
-CC1=CC(=CC=C1)NC2=C(C=NC=C2)S(=O)(=O)NC(=O)NC(C)C	Trandolapril	0	diuretic
-CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2C3CCCCC3CC2C(=O)O	Trazodone HCl	0	anti-hypertensive / cardiac
-C1CN(CCN1CCCN2C(=O)N3C=CC=CC3=N2)C4=CC(=CC=C4)Cl.Cl	Triamcinolone Acetonide	0	antidepressant
-CC1(OC2CC3C4CCC5=CC(=O)C=CC5(C4(C(CC3(C2(O1)C(=O)CO)C)O)F)C)C	Triamterene	0	steroidal anti-inflammatory
-C1=CC=C(C=C1)C2=NC3=C(N=C2N)N=C(N=C3N)N	Triazolam	0	diuretic
-C1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4Cl	Trihexyphenidyl HCl	0	insomnia
-C1CCC(CC1)C(CCN2CCCCC2)(C3=CC=CC=C3)O.Cl	Trimethobenzamide HCl	0	anti-parkinson's
-CN(C)CCOC1=CC=C(C=C1)CNC(=O)C2=CC(=C(C(=C2)OC)OC)OC.Cl	Trimipramine Maleate	0	antiemetic
-CC(CN1C2=CC=CC=C2CCC3=CC=CC=C31)CN(C)C.C(=CC(=O)O)C(=O)O	Trospium Chloride	0	antidepressant
-C1CC[N+]2(C1)C3CCC2CC(C3)OC(=O)C(C4=CC=CC=C4)(C5=CC=CC=C5)O.[Cl-]	Voriconazole	0	antispasmodic
-CC(C1=NC=NC=C1F)C(CN2C=NC=N2)(C3=C(C=C(C=C3)F)F)O	Warfarin Na	0	antifungal
-CC(=O)CC(C1=CC=CC=C1)C2=C(C3=CC=CC=C3OC2=O)[O-].[Na+]	Zaleplon	0	anticoagulant
-CCN(C1=CC=CC(=C1)C2=CC=NC3=C(C=NN23)C#N)C(=O)C	Ziprasidone hydrochloride	0	hypnotic
-C1CN(CCN1CCC2=C(C=C3C(=C2)CC(=O)N3)Cl)C4=NSC5=CC=CC=C54.Cl	Nicardipine HCl	0	antipsychotic
-CC1=C(C(C(=C(N1)C)C(=O)OCCN(C)CC2=CC=CC=C2)C3=CC(=CC=C3)[N+](=O)[O-])C(=O)OC.Cl	Risperidone	1	anti-hypertensive / cardiac
-CC1=C(C(=O)N2CCCCC2=N1)CCN3CCC(CC3)C4=NOC5=C4C=CC(=C5)F	Tolcapone	1	antipsychotic
-CC1=CC=C(C=C1)C(=O)C2=CC(=C(C(=C2)O)O)[N+](=O)[O-]	Azathioprine	1	anti-parkinson's
-CN1C=NC(=C1SC2=NC=NC3=C2NC=N3)[N+](=O)[O-]	Entacapone	1	immunosuppressive
-CCN(CC)C(=O)C(=CC1=CC(=C(C(=C1)O)O)[N+](=O)[O-])C#N	Exemestane	1	anti-parkinson's
-CC12CCC3C(C1CCC2=O)CC(=C)C4=CC(=O)C=CC34C	Nimodipine	1	steroidal hormone
-CC1=C(C(C(=C(N1)C)C(=O)OC(C)C)C2=CC(=CC=C2)[N+](=O)[O-])C(=O)OCCOC	Capsaicin	1	anti-hypertensive / cardiac
-CC(C)C=CCCCCC(=O)NCC1=CC(=C(C=C1)O)OC	Dexamethasone	1	dietary product
-CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C	Ethacrynic Acid	1	steroidal anti-inflammatory
-CCC(=C)C(=O)C1=C(C(=C(C=C1)OCC(=O)O)Cl)Cl	Rifampin (Rifampicin)	1	diuretic
-CC1C=CC=C(C(=O)NC2=C(C3=C(C(=C4C(=C3C(=O)C2=CNN5CCN(CC5)C)C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)O)C	Sulindac	1	antibiotic
-CC1=C(C2=C(C1=CC3=CC=C(C=C3)S(=O)C)C=CC(=C2)F)CC(=O)O	Vorinostat 	1	NSAID
-C1=CC=C(C=C1)NC(=O)CCCCCCC(=O)NO	Dolasetron	1	HDAC inhibitor
-C1C2CC3CC(CC1N3CC2=O)OC(=O)C4=CNC5=CC=CC=C54	Mycophenolate Mofetil	1	antiemetic
-CC1=C(C(=C(C2=C1COC2=O)O)CC=C(C)CCC(=O)OCCN3CCOCC3)OC	Zidovudine (3'-Azido-3'-Deoxythymidine)	1	immunosuppressive
-CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)N=[N+]=[N-]	Allopurinol	1	antiviral
-C1=C2C(=NC=NC2=O)NN1	Betamethasone	1	anti-gout
-CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C	Bisacodyl	1	steroidal anti-inflammatory
-CC(=O)OC1=CC=C(C=C1)C(C2=CC=C(C=C2)OC(=O)C)C3=CC=CC=N3	Estradiol	1	laxative
-CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O	Famciclovir	1	steroidal hormone
-CC(=O)OCC(CCN1C=NC2=CN=C(N=C21)N)COC(=O)C	Flutamide	1	antiviral
-CC(C)C(=O)NC1=CC(=C(C=C1)[N+](=O)[O-])C(F)(F)F	Hydrocortisone	1	anti-androgen
-CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O	Hydrocortisone Acetate	1	steroidal anti-inflammatory
-CC(=O)OCC(=O)C1(CCC2C1(CC(C3C2CCC4=CC(=O)CCC34C)O)C)O	Medroxyprogesterone Acetate	1	steroidal anti-inflammatory
-CC1CC2C3CCC(C3(CC(C2C4(C1=CC(=O)C=C4)C)O)C)(C(=O)CO)O	Melphalan	1	steroidal anti-inflammatory
-CC1=NC=C(N1CCO)[N+](=O)[O-]	Methylprednisolone	1	antibiotic
-CC(=O)CCC1=CC2=C(C=C1)C=C(C=C2)OC	Metronidazole	1	NSAID
-COC1=C(C(=NC=C1)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC(F)F)OC	Nabumetone	1	anti-GERD
-CC12CC(C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C)O	Pantoprazole	1	steroidal anti-inflammatory
-CC(=O)C1CCC2C1(CCC3C2CCC4=CC(=O)CCC34C)C	Prednisolone	1	steroidal hormone
-CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C	Progesterone	1	steroidal anti-inflammatory
-CC(=O)SC1CC2=CC(=O)CCC2(C3C1C4CCC5(C4(CC3)C)CCC(=O)O5)C	Prednisone	1	steroidal diuretic
-C1=CC=NC(=C1)NS(=O)(=O)C2=CC=C(C=C2)NN=C3C=CC(=O)C(=C3)C(=O)O	Spironolactone	1	immunomodulatory
-CCS(=O)(=O)CCN1C(=NC=C1[N+](=O)[O-])C	Sulfasalazine	1	antibiotic
-CNCCC(C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F.Cl	Tinidazole	1	antidepressant
-CCCCC(C)(CC=CC1C(CC(=O)C1CCCCCCC(=O)OC)O)O	Fluoxetine HCl	1	anti-ulcer
-CC1=CC2C(CCC3(C2CCC3(C(=O)C)OC(=O)C)C)C4(C1=CC(=O)CC4)C	Misoprostol	1	steroidal hormone
-CCCCCOC(=O)NC1=NC(=O)N(C=C1F)C2C(C(C(O2)C)O)O	Megestrol Acetate	1	anticancer
-CC(CCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C	Capecitabine	1	bile acid
-CC(C)N=C1C=C2C(=NC3=CC=CC=C3N2C4=CC=C(C=C4)Cl)C=C1NC5=CC=C(C=C5)Cl	Adefovir Dipivoxil	1	antibiotic
-C1C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])C(=N1)C3=CC=CC=C3Cl	Chenodiol (Chenodeoxycholic Acid)	1	anti-epileptic
-CC(=O)OCC(=O)C1(CCC2C1(CC(=O)C3C2CCC4=CC(=O)CCC34C)C)O	Clofazimine	1	steroidal anti-inflammatory
-C1C(=O)N=C(N1N=CC2=CC=C(O2)C3=CC=C(C=C3)[N+](=O)[O-])[O-].[Na+]	Clonazepam	1	muscle relaxant
-CNCCC(C1=CC=CS1)OC2=CC=CC3=CC=CC=C32.Cl	Cortisone Acetate	1	antidepressant
-CC(=O)OCC(=O)C1(CCC2C1(CC(C3(C2CCC4=CC(=O)CCC43C)F)O)C)O	Dantrolene Na	1	steroidal anti-inflammatory
-CC(=O)C1=CC(=C(C=C1)OCCCN2CCC(CC2)C3=NOC4=C3C=CC(=C4)F)OC	Duloxetine HCl	1	antipsychotic
-C1=CC=C(C(=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O)Cl	Fludarabine Phosphate	1	anti-anxiety
-CC1(C(=O)N(C(=O)N1)C2=CC(=C(C=C2)[N+](=O)[O-])C(F)(F)F)C	Fludrocortisone Acetate 	1	anti-androgen
-C1CC(=O)C(C(=O)C1)C(=O)C2=C(C=C(C=C2)C(F)(F)F)[N+](=O)[O-]	Iloperidone	1	hereditary tyrosinemia type 1 (HT-1)
-C1C(=O)NC(=O)N1N=CC2=CC=C(O2)[N+](=O)[O-]	Lorazepam	1	antibiotic
-C1=CC=C(C=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O	Nilutamide	1	anti-anxiety
-CC1=C(C(=O)N2CCCC(C2=N1)O)CCN3CCC(CC3)C4=NOC5=C4C=CC(=C5)F	Nitazoxanide	1	antipsychotic
-CC(=O)OC1=CC2=C(S1)CCN(C2)C(C3=CC=CC=C3F)C(=O)C4CC4	Nitisinone	1	anti-platelet
-CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O	Nitrofurantoin	1	anti-gout
-CC1C=CC=C(C(=O)NC2=C3C(=NC4(N3)CCN(CC4)CC(C)C)C5=C6C(=C(C(=C5C2=O)O)C)OC(C6=O)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C	Oxazepam	1	antibiotic
-CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N	Paliperidone	1	antibiotic
-CC(CCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C	Prasugrel	1	bile acid
+CC(C)(C)C(=O)OCOP(=O)(COCCN1C=NC2=C1N=CN=C2N)OCOC(=O)C(C)(C)C	Adefovir Dipivoxil	0	antiviral
+CC1=C(N=CN1)CN2CCC3=C(C2=O)C4=CC=CC=C4N3C	Alosetron·HCl	0	anti-diarrhea
+CC1=CC(=NC(=N1)OC(C(=O)O)C(C2=CC=CC=C2)(C3=CC=CC=C3)OC)C	Ambrisentan	0	Pulmonary arterial hypertension
+CC1CCC2C(C(OC3C24C1CCC(O3)(OO4)C)OC)C	Artemether	0	antimalarial
+CN1CC2C(C1)C3=C(C=CC(=C3)Cl)OC4=CC=CC=C24	Asenapine Maleate	0	antipsychotic
+CC(C)C1=C(C(=C(N1CCC(CC(CC(=O)[O-])O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4	Atorvastatin Calcium	0	cholesterol-lowering agent
+CCOC(=O)C(CCC1=CC=CC=C1)NC2CCC3=CC=CC=C3N(C2=O)CC(=O)O	Benazepril·HCl	0	anti-hypertensive / cardiac
+CN1C2CCC1CC(C2)OC(C3=CC=CC=C3)C4=CC=CC=C4	Benztropine Mesylate	0	anti-parkinson's
+C1CCN(CC1)CCC(C2CC3CC2C=C3)(C4=CC=CC=C4)O	Biperiden·HCl	0	anti-parkinson's
+CC(C)NCC(COC1=CC=C(C=C1)COCCOC(C)C)O	Bisoprolol Fumarate	0	anti-hypertensive / cardiac
+CN(C)CCC(C1=CC=C(C=C1)Br)C2=CC=CC=N2	Brompheniramine Maleate	0	anti-histamine
+CCCC1OC2CC3C4CCC5=CC(=O)C=CC5(C4C(CC3(C2(O1)C(=O)CO)C)O)C	Budesonide	0	steroidal anti-inflammatory
+CC(C(=O)C1=CC(=CC=C1)Cl)NC(C)(C)C	Bupropion 	0	antidepressant
+C1CCC2(C3CC4=C(C2(C1)CCN3CC5CCC5)C=C(C=C4)O)O	Butorphanol-(+)-Tartrate (Schedule Iv)	0	analgesic
+CN(C)CCOC(C1=CC=C(C=C1)Cl)C2=CC=CC=N2	Carbinoxamine Maleate	0	anti-histamine
+CC1=C(SC=N1)C=CC2=C(N3C(C(C3=O)NC(=O)C(=NOC)C4=CSC(=N4)N)SC2)C(=O)OCOC(=O)C(C)(C)C	Cefditoren Pivoxil	0	antibiotic
+CC(C)OC(=O)OC(C)OC(=O)C1=C(CSC2N1C(=O)C2NC(=O)C(=NOC)C3=CSC(=N3)N)COC	Cefpodoxime Proxetil	0	antibiotic
+C1=C2C(=CC(=C1Cl)S(=O)(=O)N)S(=O)(=O)N=CN2	Chlorothiazide	0	diuretic
+CCCNC(=O)NS(=O)(=O)C1=CC=C(C=C1)Cl	Chlorpropamide	0	anti-diabetic
+C1=CC=C2C(=C1)C(=O)NC2(C3=CC(=C(C=C3)Cl)S(=O)(=O)N)O	Chlorthalidone	0	diuretic
+C1=CC2=C(C=C1Cl)NC(=O)O2	Chlorzoxazone	0	muscle relaxant
+C1CCC(CC1)N2C(=NN=N2)CCCCOC3=CC4=C(C=C3)NC(=O)CC4	Cilostazol	0	anti-platelet
+CC(C1=CC=CC2=CC=CC=C21)NCCCC3=CC(=CC=C3)C(F)(F)F	Cinacalcet·HCl	0	hyperparathyroidism
+CN1C(=O)CC(=O)N(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3	Clobazam	0	anti-epileptic
+CN(C)CCCN1C2=CC=CC=C2CCC3=C1C=C(C=C3)Cl	Clomipramine·HCl	0	antidepressant
+CC(=O)NC1CCC2=CC(=C(C(=C2C3=CC=C(C(=O)C=C13)OC)OC)OC)OC	Colchicine	0	anti-gout
+CN(C)CCC=C1C2=CC=CC=C2C=CC3=CC=CC=C31	Cyclobenzaprine·HCl	0	muscle relaxant
+C1=CC(=CC=C1N)S(=O)(=O)C2=CC=C(C=C2)N	Dapsone	0	antibiotic
+C1CN(CC1C(C2=CC=CC=C2)(C3=CC=CC=C3)C(=O)N)CCC4=CC5=C(C=C4)OCC5	Darifenacin·HBr	0	antispasmodic
+CC(C)CN(CC(C(CC1=CC=CC=C1)NC(=O)OC2COC3C2CCO3)O)S(=O)(=O)C4=CC=C(C=C4)N	Darunavir	0	antiviral
+CC1=C(C(=CC=C1)Cl)NC(=O)C2=CN=C(S2)NC3=NC(=NC(=C3)N4CCN(CC4)CCO)C	Dasatinib	0	anticancer
+C1=CC(=C2NC(=C3C=CC=CC3=O)N(N2)C4=CC=C(C=C4)C(=O)O)C(=O)C=C1	Deferasirox	0	iron chelating agent
+CN(C)C1C2CC3C(C4=C(C=CC(=C4C(=C3C(=O)C2(C(=C(C1=O)C(=O)N)O)O)O)O)Cl)O	Demeclocycline·HCl	0	antibiotic
+CNCCCN1C2=CC=CC=C2CCC3=CC=CC=C31	Desipramine·HCl	0	antidepressant
+CN(C)CC(C1=CC=C(C=C1)O)C2(CCCCC2)O	Desvenlafaxine Succinate Hydrate	0	antidepressant
+CN(C)CCC(C1=CC=C(C=C1)Cl)C2=CC=CC=N2	Dexchlorpheniramine Maleate	0	anti-histamine
+CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3	Diazepam	0	anti-anxiety
+CCN(CC)CCOC(=O)C1(CCCCC1)C2CCCCC2	Dicyclomine·HCl	0	antispasmodic
+CC12CCC3=C4CCC(=O)C=C4CCC3C1CCC2(CC#N)O	Dienogest	0	steroidal hormone
+CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O	Digoxin	0	cardiac glycoside
+CN(C)CCOC(C1=CC=CC=C1)C2=CC=CC=C2	Dimenhydrinate	0	anti-histamine
+CC(C)N(CCC(C1=CC=CC=C1)(C2=CC=CC=N2)C(=O)N)C(C)C	Disopyramide 	0	anti-arrythmic / cardiac
+CN(C)CCC=C1C2=CC=CC=C2COC3=CC=CC=C31	Doxepin·HCl	0	antidepressant
+CC12CCC(=O)C=C1C3CC3C4C2CCC5(C4C6CC6C57CCC(=O)O7)C	Drospirenone	0	steroidal hormone
+CC12CCC3C(C1CCC2C(=O)NC4=C(C=CC(=C4)C(F)(F)F)C(F)(F)F)CCC5C3(C=CC(=O)N5)C	Dutasteride	0	steroidal hormone
+CC12CCC3C(C1CCC2=O)CCC4=C3C=CC(=C4)OS(=O)(=O)O	Estropipate	0	steroidal hormone
+CN1CCN(CC1)C(=O)OC2C3=NC=CN=C3C(=O)N2C4=NC=C(C=C4)Cl	Eszopiclone	0	hypnotic
+CC12CCC3C(C1CCC2(C#C)O)CCC4=C3C=CC(=C4)O	Ethinyl Estradiol	0	steroidal hormone
+CCC1=NC=CC(=C1)C(=S)N	Ethionamide	0	antibiotic
+CCC1=CC=CC2=C1NC3=C2CCOC3(CC)CC(=O)O	Etodolac	0	NSAID
+CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)OCCO)C)C)O)OC)C)C)C)OC	Everolimus	0	immunosuppressive
+C1=CC(=CC=C1C2C(C(=O)N2C3=CC=C(C=C3)F)CCC(C4=CC=C(C=C4)F)O)O	Ezetimibe	0	cholesterol-lowering agent
+CC1=C(SC(=N1)C2=CC(=C(C=C2)OCC(C)C)C#N)C(=O)O	Febuxostat	0	anti-gout
+CC(C)(C1=CC=C(C=C1)C(CCCN2CCC(CC2)C(C3=CC=CC=C3)(C4=CC=CC=C4)O)O)C(=O)O	Fexofenadine·HCl	0	anti-histamine
+CCCCCCCCC1=CC=C(C=C1)CCC(CO)(CO)N	Fingolimod	0	immunomodulatory
+CC1=C(OC2=C(C1=O)C=CC=C2C(=O)OCCN3CCCCC3)C4=CC=CC=C4	Flavoxate·HCl	0	antispasmodic
+COCCCCC(=NOCCN)C1=CC=C(C=C1)C(F)(F)F	Fluvoxamine Maleate	0	antidepressant
+CC(CC1=CC=C(C=C1)OC)NCC(C2=CC(=C(C=C2)O)NC=O)O	Formoterol	0	Asthma
+CON=C1CN(CC1CN)C2=C(C=C3C(=O)C(=CN(C3=N2)C4CC4)C(=O)O)F	Gemifloxacin 	0	antibiotic
+CC1CC(=O)C=C(C12C(=O)C3=C(O2)C(=C(C=C3OC)OC)Cl)OC	Griseofulvin	0	antifungal
+C1=CC=C2C(=C1)C=NN=C2NN	Hydralazine·HCl	0	anti-hypertensive / cardiac
+C1NC2=CC(=C(C=C2S(=O)(=O)N1)S(=O)(=O)N)Cl	Hydrochlorothiazide	0	diuretic
+C1NC2=C(C=C(C(=C2)C(F)(F)F)S(=O)(=O)N)S(=O)(=O)N1	Hydroflumethiazide	0	diuretic
+CCN(CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl)CCO	Hydroxychloroquine Sulfate	0	antimalarial
+C1CN(CCN1CCOCCO)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl	Hydroxyzine Dihydrochloride	0	anti-histamine
+CC(C)(C)NC(=O)C1CN(CCN1CC(CC(CC2=CC=CC=C2)C(=O)NC3C(CC4=CC=CC=C34)O)O)CC5=CN=CC=C5	Indinavir 	0	antiviral
+CCCCC1=NC2(CCCC2)C(=O)N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NNN=N5	Irbesartan	0	anti-hypertensive / cardiac
+CC1=CC(=NO1)C(=O)NNCC2=CC=CC=C2	Isocarboxazid	0	antidepressant
+CC1=C(C(C(=C(N1)C)C(=O)OC(C)C)C2=CC=CC3=NON=C32)C(=O)OC	Isradipine	0	anti-hypertensive / cardiac
+C1CN2C(=CC=C2C(=O)C3=CC=CC=C3)C1C(=O)O	Ketorolac Tromethamine	0	NSAID
+CC(CCC1=CC=CC=C1)NCC(C2=CC(=C(C=C2)O)C(=O)N)O	Labetalol·HCl	0	anti-hypertensive / cardiac
+CC(=O)NC(COC)C(=O)NCC1=CC=CC=C1	Lacosamide	0	anti-epileptic
+C1C(OC(S1)CO)N2C=CC(=NC2=O)N	Lamivudine	0	antiviral
+CC1=C(C=CN=C1CS(=O)C2=NC3=CC=CC=C3N2)OCC(F)(F)F	Lansoprazole	0	proton pump inhibitor
+C1CC(=O)NC(=O)C1N2CC3=C(C2=O)C=CC=C3N	Lenalidomide	0	anticancer
+C1CN(CCN1CCOCC(=O)O)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl	Levocetirizine Dihydrochloride	0	anti-histamine
+CC1=C(C(=CC=C1)C)OCC(=O)NC(CC2=CC=CC=C2)C(CC(CC3=CC=CC=C3)NC(=O)C(C(C)C)N4CCCNC4=O)O	Lopinavir	0	antiviral
+CN1CCN(CC1)C2=NC3=CC=CC=C3OC4=C2C=C(C=C4)Cl	Loxapine Succinate	0	antipsychotic
+CC1=NN=C(N1C2CC3CCC(C2)N3CCC(C4=CC=CC=C4)NC(=O)C5CCC(CC5)(F)F)C(C)C	Maraviroc	0	antiviral
+CC1=CC(=CC=C1)CN2CCN(CC2)C(C3=CC=CC=C3)C4=CC=C(C=C4)Cl	Meclizine Dihydrochloride	0	anti-histamine
+CC1=C(C(=C(C=C1)Cl)NC2=CC=CC=C2C(=O)[O-])Cl	Meclofenamate·Na	0	NSAID
+C1CCNC(C1)C(C2=CC(=NC3=C2C=CC=C3C(F)(F)F)C(F)(F)F)O	Mefloquine·HCl	0	antimalarial
+C[N+]1(CCCC(C1)OC(=O)C(C2=CC=CC=C2)(C3=CC=CC=C3)O)C	Mepenzolate Bromide	0	parasympathetic inhibitor
+CCCC(C)(COC(=O)N)COC(=O)N	Meprobamate (Schedule Iv)	0	anti-anxiety
+CC12CCC3C(C1CCC2(C#C)O)CCC4=C3C=CC(=C4)OC	Mestranol	0	steroidal hormone
+CC(C)NCC(C1=CC(=CC(=C1)O)O)O	Metaproterenol Hemisulfate (Orciprenaline)	0	Asthma
+CC1=CC(=CC(=C1)OCC2CNC(=O)O2)C	Metaxalone	0	muscle relaxant
+CC(=O)N=C1N(N=C(S1)S(=O)(=O)N)C	Methazolamide	0	glaucoma
+C1=CC=C(C=C1)C(=O)NCC(=O)O	Methenamine Hippurate	0	antibiotic
+COC1=CC=CC=C1OCC(COC(=O)N)O	Methocarbamol	0	muscle relaxant
+COC1=C2C(=CC3=C1OC=C3)C=CC(=O)O2	Methoxsalen (Xanthotoxin)	0	psoriasis
+CCC(CO)NC(=O)C1CN(C2CC3=CNC4=CC=CC(=C34)C2=C1)C	Methylergonovine Maleate	0	increases contractions of uterus
+CC1NC2=CC(=C(C=C2C(=O)N1C3=CC=CC=C3C)S(=O)(=O)N)Cl	Metolazone	0	diuretic
+CC(C)(C1=CN=CC=C1)C(=O)C2=CN=CC=C2	Metyrapone	0	diagnostic
+CC1=C(C(=CC=C1)C)OCC(C)N	Mexiletine·HCl	0	anti-arrythmic / cardiac
+C1=CC(=C(C=C1Cl)Cl)COC(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl	Miconazole	0	antifungal
+CCN(CC)C(=O)C1(CC1CN)C2=CC=CC=C2	Milnacipran·HCl	0	fibromyalgia
+CN1CCN2C(C1)C3=CC=CC=C3CC4=C2N=CC=C4	Mirtazapine	0	antidepressant
+C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)C(Cl)Cl)Cl	Mitotane	0	anticancer
+C1=CC=C(C=C1)C(C2=CC=CC=C2)S(=O)CC(=O)N	Modafinil (Schedule Iv)	0	CNS stimulant
+CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2CC3=CC(=C(C=C3CC2C(=O)O)OC)OC	Moexipril·HCl	0	anti-hypertensive / cardiac
+CC(C)(C)NCC(COC1=CC=CC2=C1CC(C(C2)O)O)O	Nadolol	0	anti-hypertensive / cardiac
+CNS(=O)(=O)CCC1=CC2=C(C=C1)NC=C2C3CCN(CC3)C	Naratriptan·HCl	0	anti-migraine
+C1CC2=C(C=CC(=C2)F)OC1C(CNCC(C3CCC4=C(O3)C=CC(=C4)F)O)O	Nebivolol·HCl	0	anti-hypertensive / cardiac
+CC1=C2C(=NC=C1)N(C3=C(C=CC=N3)C(=O)N2)C4CC4	Nevirapine	0	antiviral
+CNC(=C[N+](=O)[O-])NCCSCC1=CSC(=N1)CN(C)C	Nizatidine	0	anti-histamine
+CNCCC=C1C2=CC=CC=C2CCC3=CC=CC=C31	Nortriptyline·HCl	0	antidepressant
+C1=CC=C(C=C1)C2=C(OC(=N2)CCC(=O)O)C3=CC=CC=C3	Oxaprozin	0	NSAID
+CN1C(=C2C(=NC=N2)N(C1=O)C)[O-]	Oxtriphylline	0	Asthma
+CCN(CC)CC#CCOC(=O)C(C1CCCCC1)(C2=CC=CC=C2)O	Oxybutynin Chloride	0	antispasmodic
+CC1(C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O)O	Oxytetracycline·HCl	0	antibiotic
+C1CC2CN(C(=O)C3=C2C(=CC=C3)C1)C4CN5CCC4CC5	Palonosetron·HCl	0	antiemetic
+CC1=C(C=C(C=C1)NC2=NC=CC(=N2)N(C)C3=CC4=NN(C(=C4C=C3)C)C)S(=O)(=O)N	Pazopanib·HCl	0	anticancer
+CC1=CC=CN2C1=NC=C(C2=O)C3=NN=N[N-]3	Pemirolast Potassium	0	anti-allergy
+CCCC(C(=O)OCC)NC(C)C(=O)N1C2CCCCC2CC1C(=O)O	Perindopril Erbumine	0	anti-hypertensive / cardiac
+C1CN(CCN1CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)Cl)CCO	Perphenazine	0	antipsychotic
+CNCC(C1=CC(=CC=C1)O)O	Phenylephrine 	0	decongestant
+C1CC1C2=NC3=CC=CC=C3C(=C2C=CC(CC(CC(=O)[O-])O)O)C4=CC=C(C=C4)F	Pitavastatin Calcium	0	cholesterol-lowering agent
+CCC(C(C)O)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5CC(OC5)(CN6C=NC=N6)C7=C(C=C(C=C7)F)F	Posaconazole	0	antifungal
+CCC(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC(CC(CC(=O)[O-])O)O)O	Pravastatin·Na	0	cholesterol-lowering agent
+CCC1(C(=O)NCNC1=O)C2=CC=CC=C2	Primidone	0	anti-epileptic
+CCCC1=CC(=O)NC(=S)N1	Propylthiouracil	0	hyperthyrodism
+CNCCCC1C2=CC=CC=C2C=CC3=CC=CC=C13	Protriptyline·HCl	0	antidepressant
+C1=CN=C(C=N1)C(=O)N	Pyrazinamide	0	antibiotic
+CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl	Pyrimethamine	0	antimalarial
+CN1CCC23CCCCC2C1CC4=C3C=C(C=C4)OC	Quinidine·HCl·H2O	0	anti-arrythmic / cardiac
+CC1=C(C=CN=C1CS(=O)C2=NC3=CC=CC=C3[N-]2)OCCCOC	Rabeprazole·Na	0	proton pump inhibitor
+CC1=NN=C(O1)C(=O)NC(C)(C)C2=NC(=C(C(=O)N2C)O)C(=O)NCC3=CC=C(C=C3)F	Raltegravir	0	antiviral
+CCC(=O)NCCC1CCC2=C1C3=C(C=C2)OCC3	Ramelteon	0	insomnia
+C#CCNC1CCC2=CC=CC=C12	Rasagiline Mesylate	0	anti-parkinson's
+CCOC1=C(C=CC(=C1)CC(=O)NC(CC(C)C)C2=CC=CC=C2N3CCCCC3)C(=O)O	Repaglinide	0	anti-diabetic
+COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC	Reserpine	0	anti-hypertensive / cardiac
+CC1C=CC=C(C(=O)NC2=C(C3=C(C(=C4C(=C3C(=O)C2=CNN5CCN(CC5)C6CCCC6)C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)O)C	Rifapentine	0	antibiotic
+CC1C=CC=C(C(=O)NC2=C(C3=C(C4=C(C(=C3O)C)OC(C4=O)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C5=C2N6C=CC(=CC6=N5)C)O)C	Rifaximin	0	antibiotic
+CC(C)C1=NC(=CS1)CN(C)C(=O)NC(C(C)C)C(=O)NC(CC2=CC=CC=C2)CC(C(CC3=CC=CC=C3)NC(=O)OCC4=CN=CS4)O	Ritonavir	0	antiviral
+CCCN(CCC)CCC1=C2CC(=O)NC2=CC=C1	Ropinirole·HCl	0	anti-parkinson's
+CC(C)C1=NC(=NC(=C1C=CC(CC(CC(=O)[O-])O)O)C2=CC=C(C=C2)F)N(C)S(=O)(=O)C	Rosuvastatin Calcium	0	cholesterol-lowering agent
+C1=CC(=C(C(=C1)F)CN2C=C(N=N2)C(=O)N)F	Rufinamide	0	anti-epileptic
+CC(C)(C)NC(=O)C1CC2CCCCC2CN1CC(C(CC3=CC=CC=C3)NC(=O)C(CC(=O)N)NC(=O)C4=NC5=CC=CC=C5C=C4)O	Saquinavir Mesylate	0	antiviral
+CC(CC1=CC=CC=C1)N(C)CC#C	Selegiline·HCl	0	anti-parkinson's
+CNC1CCC(C2=CC=CC=C12)C3=CC(=C(C=C3)Cl)Cl	Sertraline·HCl	0	antidepressant
+C1CN2C(=NN=C2C(F)(F)F)CN1C(=O)CC(CC3=CC(=C(C=C3F)F)F)N	Sitagliptin Phosphate	0	anti-diabetic
+CNC(=O)C1=NC=CC(=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F	Sorafenib Tosylate	0	anticancer
+CCN(CC)CCNC(=O)C1=C(NC(=C1C)C=C2C3=C(C=CC(=C3)F)NC2=O)C	Sunitinib Malate	0	anticancer
+CN1CC(=O)N2C(C1=O)CC3=C(C2C4=CC5=C(C=C4)OCO5)NC6=CC=CC=C36	Tadalafil	0	erectile dysfunction
+CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)O	Telbivudine 	0	antiviral
+CCC1C2(C(C(C(=O)C(CC(C(C(C(=O)C(C(=O)O1)C)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)N(C(=O)O2)CCCCN4C=C(N=C4)C5=CN=CC=C5)C	Telithromycin	0	antibiotic
+CN1C2=C(C=C(C=C2)Cl)C(=NC(C1=O)O)C3=CC=CC=C3	Temazepam	0	antidepressant
+CC(C)(C)NCC(C1=CC(=CC(=C1)O)O)O	Terbutaline Hemisulfate	0	Asthma
+CC(C)CC1CN2CCC3=CC(=C(C=C3C2CC1=O)OC)OC	Tetrabenazine	0	antipsychotic
+CN1C2=C(C(=O)N(C1=O)C)NC=N2	Theophylline	0	Asthma
+C1=NC2=C(N1)C(=S)N=C(N2)N	Thioguanine (6-Thioguanine)	0	anticancer
+CC1=C(SC=C1)C(=CCCN2CCCC(C2)C(=O)O)C3=C(C=CS3)C	Tiagabine·HCl	0	anti-epileptic
+CC1=CC(=C(C=C1)O)C(CCN(C(C)C)C(C)C)C2=CC=CC=C2	Tolterodine Tartrate	0	antispasmodic
+CC1=CC=CC=C1C(=O)NC2=CC(=C(C=C2)C(=O)N3CCCC(C4=C3C=CC(=C4)Cl)O)C	Tolvaptan	0	hyponatremia
+CC1(OC2COC3(C(C2O1)OC(O3)(C)C)COS(=O)(=O)N)C	Topiramate	0	anti-epileptic
+CC1=CC(=CC=C1)NC2=C(C=NC=C2)S(=O)(=O)NC(=O)NC(C)C	Torsemide	0	diuretic
+CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2C3CCCCC3CC2C(=O)O	Trandolapril	0	anti-hypertensive / cardiac
+C1CN(CCN1CCCN2C(=O)N3C=CC=CC3=N2)C4=CC(=CC=C4)Cl	Trazodone·HCl	0	antidepressant
+CC1(OC2CC3C4CCC5=CC(=O)C=CC5(C4(C(CC3(C2(O1)C(=O)CO)C)O)F)C)C	Triamcinolone Acetonide	0	steroidal anti-inflammatory
+C1=CC=C(C=C1)C2=NC3=C(N=C2N)N=C(N=C3N)N	Triamterene	0	diuretic
+C1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4Cl	Triazolam	0	insomnia
+C1CCC(CC1)C(CCN2CCCCC2)(C3=CC=CC=C3)O	Trihexyphenidyl·HCl	0	anti-parkinson's
+CN(C)CCOC1=CC=C(C=C1)CNC(=O)C2=CC(=C(C(=C2)OC)OC)OC	Trimethobenzamide·HCl	0	antiemetic
+CC(CN1C2=CC=CC=C2CCC3=CC=CC=C31)CN(C)C	Trimipramine Maleate	0	antidepressant
+C1CC[N+]2(C1)C3CCC2CC(C3)OC(=O)C(C4=CC=CC=C4)(C5=CC=CC=C5)O	Trospium Chloride	0	antispasmodic
+CC(C1=NC=NC=C1F)C(CN2C=NC=N2)(C3=C(C=C(C=C3)F)F)O	Voriconazole	0	antifungal
+CC(=O)CC(C1=CC=CC=C1)C2=C(C3=CC=CC=C3OC2=O)[O-]	Warfarin·Na	0	anticoagulant
+CCN(C1=CC=CC(=C1)C2=CC=NC3=C(C=NN23)C#N)C(=O)C	Zaleplon	0	hypnotic
+C1CN(CCN1CCC2=C(C=C3C(=C2)CC(=O)N3)Cl)C4=NSC5=CC=CC=C54	Ziprasidone hydrochloride	0	antipsychotic
+CC1=C(C(C(=C(N1)C)C(=O)OCCN(C)CC2=CC=CC=C2)C3=CC(=CC=C3)[N+](=O)[O-])C(=O)OC	Nicardipine·HCl	1	anti-hypertensive / cardiac
+CC1=C(C(=O)N2CCCCC2=N1)CCN3CCC(CC3)C4=NOC5=C4C=CC(=C5)F	Risperidone	1	antipsychotic
+CC1=CC=C(C=C1)C(=O)C2=CC(=C(C(=C2)O)O)[N+](=O)[O-]	Tolcapone	1	anti-parkinson's
+CN1C=NC(=C1SC2=NC=NC3=C2NC=N3)[N+](=O)[O-]	Azathioprine	1	immunosuppressive
+CCN(CC)C(=O)C(=CC1=CC(=C(C(=C1)O)O)[N+](=O)[O-])C#N	Entacapone	1	anti-parkinson's
+CC12CCC3C(C1CCC2=O)CC(=C)C4=CC(=O)C=CC34C	Exemestane	1	steroidal hormone
+CC1=C(C(C(=C(N1)C)C(=O)OC(C)C)C2=CC(=CC=C2)[N+](=O)[O-])C(=O)OCCOC	Nimodipine	1	anti-hypertensive / cardiac
+CC(C)C=CCCCCC(=O)NCC1=CC(=C(C=C1)O)OC	Capsaicin	1	dietary product
+CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C	Dexamethasone	1	steroidal anti-inflammatory
+CCC(=C)C(=O)C1=C(C(=C(C=C1)OCC(=O)O)Cl)Cl	Ethacrynic Acid	1	diuretic
+CC1C=CC=C(C(=O)NC2=C(C3=C(C(=C4C(=C3C(=O)C2=CNN5CCN(CC5)C)C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)O)C	Rifampin (Rifampicin)	1	antibiotic
+CC1=C(C2=C(C1=CC3=CC=C(C=C3)S(=O)C)C=CC(=C2)F)CC(=O)O	Sulindac	1	NSAID
+C1=CC=C(C=C1)NC(=O)CCCCCCC(=O)NO	Vorinostat 	1	HDAC inhibitor
+C1C2CC3CC(CC1N3CC2=O)OC(=O)C4=CNC5=CC=CC=C54	Dolasetron	1	antiemetic
+CC1=C(C(=C(C2=C1COC2=O)O)CC=C(C)CCC(=O)OCCN3CCOCC3)OC	Mycophenolate Mofetil	1	immunosuppressive
+CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)N=[N+]=[N-]	Zidovudine (3'-Azido-3'-Deoxythymidine)	1	antiviral
+C1=C2C(=NC=NC2=O)NN1	Allopurinol	1	anti-gout
+CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C	Betamethasone	1	steroidal anti-inflammatory
+CC(=O)OC1=CC=C(C=C1)C(C2=CC=C(C=C2)OC(=O)C)C3=CC=CC=N3	Bisacodyl	1	laxative
+CC12CCC3C(C1CCC2O)CCC4=C3C=CC(=C4)O	Estradiol	1	steroidal hormone
+CC(=O)OCC(CCN1C=NC2=CN=C(N=C21)N)COC(=O)C	Famciclovir	1	antiviral
+CC(C)C(=O)NC1=CC(=C(C=C1)[N+](=O)[O-])C(F)(F)F	Flutamide	1	anti-androgen
+CC12CCC(=O)C=C1CCC3C2C(CC4(C3CCC4(C(=O)CO)O)C)O	Hydrocortisone	1	steroidal anti-inflammatory
+CC(=O)OCC(=O)C1(CCC2C1(CC(C3C2CCC4=CC(=O)CCC34C)O)C)O	Hydrocortisone Acetate	1	steroidal anti-inflammatory
+CC1CC2C3CCC(C3(CC(C2C4(C1=CC(=O)C=C4)C)O)C)(C(=O)CO)O	Methylprednisolone	1	steroidal anti-inflammatory
+CC1=NC=C(N1CCO)[N+](=O)[O-]	Metronidazole	1	antibiotic
+CC(=O)CCC1=CC2=C(C=C1)C=C(C=C2)OC	Nabumetone	1	NSAID
+COC1=C(C(=NC=C1)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC(F)F)OC	Pantoprazole	1	anti-GERD
+CC12CC(C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C)O	Prednisolone	1	steroidal anti-inflammatory
+CC(=O)C1CCC2C1(CCC3C2CCC4=CC(=O)CCC34C)C	Progesterone	1	steroidal hormone
+CC12CC(=O)C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C	Prednisone	1	steroidal anti-inflammatory
+CC(=O)SC1CC2=CC(=O)CCC2(C3C1C4CCC5(C4(CC3)C)CCC(=O)O5)C	Spironolactone	1	steroidal diuretic
+C1=CC=NC(=C1)NS(=O)(=O)C2=CC=C(C=C2)N=NC3=CC(=C(C=C3)O)C(=O)O	Sulfasalazine	1	immunomodulatory
+CCS(=O)(=O)CCN1C(=NC=C1[N+](=O)[O-])C	Tinidazole	1	antibiotic
+CNCCC(C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F	Fluoxetine·HCl	1	antidepressant
+CCCCC(C)(CC=CC1C(CC(=O)C1CCCCCCC(=O)OC)O)O	Misoprostol	1	anti-ulcer
+CC1=CC2C(CCC3(C2CCC3(C(=O)C)OC(=O)C)C)C4(C1=CC(=O)CC4)C	Megestrol Acetate	1	steroidal hormone
+CCCCCOC(=O)NC1=NC(=O)N(C=C1F)C2C(C(C(O2)C)O)O	Capecitabine	1	anticancer
+CC(CCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C	Chenodiol (Chenodeoxycholic Acid)	1	steroidal bile acid
+CC(C)N=C1C=C2C(=NC3=CC=CC=C3N2C4=CC=C(C=C4)Cl)C=C1NC5=CC=C(C=C5)Cl	Clofazimine	1	antibiotic
+C1C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])C(=N1)C3=CC=CC=C3Cl	Clonazepam	1	anti-epileptic
+CC(=O)OCC(=O)C1(CCC2C1(CC(=O)C3C2CCC4=CC(=O)CCC34C)C)O	Cortisone Acetate	1	steroidal anti-inflammatory
+C1C(=O)N=C(N1N=CC2=CC=C(O2)C3=CC=C(C=C3)[N+](=O)[O-])[O-]	Dantrolene·Na	1	muscle relaxant
+CNCCC(C1=CC=CS1)OC2=CC=CC3=CC=CC=C32	Duloxetine·HCl	1	antidepressant
+CC(=O)OCC(=O)C1(CCC2C1(CC(C3(C2CCC4=CC(=O)CCC43C)F)O)C)O	Fludrocortisone Acetate 	1	steroidal anti-inflammatory
+CC(=O)C1=CC(=C(C=C1)OCCCN2CCC(CC2)C3=NOC4=C3C=CC(=C4)F)OC	Iloperidone	1	antipsychotic
+C1=CC=C(C(=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O)Cl	Lorazepam	1	anti-anxiety
+CC1(C(=O)N(C(=O)N1)C2=CC(=C(C=C2)[N+](=O)[O-])C(F)(F)F)C	Nilutamide	1	anti-androgen
+C1CC(=O)C(C(=O)C1)C(=O)C2=C(C=C(C=C2)C(F)(F)F)[N+](=O)[O-]	Nitisinone	1	hereditary tyrosinemia type 1 (HT-1)
+C1C(=O)NC(=O)N1N=CC2=CC=C(O2)[N+](=O)[O-]	Nitrofurantoin	1	antibiotic
+C1=CC=C(C=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O	Oxazepam	1	anti-anxiety
+CC1=C(C(=O)N2CCCC(C2=N1)O)CCN3CCC(CC3)C4=NOC5=C4C=CC(=C5)F	Paliperidone	1	antipsychotic
+CC(=O)OC1=CC2=C(S1)CCN(C2)C(C3=CC=CC=C3F)C(=O)C4CC4	Prasugrel	1	anti-platelet
+CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O	Probenecid	1	anti-gout
+CC1C=CC=C(C(=O)NC2=C3C(=NC4(N3)CCN(CC4)CC(C)C)C5=C6C(=C(C(=C5C2=O)O)C)OC(C6=O)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C	Rifabutin	1	antibiotic
+CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N	Sulfamethoxazole	1	antibiotic
+CC(CCC(=O)O)C1CCC2C1(CCC3C2C(CC4C3(CCC(C4)O)C)O)C	Ursodiol	1	steroidal bile acid

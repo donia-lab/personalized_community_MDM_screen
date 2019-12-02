@@ -1,7 +1,0 @@
-Mycophenolic Acid	0	immunosuppressive
-Sumatriptan Succinate	0	anti-migraine
-Dexchlorpheniramine Maleate	0	antidepressant
-Maraviroc	0	antipsychotic
-Oxtriphylline	0	NSAID
-Capecitabine	1	bile acid
-Prasugrel	1	bile acid

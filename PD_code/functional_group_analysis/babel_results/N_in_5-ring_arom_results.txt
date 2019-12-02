@@ -1,4 +1,4 @@
 Esomeprazole Potassium	0	anti-GERD
 Losartan Potassium	0	anti-hypertensive / cardiac
-Perindopril Erbumine	0	anti-allergy
-Raltegravir	0	proton pump inhibitor
+Pemirolast Potassium	0	anti-allergy
+Rabeprazole·Na	0	proton pump inhibitor

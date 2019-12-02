@@ -1,5 +1,5 @@
 Cabergoline	0	hyperprolactinemia
-Buspirone HCl	0	anti-anxiety
+Buspirone·HCl	0	anti-anxiety
 Thalidomide	0	immunomodulatory
 Glimepiride	0	anti-diabetic
-Fludrocortisone Acetate 	1	anti-androgen
+Nilutamide	1	anti-androgen

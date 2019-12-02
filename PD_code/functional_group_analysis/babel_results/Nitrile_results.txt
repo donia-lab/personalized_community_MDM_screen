@@ -1,11 +1,11 @@
 Cimetidine	0	anti-histamine
 Escitalopram 	0	antidepressant
-Verapamil HCl	0	anti-hypertensive / cardiac
+Verapamil·HCl	0	anti-hypertensive / cardiac
 Letrozole	0	anti-estrogen
 Anastrozole	0	anti-estrogen
 Bicalutamide	0	anti-androgen
-Citalopram HBr	0	antidepressant
-Digoxin	0	steroidal hormone
-Fexofenadine HCl	0	anti-gout
-Ziprasidone hydrochloride	0	hypnotic
-Exemestane	1	anti-parkinson's
+Citalopram·HBr	0	antidepressant
+Dienogest	0	steroidal hormone
+Febuxostat	0	anti-gout
+Zaleplon	0	hypnotic
+Entacapone	1	anti-parkinson's

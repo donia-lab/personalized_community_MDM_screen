@@ -2,7 +2,7 @@ Carbidopa	0	anti-parkinson's
 Tolazamide	0	anti-diabetic
 Atazanavir	0	antiviral
 Indapamide	0	diuretic
-Hydrochlorothiazide	0	anti-hypertensive / cardiac
-Isradipine	0	antidepressant
-Rifaximin	0	antibiotic
-Sulindac	1	antibiotic
+Hydralazine·HCl	0	anti-hypertensive / cardiac
+Isocarboxazid	0	antidepressant
+Rifapentine	0	antibiotic
+Rifampin (Rifampicin)	1	antibiotic

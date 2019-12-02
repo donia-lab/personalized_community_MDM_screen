@@ -3,7 +3,7 @@ Piroxicam	0	NSAID
 Meloxicam	0	NSAID
 Doxycycline Monohydrate	0	antibiotic
 Minocycline 	0	antibiotic
-Desipramine HCl	0	antibiotic
-Palonosetron HCl	0	antibiotic
-Rifaximin	0	antibiotic
-Sulindac	1	antibiotic
+Demeclocycline·HCl	0	antibiotic
+Oxytetracycline·HCl	0	antibiotic
+Rifapentine	0	antibiotic
+Rifampin (Rifampicin)	1	antibiotic

@@ -417,7 +417,7 @@
 5-E09,Misoprostol,382.5,Y,derivative,anti-ulcer,N
 5-F04,Megestrol Acetate,384.5,Y,derivative,steroidal hormone,N
 5-G02,Capecitabine,359.4,Y,derivative,anticancer,TBD
-6-H08,Chenodiol (Chenodeoxycholic Acid),392.6,Y,natural,bile acid,N
+6-H08,Chenodiol (Chenodeoxycholic Acid),392.6,Y,natural,steroidal bile acid,N
 7-B05,Clofazimine,473.4,Y,synthetic,antibiotic,Y
 7-B07,Clonazepam,315.7,Y,synthetic,anti-epileptic,NT
 7-C03,Cortisone Acetate,402.5,Y,derivative,steroidal anti-inflammatory,TBD
@@ -435,4 +435,4 @@
 10-A09,Probenecid,285.4,Y,synthetic,anti-gout,N
 10-C05,Rifabutin,847,Y,derivative,antibiotic,Y
 10-E04,Sulfamethoxazole,253.3,Y,synthetic,antibiotic,N
-11-A07,Ursodiol,392.6,Y,natural,bile acid,N
+11-A07,Ursodiol,392.6,Y,natural,steroidal bile acid,N

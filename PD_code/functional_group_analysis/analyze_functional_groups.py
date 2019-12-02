@@ -14,7 +14,7 @@ import statsmodels as sm2
 import os
 
 
-exclude_steroids = True
+exclude_steroids = False
 
 #Load SMILES of drugs from screen
 drug_file = 'drug_SMILES.tsv';
@@ -25,7 +25,7 @@ if exclude_steroids:
     drug_SMILES = drug_SMILES.reset_index(drop=True)
 
 
-#Load grousp for openbabel analysis
+#Load groups for openbabel analysis
 groups = pd.read_csv('SMARTS_groups.csv',sep = ',')
 
 #Get rid of any duplicates in the groups

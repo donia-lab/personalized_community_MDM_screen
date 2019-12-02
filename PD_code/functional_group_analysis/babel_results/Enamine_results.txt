@@ -3,12 +3,12 @@ Amlodipine	0	anti-hypertensive / cardiac
 Felodipine	0	anti-hypertensive / cardiac
 Piroxicam	0	NSAID
 Meloxicam	0	NSAID
+Cefditoren Pivoxil	0	antibiotic
 Cefpodoxime Proxetil	0	antibiotic
-Chlorothiazide	0	antibiotic
-Ketorolac Tromethamine	0	anti-hypertensive / cardiac
-Nortriptyline HCl	0	anti-histamine
-Rifaximin	0	antibiotic
-Risperidone	1	anti-hypertensive / cardiac
-Capsaicin	1	anti-hypertensive / cardiac
-Sulindac	1	antibiotic
-Oxazepam	1	antibiotic
+Isradipine	0	anti-hypertensive / cardiac
+Nizatidine	0	anti-histamine
+Rifapentine	0	antibiotic
+Nicardipine·HCl	1	anti-hypertensive / cardiac
+Nimodipine	1	anti-hypertensive / cardiac
+Rifampin (Rifampicin)	1	antibiotic
+Rifabutin	1	antibiotic

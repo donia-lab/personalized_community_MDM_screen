@@ -1,7 +1,0 @@
-Naproxen	0	NSAID
-Terbinafine HCl	0	antifungal
-Propranolol HCl	0	anti-hypertensive / cardiac
-Clobazam	0	hyperparathyroidism
-Ritonavir	0	antibiotic
-Metronidazole	1	NSAID
-Cortisone Acetate	1	antidepressant

@@ -3,9 +3,9 @@ Vinorelbine 	0	anticancer
 Azithromycin	0	antibiotic
 Clarithromycin	0	antibiotic
 Nystatin	0	antifungal
-Ezetimibe	0	immunosuppressive
+Everolimus	0	immunosuppressive
+Rifapentine	0	antibiotic
 Rifaximin	0	antibiotic
-Ritonavir	0	antibiotic
-Temazepam	0	antibiotic
-Sulindac	1	antibiotic
-Oxazepam	1	antibiotic
+Telithromycin	0	antibiotic
+Rifampin (Rifampicin)	1	antibiotic
+Rifabutin	1	antibiotic
