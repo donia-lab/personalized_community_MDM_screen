@@ -21,7 +21,7 @@ noise_models = estimate_noise_models(donor_manifest_loc,donor_loc,istd,plt);
 r_lims = [-1,2];
 r_list = logspace(r_lims(1),r_lims(2),40);
 
-%Select only artificial media conditins from data
+%Select only artificial media conditoins from data
 media_list = unique(filtered_manifest.media);
 media_list = media_list(~contains(media_list,{'feces','none'}));
 

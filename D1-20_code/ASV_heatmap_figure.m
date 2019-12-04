@@ -35,32 +35,29 @@ sorted_manifest = manifest(sort_list,:);
 
 abundance_cutoff = 0.05;
 
-asv_table = sorted_manifest.rel_asv{1,1};
-for i = 2:size(sorted_manifest,1)
+asv_table = [];
+for i = 1:size(sorted_manifest,1)
     asv_table = [asv_table, sorted_manifest.rel_asv{i,1}];
 end
 present_asv_index = sum(asv_table.Variables > abundance_cutoff,2) > 0;
 
 filt_asv_table = asv_table(present_asv_index,:);
 
-new_var = -log10(filt_asv_table.Variables);
-new_var(isinf(new_var)) = 0;
-f = clustergram(new_var,'Cluster', 'Column','Symmetric',false);
+cluster_var = -log10(filt_asv_table.Variables);
+cluster_var(isinf(cluster_var)) = 0;
+f = clustergram(cluster_var,'Cluster', 'Column','Symmetric',false);
 cluster_order = str2num(cell2mat(f.RowLabels));
 
-%% Import taxonomy data
+heatmap_data = filt_asv_table;
+heatmap_data = heatmap_data(cluster_order,:);
 
+%% Import ASV taxonomy data
 taxonomy = readtable('16S_data/taxonomy.csv','ReadRowNames',true,...
     'ReadVariableNames',true);
 
-
-%% Pre-process data for heatmap
-heatmap_data = filt_asv_table.Variables;
-heatmap_data = heatmap_data(cluster_order,:);
-
 %% Remove elements not identified at the order level
 
-labels = filt_asv_table.Properties.RowNames(cluster_order);
+labels = heatmap_data.Properties.RowNames;
 asv_taxonomy = cell(length(labels),1);
 
 for i = 1:length(labels)
@@ -87,10 +84,12 @@ labels = labels(identified_orders);
 
 order_labels{end+1} = 'Other';
 labels{end+1} = 'Other';
-heatmap_data(end+1,:) = 1 - nansum(heatmap_data,1);
+heatmap_data{'Other',:} = 1 - nansum(heatmap_data.Variables,1);
 
-heatmap_data(heatmap_data == 0) = NaN;
-heatmap_data = log10(heatmap_data);
+temp_matrix = heatmap_data.Variables;
+temp_matrix(temp_matrix == 0) = NaN;
+heatmap_data.Variables = temp_matrix;
+heatmap_data.Variables = log10(heatmap_data.Variables);
 
 heatmap_data = flipud(heatmap_data);
 order_labels = flipud(order_labels);
@@ -99,7 +98,7 @@ labels = flipud(labels);
 media_order{strcmp(media_order,'liver')} = 'Liver';
 media_order{strcmp(media_order,'feces')} = 'Feces';
 
-labeled_heatmap_table = array2table(heatmap_data,'RowNames',labels,...
+labeled_heatmap_table = array2table(heatmap_data.Variables,'RowNames',labels,...
     'VariableNames',matlab.lang.makeValidName(sorted_manifest.sample));
 
 %% Generate heatmap
@@ -114,12 +113,12 @@ line_width = 1;
 num_colors = 100;
 colors = summer(num_colors);
 value_to_index = @(x) round(num_colors*(x + color_range)/color_range);
-%Make primary heatmap
 
+%Make primary heatmap
 newfigure(8,8/3);
 hold on
 for i = 1:max(manifest.donor)
-    donor_data = heatmap_data(:,sorted_manifest.donor == i);
+    donor_data = heatmap_data{:,sorted_manifest.donor == i};
     skip_data = sorted_manifest.skip_sample(sorted_manifest.donor == i);
     for j = 1:size(donor_data,1)
         for k = 1:size(donor_data,2)

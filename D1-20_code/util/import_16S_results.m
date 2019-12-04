@@ -34,8 +34,8 @@ for i = 1:num_sample
     orig_name = sample_names{i};
     valid_name = matlab.lang.makeValidName(orig_name);
     
+    %Add entries to cells from the raw tables
     asv_cell{i} = asv_table(:,valid_name); 
-    
     rel_asv_table = asv_cell{i};
     rel_asv_table.Variables = rel_asv_table.Variables/sum(rel_asv_table.Variables); 
     rel_asv_cell{i} = rel_asv_table;
@@ -46,6 +46,7 @@ for i = 1:num_sample
     species_cell{i} = species_table(:,valid_name);
 end
 
+%Add taxonomical data to the manifest
 mod_manifest.asv = asv_cell; 
 mod_manifest.rel_asv = rel_asv_cell;
 mod_manifest.order = order_cell;
@@ -53,7 +54,7 @@ mod_manifest.family = family_cell;
 mod_manifest.genus = genus_cell;
 mod_manifest.species = species_cell;
 
-%Import the biomass into the manuscript
+%Import the biomass into the manifest
 media_list = unique(mod_manifest.media);
 media_list = media_list(~contains(media_list,{'feces','none'}));
 
@@ -69,7 +70,9 @@ for i = 1:size(mod_manifest,1)
           (biomass_data.donor == sample_donor);
             
       mod_manifest.biomass(i) =mean(biomass_data.wet_g_l(matching_mass));
-       
+      
+      %Replace RCM data with secondary experiment data (the primary 
+      %experiment had issues with Agar precipitation)
       if strcmp(sample_media, 'RCM')
           mod_manifest.biomass(i) = ...
               secondary_biomass_data.wet_g_l(contains(secondary_biomass_data.media,sample_media));

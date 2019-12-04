@@ -10,7 +10,9 @@ filtered_manifest = filter_16S_on_read_number(manifest,1e4);
 
 %% Loop through and compute correlations
 
-BG_manifest = filtered_manifest(strcmp(filtered_manifest.media,'BG'),:);
+media = 'BG';
+
+BG_manifest = filtered_manifest(strcmp(filtered_manifest.media,media),:);
 
 compute_corr = @(x,y,z) corr(x(z,1).Variables,y(z,1).Variables,'Type','Pearson');
 
@@ -36,8 +38,8 @@ for i = 1:size(total_combos,1)
         self_shared = [self_shared; ...
             sum((present_1 & present_2))/sum(present_2); ...
             sum((present_1 & present_2))/sum(present_1)];
-        ASV_vec_1 = [ASV_vec_1; BG_manifest.rel_asv{ind1}.Variables];
-        ASV_vec_2 = [ASV_vec_2; BG_manifest.rel_asv{ind2}.Variables];
+        ASV_vec_1 = [ASV_vec_1; BG_manifest.rel_asv{ind1}{above_0_ASV,:}];
+        ASV_vec_2 = [ASV_vec_2; BG_manifest.rel_asv{ind2}{above_0_ASV,:}];
     else
         nonself_ASV = [nonself_ASV; ASV_corr];
     end
@@ -81,4 +83,4 @@ xticks([1e-5,1])
 yticks([1e-5,1])
 set(gca,'FontSize',10)
 
-print(gcf,'-dpng','supp_figures/BG_replicate_correlation_figure.png','-r600');
+print(gcf,'-dpng',['supp_figures/',media,'_replicate_correlation_figure.png'],'-r600');

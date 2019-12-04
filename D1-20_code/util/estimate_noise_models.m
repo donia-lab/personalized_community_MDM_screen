@@ -3,30 +3,25 @@ function noise_models = estimate_noise_models(donor_manifest_loc,donor_loc,istd,
 %This script uses data from all donors to parameterize a distribution of
 %background noise and a model of measurement noise
 
-%% Load data
-
+%Load data
 donor_manifest = import_standard_QTOF_sample(donor_manifest_loc,donor_loc,istd);
-
 donor_list = unique(donor_manifest.donor);
 compound_list = unique(donor_manifest.compound);
 compound_list = compound_list(~cellfun('isempty',compound_list));
 
-%% Remove outliers based on istd amount
-
+%Remove outliers based on istd amount
 filtered_donor = filter_outliers_from_istd(donor_manifest);
 
-%% Estimate parameters of null distribution
-
+%Estimate parameters of null distribution
 istd_cutoff = 1e6;
 [null_mean,null_std] = ...
     parameterize_null_dist(donor_manifest_loc,donor_loc,istd,istd_cutoff);
 
-%% Loop through samples and get mean-stdev pairs
-
+%Loop through samples and get mean-stdev pairs
 mean_list = [];
 stdev_list = [];
 
-mol_types = {'norm_drug','norm_met_1','norm_met_2'};
+mol_types = filtered_donor.Properties.VariableNames(contains(filtered_donor.Properties.VariableNames,'norm'));
 for i = 1:length(donor_list)
     donor = donor_list(i);
     for j = 1:length(compound_list)
@@ -41,9 +36,8 @@ for i = 1:length(donor_list)
     end
 end
 
-%% Use null distribution to select likely true measurements and then model
+%Use null distribution to select likely true measurements and then model
 %the relationship between mean and variance
-
 mean_cutoff = null_mean + 5*null_std;
 likely_true_measurement = ~isnan(stdev_list) & (mean_list > mean_cutoff);
 filt_mean_list = mean_list(likely_true_measurement);

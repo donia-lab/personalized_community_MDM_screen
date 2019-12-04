@@ -1,6 +1,6 @@
 function [ENDS,bvec] = compute_ENDS(asv_table,r,alpha,n,noise_models,read_cutoff)
 %This function computes the expected number of detectable strains for a given
-%community. This assumes a power law error model and ignores singletons
+%community. This assumes a power law error model.
 
 %Remove singletons 
 x = asv_table(asv_table > read_cutoff)./sum(asv_table);

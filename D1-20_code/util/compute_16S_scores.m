@@ -12,11 +12,10 @@ JSdiv = @(P,Q) 0.5*KLdiv(P,(Q+P)/2) + 0.5*KLdiv(Q,(Q+P)/2);
 shared_entries = @(vec1,vec2) sum((vec1 > 0) & (vec2 > 0));
 
 mod_manifest = manifest;
-
 sample_names = manifest.sample;
-
 num_sample = length(sample_names);
 
+%Make empty new columns
 manifest.ENDS = zeros(num_sample,1);
 mod_manifest.richness_no_singleton = zeros(num_sample,1);
 
@@ -29,6 +28,7 @@ if ~only_ENDS
     mod_manifest.b_vector = cell(num_sample,1);
 end
 
+%Loop through and compute scores per sample
 for i = 1:num_sample
     rel_table = manifest{i,'rel_asv'}{1};
     rel_table = rel_table.Variables;

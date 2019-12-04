@@ -3,11 +3,11 @@
 clear;clc
 
 donor_manifest_loc = 'QTOF_data/20x20_donor_manifest.xlsx';
-donor_loc = 'QTOF_data/donor_with_untargeted.csv';
+donor_loc = 'QTOF_data/donor_data.csv';
 BG_manifest_loc = 'QTOF_data/20x20_BG_manifest.xlsx';
-BG_loc = 'QTOF_data/BG_with_untargeted.csv';
+BG_loc = 'QTOF_data/BG_data.csv';
 HK_manifest_loc = 'QTOF_data/20x20_HK_manifest.xlsx';
-HK_loc = 'QTOF_data/HK_with_untargeted.csv';
+HK_loc = 'QTOF_data/HK_data.csv';
 
 pval_file = 'saved_analyses/drug_metabolism_analysis.mat';
 

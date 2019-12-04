@@ -8,10 +8,6 @@ function [null_mean,null_std,null_peaks] = parameterize_null_dist(manifest_loc,d
 manifest = readtable(manifest_loc);
 manifest.name = matlab.lang.makeValidName(manifest.name);
 
-%Remove any DMSO manifest entries
-manifest = manifest(~strcmp(manifest.compound,'DMSO'),:);
-total_sample_num = size(manifest,1);
-
 %Import data
 opts = detectImportOptions(data_loc);
 opts.VariableNamesLine = 1;
@@ -27,21 +23,22 @@ temp_data = data.Variables;
 temp_data(isnan(temp_data)) = 0;
 data.Variables = temp_data;
 
-types = {'';'_met_1';'_met_2'};
+%Select only off measurements 
 null_peaks = []; 
 
 for i = 1:size(manifest,1)
     sample_name = manifest.name{i};
-    compound_name = manifest.compound{i};
-    compound_set = [strcat(compound_name,types); istd];
     alt_name = matlab.lang.makeValidName(sample_name);
     sample_data = data(:,alt_name);
     sample_istd = sample_data(istd,:).Variables;
+    
+    compound_name = manifest.compound{i};
+    compound_set = {compound_name; istd};
     off_measurements = ~contains(data.Properties.RowNames,compound_set);
-    sample_data = sample_data(off_measurements,:).Variables;
+    off_measurement_data = sample_data(off_measurements,:).Variables;
     
     if sample_istd > istd_cutoff
-        null_peaks = [null_peaks; sample_data./sample_istd];
+        null_peaks = [null_peaks; off_measurement_data./sample_istd];
     end
 end
 
