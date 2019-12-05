@@ -1,6 +1,8 @@
 function [putative_metabolite_table] = process_untargeted_metabolomics(donor_manifest_loc,...
     BG_manifest_loc,HK_manifest_loc,data_loc,donor_num,folder,load_existing_analysis)
 
+%This script performs untargeted metabolomics hypothesis testing for a
+%single donor's data
 
 if ~load_existing_analysis
     [donor_manifest,compound_list] = import_profinder(donor_manifest_loc,data_loc);
@@ -38,7 +40,6 @@ HK_qval(:,3:end).Variables = all_qval(num_samples+1:2*num_samples,:);
 DMSO_qval(:,3:end).Variables = all_qval(2*num_samples+1:3*num_samples,:);
 
 % Make cutoffs based on log cutoff and qval
-
 log2_cutoff = 1;
 qval_cutoff = 0.01;
 

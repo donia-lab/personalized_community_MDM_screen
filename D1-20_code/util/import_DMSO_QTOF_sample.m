@@ -34,19 +34,14 @@ metabolite_list = ...
 manifest{:,metabolite_list} = NaN(total_sample_num,length(metabolite_list));
 manifest{:,strcat('norm_',metabolite_list)} = NaN(total_sample_num,length(metabolite_list));
 
-
-%Figure out how many samples you actually have
-current_sample_num = size(data,2);
-max_sample = min([current_sample_num,total_sample_num]);
-
 %Build new manifest columns from data
-for i = 1:max_sample
+for i = 1:total_sample_num
     sample_name = manifest.name{i};
-    manifest.istd(i) = data{istd,sample_name};    
+    manifest.istd(i) = data{istd,sample_name};
     for j = 1:length(metabolite_list)
         met_name = metabolite_list{j};
-            manifest{i,met_name} =  data{met_name,sample_name};
-            manifest{i,['norm_',met_name]} = manifest{i,met_name}/manifest.istd(i);
+        manifest{i,met_name} =  data{met_name,sample_name};
+        manifest{i,['norm_',met_name]} = manifest{i,met_name}/manifest.istd(i);
     end
 end
 

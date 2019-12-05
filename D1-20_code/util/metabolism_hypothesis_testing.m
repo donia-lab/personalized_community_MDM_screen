@@ -6,11 +6,11 @@ testing_table = [];
 
 donor_list = unique(donor_manifest.donor);
 
+%Define types of molecules and the type of ttest
 mol_types = cellstr(strcat('norm_met_',string(1:num_met)));
 tail_types = cell(size(mol_types));
 tail_types(:) = {'right'};
 
-%Define types of molecules and the type of ttest
 if ~DMSO
     mol_types = ['norm_drug',mol_types];
     tail_types = ['left',tail_types];
@@ -31,7 +31,7 @@ for i = 1:length(donor_list)
     end
     
     
-    %List of compounds that are in both experimental and control
+    %List of compounds that are in experimental
     testable_compounds = unique(single_donor.compound);
     
     [partial_table,pval_types,ratio_types,mean_types,stat_info] = ...

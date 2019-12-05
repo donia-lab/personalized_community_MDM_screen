@@ -16,7 +16,6 @@ for i = 1:length(plate_list)
     high_lim = quantile(plate_istd,0.75) + 3*plate_iqr;
     low_lim = quantile(plate_istd,0.25) - 3*plate_iqr;
     non_outliers = (plate_istd > low_lim) & (plate_istd < high_lim);
-    %non_outliers = (plate_istd > 1e6);
     filtered_manifest = [filtered_manifest; plate_data(non_outliers,:)];
     
 end

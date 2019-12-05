@@ -14,12 +14,12 @@ for i = 1:length(idata)
     
     if DMSO
         manifest.digoxin_met_1(imanifest(i)) = met_level;
-        manifest.norm_digoxin_met_1(imanifest(i)) ...
-            = met_level/manifest.istd(imanifest(i));
+        manifest.norm_digoxin_met_1(imanifest(i)) = ...
+            met_level/manifest.istd(imanifest(i));
     else
         manifest.met_1(imanifest(i)) = met_level;
-        manifest.norm_met_1(imanifest(i)) ...
-            = met_level/manifest.istd(imanifest(i));
+        manifest.norm_met_1(imanifest(i)) = ...
+            met_level/manifest.istd(imanifest(i));
     end
     
 end

@@ -1,6 +1,6 @@
 function filtered_manifest = filter_profinder_by_istd(manifest,compound_list)
 
-%Identify internal standard
+%Identify voriconazole internal standard
 istd_properties = repmat([349.115,5.25],size(compound_list,1),1);
 diff_from_istd = compound_list - istd_properties;
 norm_from_istd = sqrt(diff_from_istd(:,1).^2 + diff_from_istd(:,2).^2);

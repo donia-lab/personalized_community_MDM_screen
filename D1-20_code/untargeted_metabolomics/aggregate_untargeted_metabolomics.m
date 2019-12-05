@@ -1,3 +1,5 @@
+%This script aggregates the results for MS1 statistical testing on all
+%twenty donors
 %% Aggregate and test for new metabolites
 
 clear;clc
@@ -28,7 +30,7 @@ rt_cutoff = 0.2;
 all_cutoff = [mass_cutoff, rt_cutoff];
 
 novel_metabolite_table = large_metabolite_table;
-
+novel_metabolite_table.Variables = cell(size(large_metabolite_table));
 exclusion_list = readtable('targeted_compounds.csv','ReadRowNames',true);
 
 for i = 1:size(large_metabolite_table,1)
@@ -64,6 +66,8 @@ unique_table = [];
 unique_met_list = [];
 var_names = {'drug','mass','RT','donors'};
 base_matrix = {'string',[],[],[]};
+multiple_drug_met = [];
+%Loop through all metabolites in all donor/drug combinations
 for i = 1:size(novel_metabolite_table,1)
     for j = 1:size(novel_metabolite_table,2)
         met_table = novel_metabolite_table{i,j}{1};
@@ -80,18 +84,27 @@ for i = 1:size(novel_metabolite_table,1)
             temp_table.RT = current_met(2);
             temp_table.donors = {donor};
             
+            %If there are currently metabolites, search against them
             if ~isempty(unique_met_list)
                 matching_met = ...
                     abs(unique_met_list - repmat(current_met,size(unique_met_list,1),1)) < full_cutoff;
                 matching_met = matching_met(:,1) & matching_met(:,2);
+                %If the metabolites match, add its donor to the list
                 if sum(matching_met) == 1
                     prior_donors = unique_table.donors(matching_met);
                     prior_donors = prior_donors{1};
                     unique_table.donors(matching_met) = {unique([prior_donors; donor])};
+                    %If the metabolite's compound doesn't match the initial
+                    %one, mark it for removal at the end
+                    if ~strcmp(unique_table.drug{matching_met},compound)
+                        multiple_drug_met = [multiple_drug_met,find(matching_met)];
+                    end
+                %If the metabolite doesn't match add it to the list    
                 else
                     unique_met_list = [unique_met_list; current_met];
                     unique_table = [unique_table; temp_table];
                 end
+            %If there are no metabolites, add it to the table    
             else
                 unique_met_list = [unique_met_list; current_met];
                 unique_table = [unique_table; temp_table];
@@ -100,6 +113,12 @@ for i = 1:size(novel_metabolite_table,1)
     end
 end
 
+%Remove multiply present metabolites
+multiple_drug_met_index = zeros(size(unique_table,1),1);
+multiple_drug_met_index(multiple_drug_met) = 1;
+unique_table = unique_table(~multiple_drug_met_index,:);
+
+%Add some other columns
 unique_table.mz = unique_table.mass + 1.007;
 unique_table.drug_mz = exclusion_list{unique_table.drug,'product_ion'};
 unique_table.drug_RT = exclusion_list{unique_table.drug,'RT'};

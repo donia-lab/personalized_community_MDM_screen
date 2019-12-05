@@ -2,7 +2,6 @@ function [manifest,compound_list] = import_profinder(manifest_loc,data_loc)
 
 %Import manifest and rename samples to match matlab convention
 manifest = readtable(manifest_loc);
-total_sample_num = size(manifest,1);
 manifest.name = strrep(manifest.name,'-','_');
 
 %Replace NaNs with zeros
@@ -28,7 +27,7 @@ new_entities = array2table(NaN(present_sample_num,entity_num),'VariableNames',..
 
 for i = 1:present_sample_num
     sample_name = manifest.name{i}; 
-    sample_index = find(strcmp(data.Properties.VariableNames,sample_name));
+    sample_index = strcmp(data.Properties.VariableNames,sample_name);
     new_entities{i,:} = transpose(data(:,sample_index).Variables);
 end
 

@@ -158,6 +158,8 @@ end
 real_metabolite_index = ~isnan(mean_met_table(end,:).Variables);
 mean_met_table = mean_met_table(:,real_metabolite_index);
 sig_met_table = sig_met_table(:,real_metabolite_index);
+
+%Normalize metabobolites to max
 max_metabolites = repmat(max(mean_met_table.Variables),max_donors,1);
 mean_met_table.Variables = mean_met_table.Variables./max_metabolites;
 
