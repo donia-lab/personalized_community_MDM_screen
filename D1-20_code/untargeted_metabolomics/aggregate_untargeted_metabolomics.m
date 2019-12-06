@@ -119,7 +119,10 @@ multiple_drug_met_index(multiple_drug_met) = 1;
 unique_table = unique_table(~multiple_drug_met_index,:);
 
 %Add some other columns
-unique_table.mz = unique_table.mass + 1.007;
+unique_table.m_plus_H = unique_table.mass + 1.007;
+unique_table.m_plus_Na = unique_table.mass + 22.9897;
+unique_table.m_plus_K = unique_table.mass + 38.963708;
+
 unique_table.drug_mz = exclusion_list{unique_table.drug,'product_ion'};
 unique_table.drug_RT = exclusion_list{unique_table.drug,'RT'};
 

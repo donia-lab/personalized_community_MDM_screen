@@ -71,6 +71,10 @@ correlation_table.sum_met_vec = sum_met_vec_cell;
 filtered_table = correlation_table(~isnan(correlation_table.p_pearson),:);
 filtered_table.corrected_p_pearson = ...
     mafdr(filtered_table.p_pearson,'BHFDR',true);
+
+export_table = filtered_table(:,{'pearson','corrected_p_pearson'});
+writetable(export_table,...
+    'saved_analyses/depletion_production_correlation_table.csv','WriteRowNames',true)
 %% Plot production vs depletion
 
 significance_cutoff = 0.01;

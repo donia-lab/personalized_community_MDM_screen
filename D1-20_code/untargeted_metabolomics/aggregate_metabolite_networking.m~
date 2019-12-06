@@ -30,7 +30,6 @@ for i = 1:length(drug_list)
     cluster_info = readtable(cluster_filename);
     
     for k = 1:length(drug_metabolite_index)
-        
         metabolite_properties_H = unique_table{drug_metabolite_index(k),{'m_plus_H','RT'}};
         metabolite_properties_Na = unique_table{drug_metabolite_index(k),{'m_plus_Na','RT'}};
         metabolite_properties_K = unique_table{drug_metabolite_index(k),{'m_plus_K','RT'}};
@@ -39,21 +38,20 @@ for i = 1:length(drug_list)
             check_metabolite_relatedness(drug_properties,metabolite_properties_H,...
             GNPS_results,cluster_info,mass_cutoff,rt_cutoff);
         
-        [link_Na,metabolite_present_Na,~] = ...
+        [link_Na,metabolite_present_H,~] = ...
             check_metabolite_relatedness(drug_properties,metabolite_properties_Na,...
             GNPS_results,cluster_info,mass_cutoff,rt_cutoff);
         
-        [link_K,metabolite_present_K,~] = ...
-            check_metabolite_relatedness(drug_properties,metabolite_properties_K,...
+        [link_K,metabolite_present_H,~] = ...
+            check_metabolite_relatedness(drug_properties,metabolite_properties_H,...
             GNPS_results,cluster_info,mass_cutoff,rt_cutoff);
         
-        unique_table{drug_metabolite_index(k),'link'} = ...
-            link_H | link_Na | link_K;
-        unique_table{drug_metabolite_index(k),'metabolite_present'} = ...
-            metabolite_present_H | metabolite_present_Na | metabolite_present_K;
+        unique_table{drug_metabolite_index(k),'link'} = link;
+        unique_table{drug_metabolite_index(k),'metabolite_present'} = metabolite_present;
         unique_table{drug_metabolite_index(k),'drug_present'} = drug_present;
     end
 end
+
 
 
 
@@ -62,7 +60,7 @@ new_donors = arrayfun(@(x) num2str(x{1}'),unique_table.donors,'UniformOutput',fa
 
 export_table = unique_table;
 export_table.donors = new_donors;
-export_table.mass_diff = export_table.m_plus_H - export_table.drug_mz;
+export_table.mass_diff = export_table.mz - export_table.drug_mz;
 writetable(export_table,'unique_metabolites_with_networking.csv',...
     'Delimiter',',','WriteVariableNames',true);
 
