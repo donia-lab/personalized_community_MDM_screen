@@ -36,10 +36,10 @@ for i = 1:length(subject_names)
     subject_table{subject_label,'RPKM'} = RPKM;    
 end
 
-subject_table = subject_table(~isnan(subject_table{:,1}),:);
+subject_table = subject_table(~isnan(subject_table{:,'coverage'}),:);
 
 subject_table.subject = ...
-                cellfun(@(x) ['hmp-1-stool-id',strrep(x,'x','')],...
+                cellfun(@(x) ['hmp-1-1-stool-id-',strrep(x,'x','')],...
                 subject_table.Properties.RowNames,'UniformOutput',false);
 
 gene_cell = cell(size(subject_table,1),1);

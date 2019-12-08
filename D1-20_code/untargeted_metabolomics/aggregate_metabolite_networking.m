@@ -26,8 +26,8 @@ for i = 1:length(drug_list)
     results_filename = ['GNPS_analysis/GNPS_results/',drug,'_1000.txt'];
     cluster_filename = ['GNPS_analysis/GNPS_results/',drug,'_cluster.txt'];
     drug_metabolite_index = find(contains(unique_table.drug,drug));
-    GNPS_results = readtable(results_filename);
-    cluster_info = readtable(cluster_filename);
+    GNPS_results = readtable(results_filename,'Delimiter','\t');
+    cluster_info = readtable(cluster_filename,'Delimiter','\t');
     
     for k = 1:length(drug_metabolite_index)
         

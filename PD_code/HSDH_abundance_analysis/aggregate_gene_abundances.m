@@ -38,10 +38,12 @@ summary_table = array2table(summary_table,'VariableNames',summary_vars,....
 full_data_table = cell(dataset_num,gene_num);
 full_data_table = cell2table(full_data_table,'RowNames',dataset_names,...
     'VariableNames',gene_labels);
+
 %% Loop through all data
 
 coverage_cutoff = 0.5;
 master_table = [];
+
 for i = 1:gene_num
     label = gene_labels{i};
     gene = gene_names{i};

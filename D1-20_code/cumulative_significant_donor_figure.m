@@ -9,7 +9,7 @@ metabolism_analysis = load('saved_analyses/drug_metabolism_analysis.mat');
 sig_met_table = metabolism_analysis.sig_met_table;
 sig_depletion_table = metabolism_analysis.sig_depletion_table;
 
-%% Loop through possible
+%% Loop through possible donor numbers
 
 donor_num = 20;
 
