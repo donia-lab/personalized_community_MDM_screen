@@ -10,7 +10,7 @@ filtered_manifest = filter_16S_on_read_number(manifest,1e4);
 
 %% Loop through and compute correlations
 
-media = 'BG';
+media = 'GAM';
 
 BG_manifest = filtered_manifest(strcmp(filtered_manifest.media,media),:);
 
@@ -76,11 +76,12 @@ hold on
 plot([1e-5,1],[1e-5,1],'k-','LineWidth',1.5)
 set(gca,'YScale','log')
 set(gca,'XScale','log')
-text(1e-4,1e-1,['r = ',num2str(round(corr(ASV_vec_1,ASV_vec_2),2))])
+text(1e-4,2*1e-1,['r = ',num2str(round(corr(ASV_vec_1,ASV_vec_2,'type','Pearson'),2))])
+text(1e-4,2*10^(-1.5),['\rho = ',num2str(round(corr(ASV_vec_1,ASV_vec_2,'type','Spearman'),2))])
 xlabel('Replicate 1 abundance')
 ylabel('Replicate 2 abundance')
 xticks([1e-5,1])
 yticks([1e-5,1])
+%title([media,' replicate correlation'])
 set(gca,'FontSize',10)
-
 print(gcf,'-dpng',['supp_figures/',media,'_replicate_correlation_figure.png'],'-r600');

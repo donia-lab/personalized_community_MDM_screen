@@ -62,7 +62,6 @@ new_donors = arrayfun(@(x) num2str(x{1}'),unique_table.donors,'UniformOutput',fa
 
 export_table = unique_table;
 export_table.donors = new_donors;
-export_table.mass_diff = export_table.m_plus_H - export_table.drug_mz;
 writetable(export_table,'unique_metabolites_with_networking.csv',...
     'Delimiter',',','WriteVariableNames',true);
 

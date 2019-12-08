@@ -42,8 +42,8 @@ end
 drug_table = drug_table(:,logical(exclusion_index));
 
 %Remove remaining compounds that are always significantly depleted
-low_cutoff = 0.2;
-drug_table = drug_table(:,transpose(max(drug_table.Variables) > low_cutoff));
+drug_max_cutoff = 0.2;
+drug_table = drug_table(:,transpose(max(drug_table.Variables) > drug_max_cutoff));
 
 
 %% Process 16S data in a form usable for correlation analysis
@@ -59,14 +59,6 @@ species_table = compute_mean_taxon_table(BG_manifest,'species',donor_order,true,
 family_table = compute_mean_taxon_table(BG_manifest,'family',donor_order,true,prevalence_cutoff,abundance_cutoff);
 
 
-%% Get PCA representation of ASVs
-
-standardize_table = @(A) (A - repmat(mean(A),[size(A,1),1]))./repmat(std(A),[size(A,1),1]);
-[~,ASV_pca,~] = pca(standardize_table(ASV_table.Variables));
-
-component_names = transpose(cellstr(strcat('PC_',string(1:size(ASV_pca,2)))));
-ASV_pca_table = array2table(ASV_pca,'RowNames',donor_labels,'VariableNames',component_names);
-
 %% Compute the correlations 
 corrtype = 'Spearman';
 
@@ -74,8 +66,6 @@ corrtype = 'Spearman';
 [species_coeff, species_p] =  compute_table_correlations(drug_table,species_table,corrtype);
 [genus_coeff, genus_p] =  compute_table_correlations(drug_table,genus_table,corrtype);
 [family_coeff, family_p] =  compute_table_correlations(drug_table,family_table,corrtype);
-
-[pca_coeff,pca_p] = compute_table_correlations(drug_table,ASV_pca_table,corrtype);
 
 %% Correct p values and find significant correlations
 
@@ -86,12 +76,10 @@ species_correlation_table = find_significant_correlations(species_coeff,species_
 genus_correlation_table = find_significant_correlations(genus_coeff,genus_p,significance_cutoff);
 family_correlation_table = find_significant_correlations(family_coeff,family_p,significance_cutoff);
 
-pca_correlation_table = find_significant_correlations(pca_coeff,pca_p,significance_cutoff);
-
 %% Look at correlations on the ASV level
 
-plotting_table = genus_correlation_table;
-secondary_table = genus_table;
+plotting_table = ASV_correlation_table;
+secondary_table = ASV_table;
 for i = 1:size(plotting_table,1)
     element1 = plotting_table.item1{i};
     element2 = plotting_table.item2{i};
@@ -103,7 +91,6 @@ end
 test_species = {'Bifidobacterium_s__adolescentis','Eggerthella_s__lenta'};
 test_drugs = {'hydrocortisone','digoxin'};
 test_mets = {'hydrocortisone_met_1','digoxin_met_1'};
-all_species_table = compute_mean_taxon_table(BG_manifest,'species',donor_order,true,0,0);
 
 nan_matrix = nan(length(test_species),6);
 lit_correlation_table = array2table(nan_matrix,'RowNames',test_species,...

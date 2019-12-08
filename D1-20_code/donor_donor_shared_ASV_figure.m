@@ -24,8 +24,13 @@ combos = [combos;[donor_list,donor_list]];
 
 num_permutations = 3e3;
 
+[A,B] = meshgrid(donor_list,donor_list);
+c=cat(2,A',B');
+all_combos=reshape(c,[],2);
+[all_combined,all_grp] = compute_self_nonself_shared_ASVs(feces_data,feces_data,all_combos);
+
 [permutation_pval,parametric_pval_array] = ...
-    compute_permutation_pvalue(combined,combos,grp,num_permutations,exp_tstat);
+    compute_permutation_pvalue(all_combined,all_combos,all_grp,num_permutations,exp_tstat,combos);
 
 %% Plot shared ASVs
 

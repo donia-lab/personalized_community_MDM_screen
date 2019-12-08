@@ -19,8 +19,8 @@ mean_taxon_table = array2table(nan(length(donor_names),length(taxon_names)),'Row
 for i = 1:length(donor_order)
     donor = donor_order(i);
     donor_samples = table(table.donor == donor,:);
-    sum_composition = donor_samples.biomass(1).*donor_samples{1,var}{1}.Variables;
-    for j = 2:size(donor_samples,1)
+    sum_composition = zeros(size(donor_samples{1,var}{1}.Variables));
+    for j = 1:size(donor_samples,1)
         sum_composition = sum_composition +...
             donor_samples.biomass(j).*donor_samples{j,var}{1}.Variables;
     end
@@ -29,7 +29,7 @@ for i = 1:length(donor_order)
     
 end
 
-%Get only taxa present in more than sampels than cutoff
+%Get only taxa present in more than samples than cutoff
 prevalent_taxa = sum(mean_taxon_table.Variables>0,1) >= prevalence_cutoff;
 mean_taxon_table = mean_taxon_table(:,prevalent_taxa);
 

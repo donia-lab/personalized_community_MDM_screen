@@ -1,6 +1,7 @@
 function [coefficient_table,p_table] = compute_table_correlations(tbl1,tbl2,corrtype)
 
-%This function takes in tables of doubles and returns
+%This function takes in tables of doubles and returns tables of
+%correlations with p values
 
 var1 = tbl1.Properties.VariableNames; 
 var2 = tbl2.Properties.VariableNames; 
