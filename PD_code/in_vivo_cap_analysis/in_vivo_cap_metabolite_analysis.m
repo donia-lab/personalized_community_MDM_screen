@@ -4,10 +4,8 @@
 %% Import data and perform stats
 
 clear;clc
-close all
 
 time = [0, 20, 40, 60, 120, 240]; 
-calib = 1/0.839912; %Conversion from cap(mM) = calib*(cap/IS)
 mass_feces = xlsread('MDM_in_feces_blood.xlsx','mass_feces');
 IS_feces = xlsread('MDM_in_feces_blood.xlsx','IS_feces');
 met_360_feces = xlsread('MDM_in_feces_blood.xlsx','metabolite_360_feces');
@@ -24,31 +22,29 @@ norm_246_blood = met_246_blood./(IS_blood.*30);
 label_y1 = ' (normalized AUC/g)';
 label_y2 = ' (normalized AUC/mL)';
 
-% norm_360_feces = (100e-6 * calib *359.35)*met_360_feces./(IS_feces.*mass_feces); %250ul * calib * molas mass (mg) * AUC_d/AUC_is  / mass
-% norm_244_feces = (100e-6 * calib *359.35)*met_244_feces./(IS_feces.*mass_feces);
-% norm_360_blood = (100e-6 * calib *359.35)*met_360_blood./(IS_blood.*30);
-% label_y1 = 'mg/mL';
-
 feces_360 = compute_MDM_stats(norm_360_feces);
-
 feces_244 = compute_MDM_stats(norm_244_feces);
 blood_360 = compute_MDM_stats(norm_360_blood);
-
 blood_246 = compute_MDM_stats(norm_246_blood);
 
-
-for i = 1:6
+for i = 1:size(norm_244_feces,2)
     [~,p_244_feces(i)] = ttest2(norm_244_feces(1:6,i),norm_244_feces(7:12,i),'Vartype','unequal','tail','both');
     [~,p_360_feces(i)] = ttest2(norm_360_feces(1:6,i),norm_360_feces(7:12,i),'Vartype','unequal','tail','both');
     [~,p_360_blood(i)] = ttest2(norm_360_blood(1:6,i),norm_360_blood(7:12,i),'Vartype','unequal','tail','both');
     [~,p_246_blood(i)] = ttest2(norm_246_blood(1:6,i),norm_246_blood(7:12,i),'Vartype','unequal','tail','both');
 end
 
+%Apply Bonferroni
+corrected_p_244_feces = p_244_feces*length(p_244_feces);
+corrected_p_244_feces(corrected_p_244_feces > 1) = 1;
+corrected_p_360_feces = p_360_feces*length(p_360_feces);
+corrected_p_360_feces(corrected_p_360_feces > 1) = 1;
+corrected_p_360_blood = p_360_blood*length(p_360_blood);
+corrected_p_360_blood(corrected_p_360_blood > 1) = 1;
+corrected_p_246_blood = p_246_blood*length(p_246_blood);
+corrected_p_246_blood(corrected_p_246_blood > 1) = 1;
 
-
-
-%%Plot resulting data
-
+%% Plot resulting data
 
 figure
 plot(time,feces_244.av2,'r-','LineWidth',2)
