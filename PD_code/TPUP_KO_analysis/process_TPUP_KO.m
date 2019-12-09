@@ -1,6 +1,8 @@
 %This script plots the results of the TPUP KO experiment and performs the
 %relevant statistical testing. 
 
+%% Import data
+
 clear;clc
 close all
 
@@ -11,16 +13,11 @@ parent_peak = xlsread('TPUP_KO_data.xlsx',['parent_peak_',measure]);
 IS_peak = xlsread('TPUP_KO_data.xlsx',['IS_peak_',measure]);
 
 %Data imported as TPUP UP TP WT going down
-
 sum_metab = nansum(metab_peak,2);
 sum_parent = nansum(parent_peak,2);
 sum_IS = nansum(IS_peak,2); 
 
-% final_norm = sum_metab./sum_IS;
-% y_label = 'Normalized metabolite AUC';
-% y_lim = 0.5;
-% file_label = 'met_AUC';
-
+%Compute conversion
 final_norm = sum_metab./(sum_parent+sum_metab); 
 y_label = 'Percent Conversion';
 y_lim = 0.7;
@@ -29,16 +26,16 @@ file_label = 'conversion';
 %Rearrange to WT TP UP TPUP horizontally
 final_norm = [final_norm(10:12), final_norm(7:9), final_norm(4:6), final_norm(1:3)];
 
-p(1) = 1;
+%Get p-values
+p(1) = NaN;
 [~,p(2)] = ttest2(final_norm(:,1),final_norm(:,2),'Vartype','unequal','tail','both');
 [~,p(3)] = ttest2(final_norm(:,1),final_norm(:,3),'Vartype','unequal','tail','both');
 [~,p(4)] = ttest2(final_norm(:,1),final_norm(:,4),'Vartype','unequal','tail','both');
 
-
 mean_norm = nanmean(final_norm);
 std_norm = nanstd(final_norm);
 
-% Make plots and save
+%% Make plots and save
 b = barwitherr(std_norm,mean_norm,'FaceColor',[0.75 0.75 0.75],'EdgeColor',[0 0 0]);
 set(gca,'box','off');
 set(gca,'XTickLabels',{'WT','TP KO','UP KO','TPUP KO'})

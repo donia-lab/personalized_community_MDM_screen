@@ -11,6 +11,7 @@ Created on Wed Jan 23 08:49:34 2019
 
 import pandas as pd
 import statsmodels.api as sm
+import statsmodels as sm2
 
 
 #Define functions to be used in analysis
@@ -62,17 +63,20 @@ natderiv_vs_synth_no_steroid = mdm_stats(non_steroid_natderiv,non_steroid_synth)
 steroid_vs_non_steroid = mdm_stats(steroid_drugs,non_steroid_drugs)
 
 #Test across all classes
-
 class_comparison = pd.DataFrame(
         index = list(set(drug_classes['class'].tolist())),columns = ['n_total','frac','p'])
         
-for drug in class_comparison.index:
-    drug_df = drug_classes[drug_classes['class'] == drug]
-    non_drug_df = drug_classes[drug_classes['class'] != drug]
-    class_comparison.loc[drug,'n_total'] = len(drug_df.index)
-    class_comparison.loc[drug,'frac'] = get_mdm_frac(drug_df)
-    class_comparison.loc[drug,'p'] = mdm_stats(drug_df,non_drug_df)
-    
+for drug_class in class_comparison.index:
+    drug_df = drug_classes[drug_classes['class'] == drug_class]
+    non_drug_df = drug_classes[drug_classes['class'] != drug_class]
+    class_comparison.loc[drug_class,'n_total'] = len(drug_df.index)
+    class_comparison.loc[drug_class,'frac'] = get_mdm_frac(drug_df)
+    class_comparison.loc[drug_class,'p'] = mdm_stats(drug_df,non_drug_df)
+
+multitest_results = sm2.stats.multitest.multipletests(class_comparison.p.tolist(), alpha=0.01, method='fdr_bh', 
+                                           is_sorted=False, returnsorted=False)   
+class_comparison['corrected_p'] = multitest_results[1]
+
     
 #Make figure of nat/deriv vs synthetic MDM+ with all drugs
 fontsize = 16
@@ -129,7 +133,7 @@ axfig1 = ax1.get_figure()
 axfig1.savefig('steroid_vs_non_fraction.eps',dpi=600,bbox_inches = 'tight',format = 'eps')
 
 
-#Make figure of steroid vs non-steroid MDM+ fraction
+#Make figure of nat/deriv vs. synthetic with no steroids
 frac_df = pd.DataFrame({'frac':[non_s_natderiv_frac,non_s_synth_frac],
                        '': ['Natural/Derivative','Synthetic']})
 ax2 = frac_df.plot.bar(x = '',y='frac',legend=None,width= 0.65,
