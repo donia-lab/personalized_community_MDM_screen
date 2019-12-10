@@ -53,6 +53,10 @@ The primary script is 'process_TPUP_KO.m' and performs statistical
 analysis and plotting on the TP/UP KO experiments. This generates 
 Fig 5B in the main text. 
 
+--D1-20_16S_qiime2_script--
+This folder contains the shell script used to run qiime2 on the PD
+data.
+
 ------------------------
 D1-20 CODE DESCRIPTION
 ------------------------
@@ -144,4 +148,6 @@ the data to molecular ion networking on GNPS.
 'aggregate_metabolite_networking.m' takes the GNPS results and outputs 
 the final untargeted metabolomics table. 
 
-
+--D1-20_16S_qiime2_script--
+This folder contains the shell script used to run qiime2 on the D1-20
+data.
