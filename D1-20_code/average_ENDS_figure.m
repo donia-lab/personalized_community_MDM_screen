@@ -30,7 +30,7 @@ media_list = media_list(~contains(media_list,{'feces','none'}));
 alpha = 0.01;
 n = 3;
 only_ENDS = true;
-read_cutoff = 0;
+read_cutoff = 5;
 mean_media_ENDS = zeros(length(media_list),length(r_list));
 mean_best_media = cell(length(r_list),1);
 
@@ -56,6 +56,7 @@ save('saved_analyses/average_ENDS_figure.mat','mean_media_ENDS','media_list','r_
 %% This part of the script loads the existing data and plots
 
 load('saved_analyses/average_ENDS_figure.mat')
+
 FontSize = 8;
 newfigure(3.5,2);
 media_order = {'BB','BG','BHI','GMM','LB','liver','GAM','MRS','RCM','TB'};
