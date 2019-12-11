@@ -131,6 +131,10 @@ Fig 6C.
 Identifies media that are on average optimal for different metrics 
 across the twenty donors.
 
+--read_depth_analysis_supp_fig.m--
+Aanlyzes the relationship between observed media properties and sample
+sequencing depths. Generates figures in Data S1 section G.
+
 --theoretical_taxa_vs_metabolism_supp_figure.m--
 Generate the theoretical producer abundance vs. measuremed metabolite 
 figures shown in Fig 27 of Data S1.
