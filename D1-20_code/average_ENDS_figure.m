@@ -30,7 +30,7 @@ media_list = media_list(~contains(media_list,{'feces','none'}));
 alpha = 0.01;
 n = 3;
 only_ENDS = true;
-read_cutoff = 5;
+read_cutoff = 0;
 mean_media_ENDS = zeros(length(media_list),length(r_list));
 mean_best_media = cell(length(r_list),1);
 
