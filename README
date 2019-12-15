@@ -114,7 +114,10 @@ Fig 3F.
 
 --donor_donor_shared_ASV_figure.m--
 Generates the box plot of shared ASVs between donors and donors in 
-Fig 3G.
+Fig 3E.
+
+--empirical_power_average_ENDS_supp_figure.m--
+Generates a version of figure 3G with empirically estimated power.
 
 --feces_family_level_supp_figure.m--
 Generates family level bar plots of fecal samples from all donors in
