@@ -11,7 +11,7 @@ HK_manifest_loc = [data_folder,'20x20_HK_manifest.xlsx'];
 data_loc_template = '_profinder.csv';
 
 results_folder = 'untargeted_metabolomics_results/';
-load_existing_analysis = true;
+load_existing_analysis = false;
 
 large_metabolite_table = [];
 for i = 1:donor_num

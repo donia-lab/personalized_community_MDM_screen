@@ -2,8 +2,8 @@ function [ENDS,bvec] = compute_ENDS(asv_table,r,alpha,n,noise_models,read_cutoff
 %This function computes the expected number of detectable strains for a given
 %community. This assumes a power law error model.
 
-%Remove singletons 
-x = asv_table(asv_table > read_cutoff)./sum(asv_table);
+%Normalize table
+x = asv_table./sum(asv_table);
 
 %Power law std = a*mean^b
 a = noise_models.a;
@@ -20,6 +20,7 @@ compute_detection_prob = @(xi) welch_power(null_mean,r*xi + null_mean,...
 
 bvec = arrayfun(compute_detection_prob,x);
 
-ENDS = sum(bvec); 
+%Get ENDS of only elements above the cutoff
+ENDS = sum(bvec(asv_table > read_cutoff)); 
 end
 
