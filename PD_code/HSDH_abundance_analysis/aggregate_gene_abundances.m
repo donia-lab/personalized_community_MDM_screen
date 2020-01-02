@@ -1,7 +1,6 @@
 %This script takes quantification results of genes on different microbiome
 %cohorts and aggregates per cohort statistics
 
-
 %% Set up tables and gene names
 
 clear;clc
@@ -42,8 +41,8 @@ full_data_table = cell2table(full_data_table,'RowNames',dataset_names,...
 %% Loop through all data
 
 coverage_cutoff = 0.5;
-master_table = [];
-
+master_subject_table = [];
+master_sample_table = [];
 for i = 1:gene_num
     label = gene_labels{i};
     gene = gene_names{i};
@@ -58,12 +57,41 @@ for i = 1:gene_num
         
         %Get table that have each row as a subject
         if strcmp(dataset,'hmp-stool')
-            subject_table = hmp_1_1_sample_to_subject(sample_table,coverage_cutoff);
+            [subject_table,modified_sample_table] = hmp_1_1_sample_to_subject(sample_table,coverage_cutoff);
         elseif strcmp(dataset,'hmp-1-2-Stool')
-            subject_table = hmp_1_2_sample_to_subject(sample_table,coverage_cutoff);
+            [subject_table,modified_sample_table] = hmp_1_2_sample_to_subject(sample_table,coverage_cutoff);
         else
             subject_table = sample_table;
             subject_table.Properties.VariableNames{4} = 'subject';
+            modified_sample_table = sample_table;
+            sample_strings = cellfun(@(x) split(x,'-'),sample_table.sample,'UniformOutput',false);
+          
+            if contains(dataset,'diabetes')
+                modified_sample_table.cohort = ...
+                    repmat({'Chinese'},size(modified_sample_table.gene));
+                modified_sample_table.sample_id = ...
+                    cellfun(@(x) x{4},sample_strings,'UniformOutput',false);
+            elseif contains(dataset,'fiji')
+                modified_sample_table.cohort = ...
+                    repmat({'Fijicomp'},size(modified_sample_table.gene));
+                modified_sample_table.sample_id = ...
+                    cellfun(@(x) x{3},sample_strings,'UniformOutput',false);
+            elseif contains(dataset,'danish')
+                modified_sample_table.cohort = ...
+                    repmat({'MetaHIT-Danish'},size(modified_sample_table.gene));
+                modified_sample_table.sample_id = ...
+                    cellfun(@(x) x{4},sample_strings,'UniformOutput',false);
+            elseif contains(dataset,'spanish')
+                modified_sample_table.cohort = ...
+                    repmat({'MetaHIT-Spanish'},size(modified_sample_table.gene));
+                modified_sample_table.sample_id = ...
+                    cellfun(@(x) x{4},sample_strings,'UniformOutput',false);
+            end
+            
+            modified_sample_table.subject_id = modified_sample_table.sample_id;
+            modified_sample_table = ...
+                modified_sample_table(:,{'gene','coverage','RPKM','cohort','sample_id','subject_id'});
+
         end
         
         coverage_index = subject_table.coverage > coverage_cutoff;
@@ -74,7 +102,9 @@ for i = 1:gene_num
         abundance_table{dataset,label} = median(subject_table.RPKM(coverage_index));
         full_data_table{dataset,label} = {subject_table.RPKM(coverage_index)};
         
-        master_table = [master_table;subject_table];
+        master_subject_table = [master_subject_table;subject_table];
+        master_sample_table = [master_sample_table;modified_sample_table];
+
     end
 end
         
@@ -82,11 +112,28 @@ temp_var = abundance_table.Variables;
 temp_var(isnan(temp_var)) = 0;
 abundance_table.Variables = temp_var;
 
-writetable(summary_table,'summary_table.csv','WriteRowNames',true,...
+writetable(master_subject_table,'all_subject_table.csv','WriteRowNames',true,...
     'WriteVariableNames',true)
-writetable(master_table,'all_subject_table.csv','WriteRowNames',true,...
+
+writetable(master_sample_table,'all_sample_table.csv','WriteRowNames',true,...
     'WriteVariableNames',true)
-        
+
+%% Aggregate the summary table into its final form
+
+final_summary_table = summary_table('fijicomp-Stool',:);
+final_summary_table.Properties.RowNames{...
+    contains(final_summary_table.Properties.RowNames,'fijicomp-Stool')} = 'Fijicomp';
+final_summary_table('HMP-1-1-Stool',:) = summary_table('hmp-stool',:);
+final_summary_table('HMP-1-2-Stool',:) = summary_table('hmp-1-2-Stool',:);
+final_summary_table{'Chinese',:} = sum(summary_table{{'diabetes-healthy','diabetes-diseased'},:});
+final_summary_table{'MetaHIT-Spanish',:} = sum(...
+    summary_table{{'MetaHIT_Gut-spanish-CD','MetaHIT_Gut-spanish-healthy','MetaHIT_Gut-spanish-UC'},:});
+final_summary_table('MetaHIT-Danish',:) = summary_table('MetaHIT_Gut-danish-healthy',:);
+
+
+writetable(final_summary_table,'summary_table.csv','WriteRowNames',true,...
+    'WriteVariableNames',true)
+
 %% Aggregate the data into its final form for heatmap plotting
 
 countries = {'China','Fiji','USA1','USA2','Denmark','Spain'};

@@ -93,7 +93,7 @@ end
 FontSize = 8;
 newfigure(3.5,2);
 media_order = {'BB','BG','BHI','GMM','LB','liver','GAM','MRS','RCM','TB'};
-media_labels = {'BB','BG','BHI','GMM','LB','Liver','GAM','MRS','RCM','TB'};
+media_labels = {'BB','BG','BHI','GMM','LB','Liver','mGAM','MRS','RCM','TB'};
 colors = distinguishable_colors(length(media_list));
 hold on
 

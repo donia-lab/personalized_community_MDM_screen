@@ -1,10 +1,7 @@
 Row,N_total,N_positive_20a_HSDH_CLOSCI_00901_Clostridium_scindens_ATCC_3570,N_positive_20b_HSDH_Bifido_HD_1_CL_100_DNA,N_positive_deoA_BW25113_4382_E_coli_BW25113,N_positive_udp_BW25113_3831_E_coli_BW25113
-diabetes-diseased,97,0,37,75,75
-diabetes-healthy,97,0,37,69,73
-fijicomp-Stool,192,0,100,122,134
-hmp-1-2-Stool,202,3,57,49,61
-hmp-stool,97,1,30,24,23
-MetaHIT_Gut-danish-healthy,176,0,31,20,28
-MetaHIT_Gut-spanish-CD,21,0,11,12,12
-MetaHIT_Gut-spanish-healthy,71,0,32,20,18
-MetaHIT_Gut-spanish-UC,127,3,65,30,32
+Fijicomp,192,0,100,122,134
+HMP-1-1-Stool,97,1,30,24,23
+HMP-1-2-Stool,202,3,57,49,61
+Chinese,194,0,74,144,148
+MetaHIT-Spanish,219,3,108,62,62
+MetaHIT-Danish,176,0,31,20,28

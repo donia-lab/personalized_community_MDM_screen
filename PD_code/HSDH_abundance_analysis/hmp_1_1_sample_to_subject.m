@@ -1,4 +1,4 @@
-function subject_table = hmp_1_1_sample_to_subject(sample_table,coverage_cutoff)
+function [subject_table,modified_sample_table] = hmp_1_1_sample_to_subject(sample_table,coverage_cutoff)
 %This function takes in the raw data for hmp-1-1 quantification and returns
 %an aggregated table with unique subjects
 
@@ -17,7 +17,9 @@ subject_table = array2table(subject_table,'RowNames',subject_labels,...
 
 %Append SRS IDs to the sample table for easier matching
 sample_fragments = cellfun(@(x) split(x,'-'),sample_table.sample,'UniformOutput',false);
-sample_table(:,'SRS_id') = cellfun(@(x) x{5},sample_fragments,'UniformOutput',false);
+sample_table(:,'sample_id') = cellfun(@(x) x{5},sample_fragments,'UniformOutput',false);
+sample_table(:,'subject_id') = cell(size(sample_table.sample_id));
+
 
 %Collect samples for each subject
 for i = 1:length(subject_names)
@@ -27,8 +29,8 @@ for i = 1:length(subject_names)
     %Get matching SRS IDs for the subject and use those to get samples
     subject_SRS_ids = ...
         catalog.SequenceReadArchiveID(catalog.MRN_SubjectID_ == subject_name);
-    subject_samples = sample_table(contains(sample_table.SRS_id,subject_SRS_ids),:);
-    
+    subject_samples = sample_table(contains(sample_table.sample_id,subject_SRS_ids),:);
+    sample_table(contains(sample_table.sample_id,subject_SRS_ids),'subject_id') = {num2str(subject_name)};
     %Return aggregated data for single subject
     [coverage,RPKM] = aggregate_subject_data(subject_samples,coverage_cutoff);
     
@@ -46,4 +48,9 @@ gene_cell = cell(size(subject_table,1),1);
 gene_cell(:) = {sample_table.gene{1}};
 subject_table.gene = gene_cell;
 subject_table.Properties.RowNames = {};
+
+%Rearrange sample table
+sample_table.cohort = repmat({'HMP-1-1'},size(sample_table.gene));
+modified_sample_table = sample_table(:,{'gene','coverage','RPKM','cohort','sample_id','subject_id'});
+
 end

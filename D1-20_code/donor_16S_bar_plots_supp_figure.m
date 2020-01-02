@@ -9,6 +9,8 @@ manifest = wrapped_16S_import();
 
 filtered_manifest = filter_16S_on_read_number(manifest,1e4);
 
+filtered_manifest.media(contains(filtered_manifest.media,'GAM')) = {'mGAM'};
+
 %% Make stacked bar plots of samples by donor
 
 other_cutoff = 0.05;
@@ -26,7 +28,7 @@ for i = 1:length(donor_list)
     donor = donor_list(i);
     
     newfigure(6,8);
-    [ha, pos] = tight_subplot(2,1,0.05,[0.1,0.05],[0.08,0.07]); 
+    [ha, pos] = tight_subplot(2,1,0.05,[0.13,0.05],[0.08,0.07]); 
     axes(ha(1));
     generate_16S_bar_plot(bar_samples,'order',other_cutoff,donor,false,false);
     axes(ha(2));
