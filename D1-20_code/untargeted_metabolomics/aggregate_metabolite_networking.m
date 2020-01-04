@@ -57,11 +57,32 @@ end
 
 
 
-%% Export table with reformatted donor numbers
+%% Export table with reformatted donor numbers and new column names
 new_donors = arrayfun(@(x) num2str(x{1}'),unique_table.donors,'UniformOutput',false);
 
 export_table = unique_table;
 export_table.donors = new_donors;
+
+export_table.Properties.VariableNames{1} = 'drug_name';
+export_table.Properties.VariableNames{2} = 'metabolite_exact_mass_from_profinder';
+export_table.Properties.VariableNames{3} = 'metabolite_RT';
+export_table.Properties.VariableNames{4} = 'donors_producing_metabolite';
+export_table.Properties.VariableNames{5} = 'calculated_metabolite_m_plus_H';
+export_table.Properties.VariableNames{6} = 'calculated_metabolite_m_plus_Na';
+export_table.Properties.VariableNames{7} = 'calculated_metabolite_m_plus_K';
+export_table.Properties.VariableNames{8} = 'observed_drug_mz';
+export_table.Properties.VariableNames{10} = 'donors_run_for_MolNet';
+export_table.Properties.VariableNames{11} = 'drug_and_metabolite_clustered_in_MolNet';
+export_table.Properties.VariableNames{12} = 'MolNet_metabolite_observed';
+export_table.Properties.VariableNames{13} = 'MolNet_parent_drug_observed';
+
+export_table.drug_and_metabolite_clustered_in_MolNet = ...
+    num2cell(export_table.drug_and_metabolite_clustered_in_MolNet);
+applicable_link = export_table.MolNet_metabolite_observed & ...
+    export_table.MolNet_parent_drug_observed;
+export_table.drug_and_metabolite_clustered_in_MolNet(~applicable_link) = {'NA'};
+
 writetable(export_table,'unique_metabolites_with_networking.csv',...
     'Delimiter',',','WriteVariableNames',true);
+
 

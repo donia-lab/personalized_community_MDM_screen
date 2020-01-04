@@ -66,6 +66,7 @@ for i = 1:gene_num
             modified_sample_table = sample_table;
             sample_strings = cellfun(@(x) split(x,'-'),sample_table.sample,'UniformOutput',false);
           
+            %Make modified sample table
             if contains(dataset,'diabetes')
                 modified_sample_table.cohort = ...
                     repmat({'Chinese'},size(modified_sample_table.gene));
