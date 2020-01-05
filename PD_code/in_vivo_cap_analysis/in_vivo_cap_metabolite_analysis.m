@@ -17,8 +17,8 @@ met_246_blood = xlsread('MDM_in_feces_blood.xlsx','metabolite_246_blood');
 
 norm_360_feces = met_360_feces./(IS_feces.*mass_feces);%Met/IS per g
 norm_244_feces = met_244_feces./(IS_feces.*mass_feces); %Met/IS per g
-norm_360_blood = met_360_blood./(IS_blood.*30); %Met/IS per uL
-norm_246_blood = met_246_blood./(IS_blood.*30);
+norm_360_blood = met_360_blood./(IS_blood.*0.03); %Met/IS per mL
+norm_246_blood = met_246_blood./(IS_blood.*0.03);
 label_y1 = ' (normalized AUC/g)';
 label_y2 = ' (normalized AUC/mL)';
 
@@ -83,11 +83,11 @@ print(gcf, '-depsc2', 'feces_360.eps')
 
 
 figure
-plot(time,blood_360.av2*1000,'r-','LineWidth',2)
+plot(time,blood_360.av2,'r-','LineWidth',2)
 hold on
-plot(time,blood_360.av1*1000,'k-','LineWidth',2)
-errorbar(time,blood_360.av1*1000,blood_360.sem1*1000,'k-','LineWidth',2)
-errorbar(time,blood_360.av2*1000,blood_360.sem2*1000,'r-','LineWidth',2)
+plot(time,blood_360.av1,'k-','LineWidth',2)
+errorbar(time,blood_360.av1,blood_360.sem1,'k-','LineWidth',2)
+errorbar(time,blood_360.av2,blood_360.sem2,'r-','LineWidth',2)
 xlabel('Time after dose (minutes)')
 ylabel(strcat('M360',label_y2))
 set(gca,'TickDir','out');
@@ -100,11 +100,11 @@ print(gcf, '-depsc2', 'blood_360.eps')
 
 
 figure
-plot(time,blood_246.av2*1000,'r-','LineWidth',2)
+plot(time,blood_246.av2,'r-','LineWidth',2)
 hold on
-plot(time,blood_246.av1*1000,'k-','LineWidth',2)
-errorbar(time,blood_246.av1*1000,blood_246.sem1*1000,'k-','LineWidth',2)
-errorbar(time,blood_246.av2*1000,blood_246.sem2*1000,'r-','LineWidth',2)
+plot(time,blood_246.av1,'k-','LineWidth',2)
+errorbar(time,blood_246.av1,blood_246.sem1,'k-','LineWidth',2)
+errorbar(time,blood_246.av2,blood_246.sem2,'r-','LineWidth',2)
 xlabel('Time after dose (minutes)')
 ylabel(strcat('M246',label_y2))
 set(gca,'TickDir','out');

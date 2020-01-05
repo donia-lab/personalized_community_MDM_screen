@@ -18,7 +18,7 @@ plt = 0;
 noise_models = estimate_noise_models(donor_manifest_loc,donor_loc,istd,plt);
 
 % Define range of reaction rate values
-r_lims = [-1,2];
+r_lims = [-2,2];
 r_list = logspace(r_lims(1),r_lims(2),40);
 
 %Select only artificial media conditoins from data
@@ -60,7 +60,7 @@ load('saved_analyses/average_ENDS_figure.mat')
 FontSize = 8;
 newfigure(3.5,2);
 media_order = {'BB','BG','BHI','GMM','LB','liver','GAM','MRS','RCM','TB'};
-media_labels = {'BB','BG','BHI','GMM','LB','Liver','GAM','MRS','RCM','TB'};
+media_labels = {'BB','BG','BHI','GMM','LB','Liver','mGAM','MRS','RCM','TB'};
 colors = distinguishable_colors(length(media_list));
 hold on
 
@@ -73,7 +73,7 @@ yticks([0,20,40,60,80])
 set(gca,'XScale','log')
 l1 = legend(media_labels,'Location','eastoutside','FontSize',FontSize);
 l1.ItemTokenSize = [10,18];
-xlabel({'Reaction constant' ;'(normalized AUC per g/L biomass)'})
+xlabel({'MDM reaction rate' ;'(normalized AUC per g/L biomass per day)'})
 ylabel('Average ENDS')
 xlim(10.^r_lims)
 set(gca,'FontSize',FontSize)

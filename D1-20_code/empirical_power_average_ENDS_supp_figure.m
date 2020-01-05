@@ -20,14 +20,12 @@ for i = 1:size(BG_table,1)
         mean_label = [label,'mean'];
         p_label = [label,'p'];
         
-        if ~isnan(BG_table{i,mean_label})
-            pass_list = [pass_list; BG_table{i,p_label} < alpha; ...
-                HK_table{i,p_label} < alpha;...
-                DMSO_table{i,p_label} < alpha];
-            mean_list = [mean_list; BG_table{i,mean_label};...
-                HK_table{i,mean_label};...
-                DMSO_table{i,mean_label}];
-        end
+        pass_list = [pass_list; BG_table{i,p_label} < alpha; ...
+            HK_table{i,p_label} < alpha;...
+            DMSO_table{i,p_label} < alpha];
+        mean_list = [mean_list; BG_table{i,mean_label};...
+            HK_table{i,mean_label};...
+            DMSO_table{i,mean_label}];
     end
 end
 
@@ -52,7 +50,7 @@ manifest = wrapped_16S_import();
 filtered_manifest = filter_16S_on_read_number(manifest,1e4);
 
 % Define range of reaction rate values
-r_lims = [-1,2];
+r_lims = [-2,2];
 r_list = logspace(r_lims(1),r_lims(2),40);
 
 %Select only artificial media conditoins from data
@@ -88,8 +86,7 @@ for i = 1:length(r_list)
         
 end
 
-%% This part of the script loads the existing data and plots
-
+%% Plot ends
 FontSize = 8;
 newfigure(3.5,2);
 media_order = {'BB','BG','BHI','GMM','LB','liver','GAM','MRS','RCM','TB'};
@@ -103,10 +100,11 @@ for i = 1:length(media_order)
 end
 box off
 yticks([0,20,40,60,80])
+ylim([0,80])
 set(gca,'XScale','log')
 l1 = legend(media_labels,'Location','eastoutside','FontSize',FontSize);
 l1.ItemTokenSize = [10,18];
-xlabel({'Reaction constant' ;'(normalized AUC per g/L biomass)'})
+xlabel({'MDM reaction rate' ;'(normalized AUC per g/L biomass per day)'})
 ylabel('Average ENDS')
 xlim(10.^r_lims)
 set(gca,'FontSize',FontSize)

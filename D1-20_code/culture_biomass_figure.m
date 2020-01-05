@@ -33,8 +33,8 @@ set(gcf,'Position',old_position);
 boxplot(biomass_list,biomass_grp,'Symbol','k+')
 xticklabels(media_list)
 xtickangle(90)
-yticks([0,4,8,12])
-ylim([0,1.1*max(biomass_list)])
+yticks([0,10,20,30,40])
+ylim([0,40])
 box off
 ylabel('Biomass (g/L)')
 box_line = 1;

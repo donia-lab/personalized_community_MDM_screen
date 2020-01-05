@@ -66,24 +66,31 @@ qiime diversity alpha-rarefaction \
   --p-iterations 1000 \
   --output-dir $location/diversity_analysis
 
+mkdir $location/collapsed $location/export_collapsed
+
+for i in {1..7}
+do
 qiime taxa collapse \
   --i-table $location/${name}_dada2/table.qza \
   --i-taxonomy $location/${name}_taxonomy.qza \
-  --p-level 5 \
-  --output-dir $location/collapsed_table
+  --p-level $i \
+  --o-collapsed-table $location/collapsed/collapsed_table_$i.qza
 
 qiime feature-table relative-frequency \
-  --i-table $location/collapsed_table/collapsed_table.qza \
-  --o-relative-frequency-table $location/collapsed_table/collapsed_table_relative.qza
+  --i-table $location/collapsed/collapsed_table_$i.qza \
+  --o-relative-frequency-table $location/collapsed/collapsed_table_relative_$i.qza
 
 qiime tools export \
-  $location/collapsed_table/collapsed_table_relative.qza \
-  --output-dir $location/export_collapsed/
+  $location/collapsed/collapsed_table_relative_$i.qza \
+  --output-dir $location/export_collapsed/export_$i/
 
 biom convert \
-  -i $location/export_collapsed/feature-table.biom \
-  -o $location/export_collapsed/${name}_family_table.txt \
-  --to-tsv 
+  -i $location/export_collapsed/export_$i/feature-table.biom \
+  -o $location/export_collapsed/${name}_table_$i.txt \
+  --to-tsv
+
+done
+
 
 qiime tools export \
   $location/${name}_dada2/table.qza \
@@ -93,3 +100,4 @@ biom convert \
   -i $location/export_asv/feature-table.biom \
   -o $location/export_asv/${name}_asv_table.txt \
   --to-tsv
+

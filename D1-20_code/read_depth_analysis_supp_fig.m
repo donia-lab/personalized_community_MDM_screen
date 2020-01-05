@@ -33,7 +33,7 @@ alpha = 0.01;
 n = 3;
 only_ENDS = false;
 read_cutoff = 0;
-r = 1;
+r = 0.5;
 
 %Compute ENDS
 score_manifest = ...
