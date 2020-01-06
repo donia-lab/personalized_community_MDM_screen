@@ -77,6 +77,7 @@ xlabel({'MDM reaction rate' ;'(normalized AUC per g/L biomass per day)'})
 ylabel('Average ENDS')
 xlim(10.^r_lims)
 set(gca,'FontSize',FontSize)
+set(gca,'TickDir','out');
 
 
 print(gcf, '-dsvg', '-painters','figures/average_ENDS_figure.svg');

@@ -39,7 +39,7 @@ box off
 ylabel('Biomass (g/L)')
 box_line = 1;
 set(gca,'FontSize',FontSize)
-
+set(gca,'TickDir','out');
 set(findobj(gcf,'tag','Median'), 'Color', 'k','LineWidth',box_line);
 set(findobj(gcf,'tag','Box'), 'Color', 'k','LineWidth',box_line);
 set(findobj(gcf,'tag','Upper Whisker'), 'Color', 'k','LineWidth',box_line,'LineStyle','-');

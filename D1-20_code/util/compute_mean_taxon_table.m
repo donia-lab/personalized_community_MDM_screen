@@ -25,7 +25,7 @@ for i = 1:length(donor_order)
             donor_samples.biomass(j).*donor_samples{j,var}{1}.Variables;
     end
     mean_composition = transpose(sum_composition./size(donor_samples,1));
-    mean_taxon_table(donor,:).Variables = mean_composition;
+    mean_taxon_table(donor_names{i},:).Variables = mean_composition;
     
 end
 

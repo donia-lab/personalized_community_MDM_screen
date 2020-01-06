@@ -19,7 +19,7 @@ noise_models = estimate_noise_models(donor_manifest_loc,donor_loc,istd,plt);
 %ENDS parameters and storage vector
 alpha = 0.01;
 n = 3;
-r = 10;
+r = 1;
 only_ENDS = false;
 read_cutoff = 0;
 

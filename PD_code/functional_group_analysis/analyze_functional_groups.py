@@ -14,7 +14,7 @@ import statsmodels as sm2
 import os
 
 
-exclude_steroids = False
+exclude_steroids = True
 
 #Load SMILES of drugs from screen
 drug_file = 'drug_SMILES.tsv';
@@ -29,6 +29,8 @@ if exclude_steroids:
 groups = pd.read_csv('SMARTS_groups.csv',sep = ',')
 
 #Get rid of any duplicates in the groups
+
+groups['SMARTS'] = groups['SMARTS'].str.replace('\n','')
 groups.drop_duplicates(subset ="name", keep = 'first', inplace = True) 
 groups = groups.reset_index(drop=True)
 drug_list = drug_SMILES['name'].tolist()

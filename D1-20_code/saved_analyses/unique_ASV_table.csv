@@ -1,4 +1,4 @@
-FeatureID,Taxon,Confidence,donor,conditions
+Feature_ID,Taxon,Confidence,donor,conditions
 6a003accc15f14938ed5a27a66192365,k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Faecalibacterium; s__prausnitzii,0.999929807749223,1,"BHI,GAM,LB,feces"
 782a79a0725adc6ac22fc1fd15933a12,k__Bacteria; p__Firmicutes; c__Erysipelotrichi; o__Erysipelotrichales; f__Erysipelotrichaceae; g__[Eubacterium]; s__biforme,0.999999999998636,1,"BG,GAM,MRS,RCM,feces,liver"
 4c2203438c83bb0b8f26d45a74db1367,k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Roseburia,0.999653933054128,1,"LB,feces"

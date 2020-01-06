@@ -39,12 +39,12 @@ mean_num_unique_ASVs = mean(num_unique_ASVs);
 %% Load taxonomy and make table of unique ASVs for export 
 
 unique_table = readtable('16S_data/taxonomy.csv');
-unique_table = unique_table(contains(unique_table.FeatureID,combined_unique_ASVs),:);
+unique_table = unique_table(contains(unique_table.Feature_ID,combined_unique_ASVs),:);
 unique_table.donor = nan(size(unique_table.Confidence));
 unique_table.conditions = cell(size(unique_table.Confidence));
 
 for i = 1:size(unique_table,1)
-    ASV = unique_table.FeatureID{i};
+    ASV = unique_table.Feature_ID{i};
     test_ASV_abun = zeros(size(filtered_manifest.donor));
     for j = 1:length(test_ASV_abun)
         test_asv_abun(j) = filtered_manifest.rel_asv{j}{ASV,:};
