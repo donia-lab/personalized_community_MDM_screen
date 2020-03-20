@@ -1,3 +1,4 @@
+
 %This script looks at the relationship between sequencing depth and measured
 %media properties in our screen
 
@@ -93,3 +94,24 @@ ylabel('Reads Sequenced')
 set(gca,'FontSize',9)
 
 print(gcf, '-dpng','supp_figures/read_count_jitter_plot_supp_figure.png','-r600');
+
+
+%% Perform statistical analyses of depth effect on ENDS and richness
+
+%Turn donor into a string variable
+culture_manifest.cat_donor = cellfun(@(x) num2str(x), ...
+    num2cell(culture_manifest.donor),'UniformOutput',false);
+
+%Remove replicates to avoid pseudoreplication
+rep_exclude = {'5.2','5.3','BG1','BG2','B.5.1','EMPTY','Blank'};
+single_manifest = culture_manifest(~contains(culture_manifest.sample,rep_exclude),:);
+
+%Fit LM on ENDS
+D_ENDS_lm = fitlm(single_manifest,'ENDS ~ 1 + raw_reads + cat_donor + media');
+
+D_ENDS_lm_anova = anova(D_ENDS_lm);
+
+%Fit LM model on richness
+D_richness_lm = fitlm(single_manifest,'richness ~ 1 + raw_reads + cat_donor + media');
+
+D_richness_lm_anova = anova(D_richness_lm);
