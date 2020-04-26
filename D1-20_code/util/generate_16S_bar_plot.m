@@ -1,4 +1,4 @@
-function generate_16S_bar_plot(bar_samples,level,other_cutoff,donor,label_x,all_replicates)
+function generate_16S_bar_plot(bar_samples,level,other_cutoff,donor,label_x,all_replicates,fontsize)
 
 bar_samples = sortrows(bar_samples,'donor');
 
@@ -22,22 +22,36 @@ labels = [labels;'Other'];
 bar_colors = distinguishable_colors(length(labels));
 
 if all_replicates
-    replicate_index = contains(bar_samples.media,{'BG'});
+    replicate_index = [];
+    media_labels = {};
+    bar_x = [];
+    starting_x = 1;
+    for i = 1:max(bar_samples.donor)
+        index_bg = contains(bar_samples.media,{'BG'});
+        index_feces = contains(bar_samples.media,{'feces'});
+        index_d = bar_samples.donor == i;
+        replicate_index = [replicate_index; find(index_feces & index_d);...
+            find(index_bg & index_d)];
+        media_labels = [media_labels ; strcat({'feces';'BG_1';'BG_2';'BG_3'},['_D',num2str(i)])];
+        bar_x = [bar_x; (starting_x:(starting_x + 3))'];
+        starting_x = starting_x + 5; 
+    end
     bar_matrix = matrix(replicate_index,:);
-    bar_media = bar_samples.media(replicate_index);
-    bar_donors = bar_samples.donor(replicate_index);
-    media_labels = cellstr(strcat(bar_media,strcat('_D',string(bar_donors))));
+
 else
     donor_index = bar_samples.donor == donor;
     bar_matrix = matrix(donor_index,:);
     bar_media = bar_samples.media(donor_index);
     media_labels = strcat(bar_media,['_D',num2str(donor)]);
+    bar_x = 1:length(media_labels);
 end
 
+h = bar(bar_x,bar_matrix,'stacked');
 
-h = bar(bar_matrix,'stacked');
 box off
-xticks(1:length(media_labels));
+
+xticks(bar_x);
+
 set(gca,'TickLabelInterpreter','none')
 if label_x
     xticklabels(media_labels);
@@ -45,7 +59,7 @@ if label_x
 else
     xticklabels([])
 end
-xlim([0,length(media_labels)+1])
+xlim([0,max(bar_x)+1])
 ylim([0,1])
 yticks([0,1])
 ylabel('Relative Abundance')
@@ -57,7 +71,7 @@ for j = 1:length(labels)
 end
 
 h_leg = legend(labels,'Location','NorthEastOutside');
-set(gca,'FontSize',10)
+set(gca,'FontSize',fontsize)
 
 h_leg.FontSize = 8;
 

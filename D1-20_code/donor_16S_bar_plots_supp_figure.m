@@ -30,9 +30,9 @@ for i = 1:length(donor_list)
     newfigure(6,8);
     [ha, pos] = tight_subplot(2,1,0.05,[0.13,0.05],[0.08,0.07]); 
     axes(ha(1));
-    generate_16S_bar_plot(bar_samples,'order',other_cutoff,donor,false,false);
+    generate_16S_bar_plot(bar_samples,'order',other_cutoff,donor,false,false,10);
     axes(ha(2));
-    generate_16S_bar_plot(bar_samples,'family',other_cutoff,donor,true,false);
+    generate_16S_bar_plot(bar_samples,'family',other_cutoff,donor,true,false,10);
     
     ax1_p = get(ha(1),'Position');
     ax2_p = get(ha(2),'Position');
@@ -48,6 +48,9 @@ end
 
 newfigure(16,6);
 
-generate_16S_bar_plot(bar_samples,'family',other_cutoff,0,true,true);
+generate_16S_bar_plot(bar_samples,'family',other_cutoff,0,true,true,8);
 
-print(gcf,'-dpng',['supp_figures/BG_replicate_figure.png'],'-r600');
+print(gcf,'-dsvg', '-painters','supp_figures/BG_replicate_figure.svg');
+
+
+

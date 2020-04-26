@@ -45,8 +45,9 @@ This folder contains multiple figure generating scripts that all work
 with the 16S rDNA data from the PD fecal sample and ex vivo cultures. 
 'PD_family_level_figure.py' generates Fig 1B in the main text. 
 'PD_ASV_level_figure.py' generates Fig 1C in the main text. 
-'PD_family_level_all_days_figures.py' generates Fig 1 in Data S1.
-'PD_rarefaction_figure.py' generates Fig 2 in Data S1.
+'PD_family_level_all_days_figures.py' generates part of Fig S1. 
+'PD_sampling_depth_analysis.m' performs sampling depth analyses on PD
+16S data. 
 
 --TPUP_KO_analysis--
 The primary script is 'process_TPUP_KO.m' and performs statistical 
@@ -94,19 +95,19 @@ drug and metabolite levels.
 Generates the box plot of media biomasses in Fig 3D.
 
 --culture_replicate_correlation_figure.m-- 
-Generates the ex vivo culture replicability plot in Fig 25 of Data S1.
+Generates the ex vivo culture replicability plot in Methods S1A.
 
 --cumulative_significant_donor_figure.m--
 Generates the cumulative histogram found in Fig 4D.
 
 --design_BG_media.m--
 This script performs the analysis used to select a 70/30 BB/mGAM mixture
-for BG. It also generates Fig 26 in Data S1.
+for BG. It also generates the figure in Methods S1B.
 
 --donor_16S_bar_plots_supp_figure.m--
 This script generates family level 16S bar plots of all donor fecal 
-samples and their corresponding ex vivo cultures. Generates Figs 5-24 in
-Data S1. Also generates the plot of all BG replicates in Fig 4 in Data S1.
+samples and their corresponding ex vivo cultures. Also generates the plot 
+of donors with all BG replicates in Fig S1.
 
 --donor_culture_shared_ASV_figure.m--
 Generates the box plot of shared ASVs between donors and cultures in 
@@ -120,8 +121,7 @@ Fig 3E.
 Generates a version of figure 3G with empirically estimated power.
 
 --feces_family_level_supp_figure.m--
-Generates family level bar plots of fecal samples from all donors in
-Fig 3 of Data S1. 
+Generates family level bar plots of fecal samples from all donors. 
 
 --find_unique_ASVs.m--
 Finds ASVs unique to the cultures and feces of different donors.
@@ -135,12 +135,12 @@ Identifies media that are on average optimal for different metrics
 across the twenty donors.
 
 --read_depth_analysis_supp_fig.m--
-Aanlyzes the relationship between observed media properties and sample
-sequencing depths. Generates figures in Data S1 section G.
+Analyzes the relationship between observed media properties and sample
+sequencing depths. Generates figures in Methods S1E.
 
 --theoretical_taxa_vs_metabolism_supp_figure.m--
 Generate the theoretical producer abundance vs. measuremed metabolite 
-figures shown in Fig 27 of Data S1.
+figures shown in Methods S1C.
 
 --variable_metabolite_production_figure.m--
 Generates the per-donor plots of metabolite production shown in Fig 4E.
