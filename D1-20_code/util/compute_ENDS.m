@@ -1,6 +1,7 @@
 function [ENDS,bvec] = compute_ENDS(asv_table,r,alpha,n,noise_models,read_cutoff)
 %This function computes the expected number of detectable strains for a given
-%community. This assumes a power law error model.
+%community. This assumes a power law error model. NOTE: the "r" in this function 
+%is the product of the communtiy biomass and the reaction rate. 
 
 %Normalize table
 x = asv_table./sum(asv_table);
